@@ -1,0 +1,54 @@
+{     
+    "benchmark":"scop20_validation",
+    "args":[     
+     
+    ["psiblast","BL62","scop20_validation", 5, 0.002, "uniref50", 
+        {
+            "c":"gray",
+            "lw":2,
+            "ls":"-",
+            "label":"PSI-BLAST MBW=1"
+        }
+    ],
+    ["psiblastoda25","BL62","scop20_validation", 5, 0.002, "uniref50",
+         {
+                "c":"hotpink",
+                "lw":2,
+                "ls":"-",
+                "label":"PSI-BLASTexB MBW=25"
+         }
+    ],
+    ["psiblast","BL62","scop20_validation", 3, 0.002, "uniref50", 
+        {
+            "c":"gray",
+            "lw":1,
+            "ls":"-",
+            "label":null
+        }
+    ],
+    ["psiblastoda25","BL62","scop20_validation", 3, 0.002, "uniref50",
+         {
+                "c":"hotpink",
+                "lw":1,
+                "ls":"-",
+                "label":null
+         }
+    ],
+    ["psiblast","BL62","scop20_validation", 2, 0.002, "uniref50", 
+        {
+            "c":"gray",
+            "lw":0.5,
+            "ls":"-",
+            "label":null
+        }
+    ],
+    ["psiblastoda25","BL62","scop20_validation", 2, 0.002, "uniref50",
+         {
+                "c":"hotpink",
+                "lw":0.5,
+                "ls":"-",
+                "label":null
+         }
+    ]
+    ]
+}

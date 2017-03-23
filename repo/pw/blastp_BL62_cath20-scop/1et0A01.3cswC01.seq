@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1et0A01 3.30.470.10 3_5_0/7-125
+
+Length=108
+
+Subject= 3cswC01 3.30.470.10 3_5_0/-1-104
+
+Length=106
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9024
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

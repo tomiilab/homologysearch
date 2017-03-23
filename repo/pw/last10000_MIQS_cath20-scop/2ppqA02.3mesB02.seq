@@ -1,0 +1,82 @@
+# LAST version 638
+#
+# a=13 b=2 A=13 B=2 e=30 d=15 x=46 y=46 z=46 D=1e+06 E=3.47222e+09
+# R=10 u=0 s=1 S=0 T=0 m=10000 l=1 n=10000 k=1 i=8192 w=1000 t=4.55006 j=3 Q=0
+# ./repo/temp_lastdb/3mesB02.seq
+# Reference sequences=1 normal letters=288
+# lambda=0.155005 K=0.0147228
+#
+#    A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+# A  3 -1  0  0  2  0  0  0 -1 -1 -1 -1 -1 -2  0  1  1 -4 -2  0  0 -1  0 -1 -6
+# R -1  6  0 -1 -3  2 -1 -2  1 -2 -3  3 -1 -3 -1  0 -1 -4 -2 -2 -1 -2 -1 -1 -6
+# N  0  0  5  3 -2  1  1  0  1 -4 -4  1 -2 -3 -1  1  0 -5 -1 -3  4 -4  1 -1 -6
+# D  0 -1  3  6 -4  1  3 -1  0 -5 -5  0 -3 -6  0  0  0 -5 -4 -3  5 -5  3 -1 -6
+# C  2 -3 -2 -4 12 -3 -3 -2 -1  0 -2 -3  0 -3 -3  1  0 -6 -1  2 -3 -1 -3 -1 -6
+# Q  0  2  1  1 -3  4  2 -2  1 -2 -2  2  0 -2  0  0  0 -5 -3 -2  1 -2  2 -1 -6
+# E  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -3  4 -1 -6
+# G  0 -2  0 -1 -2 -2 -1  8 -2 -5 -5 -2 -4 -5 -2  0 -2 -5 -4 -4 -1 -5 -1 -1 -6
+# H -1  1  1  0 -1  1  0 -2  7 -2 -2  0 -2  0 -2  0  0  0  2 -2  0 -2  0 -1 -6
+# I -1 -2 -4 -5  0 -2 -3 -5 -2  5  3 -2  2  1 -4 -3 -1 -1 -1  3 -5  4 -3 -1 -6
+# L -1 -3 -4 -5 -2 -2 -3 -5 -2  3  5 -2  3  2 -3 -3 -2  0  0  2 -5  4 -3 -1 -6
+# K -1  3  1  0 -3  2  1 -2  0 -2 -2  4 -1 -4  0  0  0 -4 -2 -2  0 -2  1 -1 -6
+# M -1 -1 -2 -3  0  0 -2 -4 -2  2  3 -1  5  1 -3 -2 -1 -2 -1  1 -3  3 -2 -1 -6
+# F -2 -3 -3 -6 -3 -2 -4 -5  0  1  2 -4  1  7 -4 -3 -2  4  5  0 -5  2 -4 -1 -6
+# P  0 -1 -1  0 -3  0  0 -2 -2 -4 -3  0 -3 -4  8  0  0 -4 -5 -3  0 -3  0 -1 -6
+# S  1  0  1  0  1  0  0  0  0 -3 -3  0 -2 -3  0  3  2 -4 -2 -1  0 -3  0 -1 -6
+# T  1 -1  0  0  0  0  0 -2  0 -1 -2  0 -1 -2  0  2  4 -5 -2  0  0 -1  0 -1 -6
+# W -4 -4 -5 -5 -6 -5 -6 -5  0 -1  0 -4 -2  4 -4 -4 -5 15  5 -3 -5  0 -6 -1 -6
+# Y -2 -2 -1 -4 -1 -3 -2 -4  2 -1  0 -2 -1  5 -5 -2 -2  5  8 -1 -3  0 -2 -1 -6
+# V  0 -2 -3 -3  2 -2 -2 -4 -2  3  2 -2  1  0 -3 -1  0 -3 -1  4 -3  3 -2 -1 -6
+# B  0 -1  4  5 -3  1  2 -1  0 -5 -5  0 -3 -5  0  0  0 -5 -3 -3  5 -5  2 -1 -6
+# J -1 -2 -4 -5 -1 -2 -3 -5 -2  4  4 -2  3  2 -3 -3 -1  0  0  3 -5  4 -1 -1 -6
+# Z  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -1  4 -1 -6
+# X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -6 -6
+# * -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=68 EG2=3.9e+11 E=0.0061
+s 3mesB02 84  97 + 288 IQVSKNNQIDKELYSKILEEIDQLEELIMGGEKFSMERALELKL--YSPAFSLVFAHNDLQENNLLQTQNNIR-MIDYEYSAINFAGADIANYFCEYIYD
+s 2ppqA02 27 100 + 212 FEIKRPNALSVDGWKVLWDKSEERADEVEKGLREEIRPEIDYLAAHWPKDLPAGVIHADLFQDNVFFLGDELSGLIDFYFACNDLLAYDVSICLNAWCFE
+
+a score=56 EG2=2.5e+12 E=0.057
+s 3mesB02 78 127 + 288 WREEAKIQVSKNNQIDKELYSKILEEIDQLEELIMGGEKFSMERALELKLYSPAFSLVFAHNDLQENNLLQTQNNIRMI-DYEYSAINFAGADIA-NYFCEYIYDYCSEKQPYFKFKYEDYPCEELRKL
+s 2ppqA02 73 125 + 212 WPKDLPAGVIHADLFQDNVFF-LGDELSGLIDFYFACNDL-LAYDVSICLNAWCFEKDGAYNVTKGKALLEGYQSVRPLSEAELEALPLLSRGSALRFFLTRLYDWLTTPAGALVVKKD--PLEYLRKL
+
+a score=45 EG2=1.4e+13 E=0.43
+s 3mesB02 78 30 + 288 WREEAKIQVSKNNQIDKELYSKILEEIDQL
+s 2ppqA02 40 30 + 212 WKVLWDKSEERADEVEKGLREEIRPEIDYL
+
+a score=42 EG2=2.2e+13 E=0.75
+s 3mesB02 103 109 + 288 EIDQLEELIMGGEKFSMERALELKLYSPAFSLVFAHNDLQENNLLQTQNNIRMIDYEYSAINF-----AGADIANYFCEYIYDYCSEKQPYFKFKYEDYPCEELRKLFISVYLS
+s 2ppqA02  13 109 + 212 EVGKALAAHLASEGFEIKRPNALSV--DGWKVLWDKSEERADEVEKGLREEIRPEIDYLAAHWPKDLPAGVIHADLFQDNVFFLGDELSGLIDFYFA---CNDLLAYDVSICLN
+
+a score=42 EG2=2.2e+13 E=0.75
+s 3mesB02 103 51 + 288 EIDQLEELIMGGE-KFSMERALELKLYSPAFSLVFAHNDLQENNLLQTQNNI
+s 2ppqA02 153 51 + 212 ELEALPLLSRGSALRFFLTRLYDW-LTTPAGALVVKKDPLEYLRKLRFHRTI
+
+a score=38 EG2=4.1e+13 E=1.6
+s 3mesB02   0 34 + 288 GKHVFYDSKVELDVFRYLSNINIAPIDGEPLTTK
+s 2ppqA02 129 34 + 212 GAYNVTKGKALLEGYQSVRPLSEAELEALPLLSR
+
+a score=32 EG2=1e+14 E=4.7
+s 3mesB02  70 9 + 288 ILFKRIYLW
+s 2ppqA02 168 9 + 212 FFLTRLYDW
+
+a score=32 EG2=1e+14 E=4.7
+s 3mesB02 281 7 + 288 LNSWLFN
+s 2ppqA02 120 7 + 212 LNAWCFE
+
+a score=31 EG2=1.2e+14 E=5.6
+s 3mesB02   5 26 + 288 YDSKVELDVFRYLSNINIAPIDGEPL
+s 2ppqA02 114 26 + 212 YDVSICLNAWCFEKDGAYNVTKGKAL
+
+a score=30 EG2=1.4e+14 E=6.7
+s 3mesB02 264 21 + 288 THYLQKKKELIDQGILPLNSW
+s 2ppqA02  20 21 + 212 AHLASEGFEIKRPNALSVDGW
+
+# Query sequences=1

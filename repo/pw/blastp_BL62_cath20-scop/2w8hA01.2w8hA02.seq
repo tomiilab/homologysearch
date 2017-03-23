@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2w8hA01 3.10.560.10 3_5_0/43-65_255-345
+
+Length=114
+
+Subject= 2w8hA02 3.10.560.10 3_5_0/66-87_170-254
+
+Length=107
+
+
+ Score = 18.5 bits (36),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 8/28 (29%), Positives = 14/28 (50%), Gaps = 0/28 (0%)
+
+Query  25  KVFVMGEVGKQSTLKMDRSGMTLAEALG  52
+           KV+V GEV       +    +T+ +A+ 
+Sbjct  25  KVYVTGEVANSGKQAITNIPLTVMDAIN  52
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9690
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

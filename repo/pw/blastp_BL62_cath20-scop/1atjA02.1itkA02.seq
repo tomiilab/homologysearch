@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1atjA02 1.10.420.10 3_5_0/139-284
+
+Length=146
+
+Subject= 1itkA02 1.10.420.10 3_5_0/233-266_303-402
+
+Length=134
+
+
+ Score = 27.3 bits (59),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  10  LKDSFRNVGLNRSSDLVALSGGHTFGK  36
+           ++ +F  + +N       ++GGHTFGK
+Sbjct  5   IRQTFDRMAMNDKETAALIAGGHTFGK  31
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15589
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

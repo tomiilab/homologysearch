@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1sb8A02 3.90.25.10 3_5_0/194-238_265-308_324-341
+
+Length=107
+
+Subject= 3c1oA02 3.90.25.10 3_5_0/150-188_212-276_290-314
+
+Length=129
+
+
+ Score = 18.9 bits (37),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 7/13 (54%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  27  QGDDVYINGDGET  39
+           + DD+ I G GET
+Sbjct  21  RNDDIVIYGTGET  33
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10904
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

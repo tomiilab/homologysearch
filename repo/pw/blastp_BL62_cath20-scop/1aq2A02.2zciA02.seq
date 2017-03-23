@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1aq2A02 2.170.8.10 3_5_0/43-63_284-341
+
+Length=79
+
+Subject= 2zciA02 2.170.8.10 3_5_0/58-82_315-399
+
+Length=110
+
+
+ Score = 15.8 bits (29),  Expect = 0.082, Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 16/39 (41%), Gaps = 7/39 (18%)
+
+Query  24  YAKTIKLSKEAEPEIYNAIRRDALLENVTVREDGTIDFD  62
+           YA      K  EP        + L  NV + +DG I ++
+Sbjct  37  YASNPIAMKTMEP-------GNTLFTNVALTDDGDIWWE  68
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.136    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6900
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

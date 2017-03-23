@@ -1,0 +1,53 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1z1nX02.seq ./repo/cath20-scop/1z1nX04.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1z1nX02.seq
+  1>>>1z1nX02 3.90.10.10 3_5_0/117-235 - 117 aa
+Library: ./repo/cath20-scop/1z1nX04.seq
+      163 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1413;  K=0.01696
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+1z1nX04 3.90.10.10 3_5_0/334-370_403-530           ( 163)   93 24.8 0.00063
+
+>1z1nX04 3.90.10.10
+3_5_0/334-370_403-530                                   
+Length=163
+
+ Score = 24.8 bits (93),  Expect = 0.0006
+ Identities = 23/61 (37%), Positives = 30/61 (49%), Gaps = 17/61 (27%)
+
+Query  33   CKACHHTYDEAQKKLVYAKGEEGSCVYCHKQEPLPSPVDRVV--PSTRDASHESCVNCHL 90
+            C  CHH    A+  L   K     C  CH + P     +R    P  + A H  C+ CH 
+Sbjct  96   CSGCHH---NAKPSLNPPK-----CASCHSK-PFQ---ERTANQPGLKGAFHNQCIGCH- 142
+
+Query  91   STRKAQTESGPVLCVGCH 108
+              ++ Q       C GCH
+Sbjct  143  --QEMQVNPKATDCQGCH 158
+
+
+ Score = 18.5 bits (62),  Expect = 0.05
+ Identities = 12/27 (44%), Positives = 15/27 (55%), Gaps = 5/27 (18%)
+
+Query  84   SCVNCHLSTRKAQTESGPVLCVGCHTAEAQAA 115
+            SCV CH +   A+ E     C GCH    + A
+Sbjct  3    SCVGCHTTQANARKE-----CAGCHAPMQKTA 29
+
+
+
+117 residues in 1 query   sequences
+163 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:37 2015 done: Wed Dec  2 17:53:37 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

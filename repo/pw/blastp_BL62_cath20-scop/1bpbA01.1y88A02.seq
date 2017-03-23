@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1bpbA01 1.10.150.20 3_5_0/91-148
+
+Length=58
+
+Subject= 1y88A02 1.10.150.20 3_5_0/128-186
+
+Length=59
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2970
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

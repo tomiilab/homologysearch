@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1d2tA00 1.20.144.10 3_5_0/7-230
+
+Length=222
+
+Subject= 1iduA01 1.20.144.10 3_5_0/3-178
+
+Length=176
+
+
+ Score = 12.3 bits (20),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 4/13 (31%), Positives = 7/13 (54%), Gaps = 0/13 (0%)
+
+Query  78  GSPITEKDAPALH  90
+           G P++ +    LH
+Sbjct  44  GPPLSARALGMLH  56
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 31512
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

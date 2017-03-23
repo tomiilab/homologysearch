@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1an7A02 3.30.1490.10 3_5_0/81-138
+
+Length=58
+
+Subject= 2xzmH02 3.30.1490.10 3_5_0/70-130
+
+Length=61
+
+
+ Score = 28.5 bits (62),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  25  RGLGIAILSTSKGVLTDREARKLGVGGELI  54
+           R  G  +L+T+ G+LT  E RK   GG+++
+Sbjct  28  RQFGNVVLTTTYGILTHEECRKRHTGGKIL  57
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.145    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3078
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

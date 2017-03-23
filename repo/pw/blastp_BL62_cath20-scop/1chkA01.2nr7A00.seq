@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1chkA01 1.20.141.10 3_5_0/1-26_122-238
+
+Length=143
+
+Subject= 2nr7A00 1.20.141.10 3_5_0/-1-192
+
+Length=193
+
+
+ Score = 13.9 bits (24),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/47 (26%), Positives = 19/47 (40%), Gaps = 2/47 (4%)
+
+Query  56   GPGNDPTSFGGIRKTAMKKARTPAQGGDETTYLNGFLDARKAAMLTE  102
+            G  +DP   GG     +  A     G D+    +G +D     +LT+
+Sbjct  18   GFVHDPADAGGATNKGVTIATWKRVGYDKDG--DGDIDVEDLKLLTD  62
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21875
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

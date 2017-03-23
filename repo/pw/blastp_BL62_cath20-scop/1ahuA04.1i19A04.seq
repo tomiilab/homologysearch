@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1ahuA04 1.10.45.10 3_5_0/507-560
+
+Length=54
+
+Subject= 1i19A04 1.10.45.10 3_5_0/564-613
+
+Length=50
+
+
+ Score = 17.3 bits (33),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 8/34 (24%), Positives = 20/34 (59%), Gaps = 1/34 (3%)
+
+Query  2   AFMDQIMETYNWNNSSFLRFNEVLKNAVDPNGII  35
+            +++ +  T NW+ ++  R+N++  + V  NG +
+Sbjct  13  TYIEGVPTTENWD-TARARYNQIDPHRVFTNGFM  45
+
+
+ Score = 10.8 bits (16),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 2/8 (25%), Positives = 6/8 (75%), Gaps = 0/8 (0%)
+
+Query  22  NEVLKNAV  29
+           N+++ N +
+Sbjct  3   NDIVTNKM  10
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2496
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

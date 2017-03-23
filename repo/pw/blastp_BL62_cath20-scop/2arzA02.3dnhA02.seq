@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2arzA02 3.20.180.10 3_5_0/152-239
+
+Length=88
+
+Subject= 3dnhA02 3.20.180.10 3_5_0/172-254
+
+Length=82
+
+
+ Score = 11.2 bits (17),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 3/3 (100%), Positives = 3/3 (100%), Gaps = 0/3 (0%)
+
+Query  43  GID  45
+           GID
+Sbjct  49  GID  51
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5920
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

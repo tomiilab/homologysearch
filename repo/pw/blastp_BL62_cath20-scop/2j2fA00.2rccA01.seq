@@ -1,0 +1,61 @@
+BLASTP 2.2.27+
+
+
+Query= 2j2fA00 1.10.620.20 3_5_0/16-363
+
+Length=348
+
+Subject= 2rccA01 1.10.620.20 3_5_0/38-296
+
+Length=251
+
+
+ Score = 18.5 bits (36),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 6/18 (33%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  71   RAKEIPDDYFVVLVGDMI  88
+            +A ++  D+F  ++GD I
+Sbjct  211  KAADLEKDWFRYIIGDKI  228
+
+
+ Score = 15.0 bits (27),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  68   LRERAKEIPDDY  79
+            L+ER + I D Y
+Sbjct  110  LKERNEFIIDGY  121
+
+
+ Score = 14.2 bits (25),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 5/10 (50%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  180  QERADFISHG  189
+            +ER +FI  G
+Sbjct  111  KERNEFIIDG  120
+
+
+ Score = 13.9 bits (24),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 6/7 (86%), Gaps = 0/7 (0%)
+
+Query  330  AKEAPTM  336
+            AK+ PT+
+Sbjct  24   AKQFPTL  30
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 72450
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,53 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/2ppqA02.seq ./repo/cath20-scop/2q83A02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/2ppqA02.seq
+  1>>>2ppqA02 3.90.1200.10 3_5_0/106-319 - 212 aa
+Library: ./repo/cath20-scop/2q83A02.seq
+      226 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1635;  K=0.01037
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+2q83A02 3.90.1200.10 3_5_0/125-357                 ( 226)   70 23.1  0.0053
+
+>2q83A02 3.90.1200.10
+3_5_0/125-357                                         
+Length=226
+
+ Score = 23.1 bits (70),  Expect = 0.005
+ Identities = 55/159 (34%), Positives = 83/159 (52%), Gaps = 76/159 (47%)
+
+Query  17   KALAA-HLASEGFEIKRPNALSV----DGW---------KVLWDKSE-ERADE------- 54
+            K LA  H AS G++   PN + +      W         +  W  +E E+ D        
+Sbjct  17   KGLADFHTASVGYQ--PPNGVPIFTKLGRWPNHYTKRCKQETWKLAEAEKEDPFSQLYLQ 74
+
+Query  55   -----VEKGLREEIRP-EIDYLAAHWPKDLPAG--VIHADLFQDNVFFLGD-ELSGLIDF 105
+                 +E GLR + R  +  Y+   W + L     + H D    N   LG+ E   +ID 
+Sbjct  75   EIDGFIEDGLRIKDRLLQSTYVP--WTEQLKKSPNLCHQDYGTGNTL-LGENEQIWVIDL 131
+
+Query  106  YFACNDLLAYDVSI-----------CLNAWCFEKDGAYNVTKGKALLEGYQSVRPLSEAE 154
+                 D +++D+ I               W    D  +NV      L  Y+S  PL+E +
+Sbjct  132  -----DTVSFDLPIRDLRKIIPLLDTTGVW---DDETFNV------LNAYESRAPLTEEQ 177
+
+Query  155  LEALPLLSRGSALRFFLTRLYDWLTTPAGALVVKKD--PLEYLRK-LRFHRTIAN 206
+             +          +  F   LYD +        V+K   P E L     + R  AN
+Sbjct  178  KQVF--------IDLFPYELYDVIREK----YVRKSALPKEELESAFEYERIKAN 220
+
+
+
+212 residues in 1 query   sequences
+226 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:33 2015 done: Wed Dec  2 17:53:33 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

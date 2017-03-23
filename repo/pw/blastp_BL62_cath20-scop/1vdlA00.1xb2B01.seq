@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1vdlA00 1.10.8.10 3_5_0/1-80
+
+Length=80
+
+Subject= 1xb2B01 1.10.8.10 3_5_0/56-115
+
+Length=60
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.119    0.308    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3996
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

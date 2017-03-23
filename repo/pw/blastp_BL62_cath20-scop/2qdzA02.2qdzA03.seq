@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2qdzA02 3.10.20.310 3_5_0/53-134
+
+Length=82
+
+Subject= 2qdzA03 3.10.20.310 3_5_0/135-207
+
+Length=73
+
+
+ Score = 14.6 bits (26),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 11/21 (52%), Gaps = 2/21 (10%)
+
+Query  49  LSAALY--DRGYATSIVTFVP  67
+           +  A+Y  + G  T  +T VP
+Sbjct  38  IDQAIYNINNGGKTGNITIVP  58
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.141    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4950
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

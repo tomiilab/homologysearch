@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 3ffhA01 3.90.1150.10 3_5_0/12-53_267-360
+
+Length=131
+
+Subject= 3k40A03 3.90.1150.10 3_5_0/377-475
+
+Length=99
+
+
+ Score = 12.3 bits (20),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 6/22 (27%), Positives = 9/22 (41%), Gaps = 0/22 (0%)
+
+Query  10  LGLTKITKLSSNENPLGTSKKV  31
+           +GL       SNE      K++
+Sbjct  27  MGLVCFRLKGSNERNEALLKRI  48
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10353
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

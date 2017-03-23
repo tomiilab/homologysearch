@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1zjjA02 3.40.50.10410 3_5_0/69-185
+
+Length=117
+
+Subject= 2x4dA02 3.40.50.10410 3_5_0/83-187
+
+Length=105
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.139    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9765
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

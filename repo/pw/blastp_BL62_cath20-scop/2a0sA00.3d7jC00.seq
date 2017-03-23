@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2a0sA00 3.30.479.10 3_5_0/18-180
+
+Length=163
+
+Subject= 3d7jC00 3.30.479.10 3_5_0/-2-132
+
+Length=133
+
+
+ Score = 11.9 bits (19),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 6/25 (24%), Positives = 12/25 (48%), Gaps = 7/25 (28%)
+
+Query  45  IQGDGYVIDFSILKEKVRKVCKQLD  69
+           + G  +++D +  +E       QLD
+Sbjct  28  LHGATFLVDATFRRE-------QLD  45
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17199
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,74 @@
+# LAST version 638
+#
+# a=13 b=2 A=13 B=2 e=30 d=12 x=46 y=46 z=46 D=1e+06 E=6.53595e+09
+# R=10 u=0 s=1 S=0 T=0 m=10000 l=1 n=10000 k=1 i=8192 w=1000 t=4.55006 j=3 Q=0
+# ./repo/temp_lastdb/3nqxA01.seq
+# Reference sequences=1 normal letters=153
+# lambda=0.155005 K=0.0147228
+#
+#    A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+# A  3 -1  0  0  2  0  0  0 -1 -1 -1 -1 -1 -2  0  1  1 -4 -2  0  0 -1  0 -1 -6
+# R -1  6  0 -1 -3  2 -1 -2  1 -2 -3  3 -1 -3 -1  0 -1 -4 -2 -2 -1 -2 -1 -1 -6
+# N  0  0  5  3 -2  1  1  0  1 -4 -4  1 -2 -3 -1  1  0 -5 -1 -3  4 -4  1 -1 -6
+# D  0 -1  3  6 -4  1  3 -1  0 -5 -5  0 -3 -6  0  0  0 -5 -4 -3  5 -5  3 -1 -6
+# C  2 -3 -2 -4 12 -3 -3 -2 -1  0 -2 -3  0 -3 -3  1  0 -6 -1  2 -3 -1 -3 -1 -6
+# Q  0  2  1  1 -3  4  2 -2  1 -2 -2  2  0 -2  0  0  0 -5 -3 -2  1 -2  2 -1 -6
+# E  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -3  4 -1 -6
+# G  0 -2  0 -1 -2 -2 -1  8 -2 -5 -5 -2 -4 -5 -2  0 -2 -5 -4 -4 -1 -5 -1 -1 -6
+# H -1  1  1  0 -1  1  0 -2  7 -2 -2  0 -2  0 -2  0  0  0  2 -2  0 -2  0 -1 -6
+# I -1 -2 -4 -5  0 -2 -3 -5 -2  5  3 -2  2  1 -4 -3 -1 -1 -1  3 -5  4 -3 -1 -6
+# L -1 -3 -4 -5 -2 -2 -3 -5 -2  3  5 -2  3  2 -3 -3 -2  0  0  2 -5  4 -3 -1 -6
+# K -1  3  1  0 -3  2  1 -2  0 -2 -2  4 -1 -4  0  0  0 -4 -2 -2  0 -2  1 -1 -6
+# M -1 -1 -2 -3  0  0 -2 -4 -2  2  3 -1  5  1 -3 -2 -1 -2 -1  1 -3  3 -2 -1 -6
+# F -2 -3 -3 -6 -3 -2 -4 -5  0  1  2 -4  1  7 -4 -3 -2  4  5  0 -5  2 -4 -1 -6
+# P  0 -1 -1  0 -3  0  0 -2 -2 -4 -3  0 -3 -4  8  0  0 -4 -5 -3  0 -3  0 -1 -6
+# S  1  0  1  0  1  0  0  0  0 -3 -3  0 -2 -3  0  3  2 -4 -2 -1  0 -3  0 -1 -6
+# T  1 -1  0  0  0  0  0 -2  0 -1 -2  0 -1 -2  0  2  4 -5 -2  0  0 -1  0 -1 -6
+# W -4 -4 -5 -5 -6 -5 -6 -5  0 -1  0 -4 -2  4 -4 -4 -5 15  5 -3 -5  0 -6 -1 -6
+# Y -2 -2 -1 -4 -1 -3 -2 -4  2 -1  0 -2 -1  5 -5 -2 -2  5  8 -1 -3  0 -2 -1 -6
+# V  0 -2 -3 -3  2 -2 -2 -4 -2  3  2 -2  1  0 -3 -1  0 -3 -1  4 -3  3 -2 -1 -6
+# B  0 -1  4  5 -3  1  2 -1  0 -5 -5  0 -3 -5  0  0  0 -5 -3 -3  5 -5  2 -1 -6
+# J -1 -2 -4 -5 -1 -2 -3 -5 -2  4  4 -2  3  2 -3 -3 -1  0  0  3 -5  4 -1 -1 -6
+# Z  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -1  4 -1 -6
+# X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -6 -6
+# * -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=111 EG2=5e+08 E=1.4e-07
+s 3nqxA01 58 94 + 153 CPENTFKEINGAYSPLNDAHFFGNVIFNMYNDWLGTAPLSFQLQMRVHYSSNYENAFWDGSAMTFGDGQNTFYPLVS--LDVSAHEVSHGFTEQNS
+s 1bqbA01 57 96 + 154 VKDDQRAGVDANYYAKQTYDYYKNTFGRESYDNHGSPIVSLTHVNHYGGQDNRNNAAWIGDKMIYGDGDGRTFTNLSGANDVVAHEITHGVTQQTA
+
+a score=48 EG2=8.6e+12 E=0.064
+s 3nqxA01 63 34 + 153 FKEINGAYSPLNDAHFFGNVIFNMYNDWLGTAPL
+s 1bqbA01 16 33 + 154 INSIDGGFS-LEDLTHQGKLSAYNFNDQTGQATL
+
+a score=40 EG2=3e+13 E=0.31
+s 3nqxA01 54 39 + 153 YSFTCPENTFKEINGAYSPLNDAHFFGNVIFNMYNDWLG
+s 1bqbA01 78 39 + 154 YKNTFGRESYDNHGSPIVSLTHVNHYGGQDNRNNAAWIG
+
+a score=35 EG2=6.5e+13 E=0.86
+s 3nqxA01 38 40 + 153 NVRTINLNGGTSGSSAYSFTCPENTFKEING-AYSPLNDAH
+s 1bqbA01 96 41 + 154 SLTHVNHYGGQDNRNNAAWIGDKMIYGDGDGRTFTNLSGAN
+
+a score=34 EG2=7.6e+13 E=1
+s 3nqxA01 32 53 + 153 CSMNNANVRTINLNGGTSGSSAY-SFTCPENTFKEIN--GAYSPLNDAHFFGNVIF
+s 1bqbA01 65 56 + 154 VDANYYAKQTYDYYKNTFGRESYDNHGSPIVSLTHVNHYGGQDNRNNAAWIGDKMI
+
+a score=33 EG2=8.8e+13 E=1.3
+s 3nqxA01  16 42 + 153 YGTDFDSLDVSQSGNTCSMNNANVRTINLNGGTSGSSAYSFT
+s 1bqbA01 103 42 + 154 YGGQDNRNNAAWIGDKMIYGDGDGRTFTNLSGANDVVAHEIT
+
+a score=31 EG2=1.2e+14 E=1.9
+s 3nqxA01 28 22 + 153 SGNTCSMNNANVRTINLNGGTS
+s 1bqbA01  3 22 + 154 TGKGVLGDTKDININSIDGGFS
+
+a score=30 EG2=1.4e+14 E=2.3
+s 3nqxA01 136 15 + 153 DVSAHEVSHGFTEQN
+s 1bqbA01  13 15 + 154 DININSIDGGFSLED
+
+# Query sequences=1

@@ -1,0 +1,53 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1vsgA01.seq ./repo/cath20-scop/2vsgA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1vsgA01.seq
+  1>>>1vsgA01 3.90.150.10 3_5_0/1-33_86-255 - 203 aa
+Library: ./repo/cath20-scop/2vsgA01.seq
+      198 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1370;  K=0.0135
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+2vsgA01 3.90.150.10 3_5_0/1-30_84-251              ( 198)   91 24.2  0.0021
+
+>2vsgA01 3.90.150.10
+3_5_0/1-30_84-251                                      
+Length=198
+
+ Score = 24.2 bits (91),  Expect = 0.002
+ Identities = 47/169 (27%), Positives = 76/169 (44%), Gaps = 21/169 (12%)
+
+Query  5    GFKQAFWQPLCQVSEELDDQPKGALFTLQTLSSQEVTATATASYLKGRIDEYLNLLLQTK 64
+            G K   WQP C+++ EL  +    +  ++    + V ATA AS   G +   +  L    
+Sbjct  4    GVKYELWQPECELTAEL--RKTAGVAKMKNGIDRAVRATAYASEAAGALFSGIQTLHDAT 61
+
+Query  65   ESGTSGCMMDTSGTNTVTKAGGTIGGVPCK-LQLSPIQPKRPAAT-YLGKAGYVGLTRQA 122
+            + GT+ C+   SG  +   A     G  CK L L  +  +    T  +   G+  ++   
+Sbjct  62   D-GTTYCL-SASGQGSNGNAAMASQG--CKPLALPELLTEDSYNTDVISDKGFPKISPLT 117
+
+Query  123  DAANNFHDNDAECRL---ASGHN-TN-GLGKSGQLSAAVTMAAGYVTVANSQTAVTVQAL 177
+            +A         EC L   ASG   TN G+  SG   + + +  G +  + +Q        
+Sbjct  118  NAQGQ--GKSGECGLFQAASGAQATNTGVQFSG--GSRINLGLGAIVASAAQQPTRPD-- 171
+
+Query  178  DALQEASGAA 187
+              L + SG A
+Sbjct  172  --LSDFSGTA 179
+
+
+
+203 residues in 1 query   sequences
+198 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:36 2015 done: Wed Dec  2 17:53:36 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1dk4A02 3.40.190.80 3_5_0/138-252
+
+Length=115
+
+Subject= 3b8bA02 3.40.190.80 3_5_0/157-267
+
+Length=109
+
+
+ Score = 16.5 bits (31),  Expect = 0.070, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 16/31 (52%), Gaps = 2/31 (6%)
+
+Query  21  DLEKLRNKVKRVRIFGAFGLEMCYVAKGTLD  51
+           DL+K    V+   I     +++C VA+G  D
+Sbjct  28  DLKKKHGNVEL--ISSGSSIKICLVAEGKAD  56
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9991
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,190 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1fziA00 1.10.620.20 3_5_0/15-526
+         (512 letters)
+
+Database: ./repo/cath20-scop/3n1xB00.seq 
+           1 sequences; 324 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+3n1xB00 1.10.620.20 3_5_0/7-330                                        24   0.008
+
+>3n1xB00 1.10.620.20 3_5_0/7-330
+          Length = 324
+
+ Score = 24.1 bits (51), Expect = 0.008,   Method: Composition-based stats.
+ Identities = 19/92 (20%), Positives = 31/92 (33%)
+
+Query: 126 QVLDEIRHTHQCAYVNYYFAKNGQDPAGHNDARRTRTIGPLWKGMKRVFSDGFISGDAVE 185
+           +  D +R     AY     A    D       R      P W+G + +     I+ D  E
+Sbjct: 152 ETADHLRWLTHTAYRTRELANCYPDVGFGKRERDVWENDPAWQGFRELIEKALIAWDWGE 211
+
+Query: 186 CSLNLQLVGEACFTNPLIVAVTEWAAANGDEI 217
+               + LV +      L+  +   A + GD +
+Sbjct: 212 AFTAINLVTKPAVEEALLQQLGSLAQSEGDTL 243
+
+
+
+ Score = 14.9 bits (27), Expect = 4.3,   Method: Composition-based stats.
+ Identities = 10/29 (34%), Positives = 12/29 (41%), Gaps = 5/29 (17%)
+
+Query: 309 KYGVESPRSLKDAKQDAYWAHHDLYLLAY 337
+           KY  +SP      K D + A  D   L Y
+Sbjct: 54  KYCFDSP-----LKHDDWNAFRDPDQLVY 77
+
+
+
+ Score = 14.1 bits (25), Expect = 7.2,   Method: Composition-based stats.
+ Identities = 4/11 (36%), Positives = 6/11 (54%)
+
+Query: 285 EPWVKTWDRWV 295
+             WV+T  R+ 
+Sbjct: 109 REWVETLARFY 119
+
+
+
+ Score = 14.1 bits (25), Expect = 7.6,   Method: Composition-based stats.
+ Identities = 7/27 (25%), Positives = 13/27 (48%)
+
+Query: 42  TKEQFKLIAKEYARMEAVKDERQFGSL 68
+           T+E  + +A+ Y     +    Q GS+
+Sbjct: 108 TREWVETLARFYTPARYLFHALQMGSV 134
+
+
+
+ Score = 14.1 bits (25), Expect = 8.4,   Method: Composition-based stats.
+ Identities = 4/7 (57%), Positives = 5/7 (71%)
+
+Query: 196 ACFTNPL 202
+            CF +PL
+Sbjct: 55  YCFDSPL 61
+
+
+
+ Score = 14.1 bits (25), Expect = 8.9,   Method: Composition-based stats.
+ Identities = 5/15 (33%), Positives = 7/15 (46%)
+
+Query: 436 DQWGERMWLAEPERY 450
+           DQ   R W+    R+
+Sbjct: 104 DQMLTREWVETLARF 118
+
+
+
+ Score = 13.3 bits (23), Expect =    12,   Method: Composition-based stats.
+ Identities = 8/29 (27%), Positives = 12/29 (41%)
+
+Query: 263 TQQKYFTPVLGMLFEYGSKFKVEPWVKTW 291
+           T   YFT      +E  S   ++ W K +
+Sbjct: 27  TNLHYFTDNPERPWELDSNLPMQTWYKKY 55
+
+
+
+ Score = 12.9 bits (22), Expect =    18,   Method: Composition-based stats.
+ Identities = 14/49 (28%), Positives = 22/49 (44%), Gaps = 7/49 (14%)
+
+Query: 83  PKWNETMKVVSNFL---EVGEYNAIAATGMLWDSA--QAAEQKNGYLAQ 126
+           P W    +++   L   + GE  A  A  ++   A  +A  Q+ G LAQ
+Sbjct: 191 PAWQGFRELIEKALIAWDWGE--AFTAINLVTKPAVEEALLQQLGSLAQ 237
+
+
+
+ Score = 12.9 bits (22), Expect =    19,   Method: Composition-based stats.
+ Identities = 5/16 (31%), Positives = 6/16 (37%)
+
+Query: 208 EWAAANGDEITPTVFL 223
+           EW        TP  +L
+Sbjct: 110 EWVETLARFYTPARYL 125
+
+
+
+ Score = 12.6 bits (21), Expect =    21,   Method: Composition-based stats.
+ Identities = 3/11 (27%), Positives = 5/11 (45%)
+
+Query: 373 YEEWRARGCED 383
+            + W  + C D
+Sbjct: 48  MQTWYKKYCFD 58
+
+
+
+ Score = 12.6 bits (21), Expect =    22,   Method: Composition-based stats.
+ Identities = 11/42 (26%), Positives = 13/42 (30%), Gaps = 4/42 (9%)
+
+Query: 136 QCAYVNYYFAKNGQDPAGHNDARRTRTIGPLWKGMKRVFSDG 177
+           Q  Y  Y F      P  H+D    R    L      +  DG
+Sbjct: 49  QTWYKKYCF----DSPLKHDDWNAFRDPDQLVYRTYNLLQDG 86
+
+
+
+ Score = 12.2 bits (20), Expect =    27,   Method: Composition-based stats.
+ Identities = 7/19 (36%), Positives = 8/19 (42%), Gaps = 3/19 (15%)
+
+Query: 433 TFSDQWGERMWLAEPERYE 451
+           T+S   G R     P  YE
+Sbjct: 8   TWSHLAGNR---RRPSEYE 23
+
+
+  Database: ./repo/cath20-scop/3n1xB00.seq
+    Posted date:  Dec 3, 2015  1:01 PM
+  Number of letters in database: 324
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.318    0.147    0.505 
+
+Lambda     K      H
+   0.267   0.0451    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 624
+Number of Sequences: 1
+Number of extensions: 42
+Number of successful extensions: 18
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 17
+length of query: 512
+length of database: 324
+effective HSP length: 31
+effective length of query: 481
+effective length of database: 293
+effective search space:   140933
+effective search space used:   140933
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 20 (11.9 bits)
+S2: 21 (12.6 bits)

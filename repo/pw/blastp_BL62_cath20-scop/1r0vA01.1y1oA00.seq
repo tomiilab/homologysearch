@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1r0vA01 3.40.1350.10 3_5_0/62-138
+
+Length=77
+
+Subject= 1y1oA00 3.40.1350.10 3_5_0/32-198
+
+Length=166
+
+
+ Score = 13.5 bits (23),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  38   RKTIRMEEI  46
+            RK+I  +EI
+Sbjct  132  RKSIPKQEI  140
+
+
+ Score = 12.7 bits (21),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 4/10 (40%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  22  QGEFLLTKKP  31
+           +G  ++ KKP
+Sbjct  16  RGIAVIHKKP  25
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10010
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

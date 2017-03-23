@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1t3jA00 1.20.5.110 3_5_0/674-735
+
+Length=62
+
+Subject= 1urqA00 1.20.5.110 3_5_0/1051-1108
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.125    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3132
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1kdgA02 3.30.410.10 3_5_0/346-400_519-616_634-684
+
+Length=204
+
+Subject= 1n4wA02 3.30.410.10 3_5_0/156-215_323-384_406-442
+
+Length=159
+
+
+ Score = 12.3 bits (20),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 11/43 (26%), Positives = 16/43 (37%), Gaps = 4/43 (9%)
+
+Query  46   FGYSAFDFLNSINLVFTHPSIDAYENWADVW----SNPRPADA  84
+             G  A+D  +S       P     E W  ++     NP+ A A
+Sbjct  84   LGIDAWDNSDSSVFAEIAPMPAGLETWVSLYLAITKNPQNAPA  126
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 25900
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

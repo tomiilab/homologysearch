@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 2ogiB00 1.10.3210.10 3_5_0/2-195
+
+Length=191
+
+Subject= 3bg2A01 1.10.3210.10 3_5_0/2-120_157-244
+
+Length=189
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 28899
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

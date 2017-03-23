@@ -1,0 +1,73 @@
+BLASTP 2.2.27+
+
+
+Query= 1cvuA02 1.10.640.10 3_5_0/74-583
+
+Length=511
+
+Subject= 1mhlC00 1.10.640.10 3_5_0/113-578
+
+Length=466
+
+
+ Score = 42.0 bits (97),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 54/234 (23%), Positives = 97/234 (41%), Gaps = 24/234 (10%)
+
+Query  213  FAVGQEVFGLVPGLMMYATIWLREHQRVCDILKQEHPEWGDEQLFQTSKLILIGETIKIV  272
+            F  G      +P L    T+ LREH R+   LK  +P W  E+L+Q ++ I +G  ++I+
+Sbjct  121  FLAGDTRSSEMPELTSMHTLLLREHNRLATELKSLNPRWDGERLYQEARKI-VGAMVQII  179
+
+Query  273  I-EDYVQHLSGYHFKLKFDPELL-FNQQFQYQNRIASEF-NTLYHWHPLL-PDTFNIEDQ  328
+               DY+  + G     K+ P    +N       RIA+ F N   + H L+ P  F ++++
+Sbjct  180  TYRDYLPLVLGPTAMRKYLPTYRSYNDSVDP--RIANVFTNAFRYGHTLIQPFMFRLDNR  237
+
+Query  329  EYSF---------KQFLYNNSILLEHGLTQFVESFTRQIAGRVAGGRNVPIAVQAVAKAS  379
+                         + F  +  ++LE G+   +      +A      R   IAV  + +  
+Sbjct  238  YQPMEPNPRVPLSRVFFASWRVVLEGGIDPILRGL---MATPAKLNRQNQIAVDEIRERL  294
+
+Query  380  IDQSRE--MKYQSLNEYRKR-FSLKPYTSFEELTG--EKEMAAELKALYSDIDV  428
+             +Q     +   +LN  R R   L  Y ++    G  + E   +L  +  ++ +
+Sbjct  295  FEQVMRIGLDLPALNMQRSRDHGLPGYNAWRRFCGLPQPETVGQLGTVLRNLKL  348
+
+
+ Score = 18.1 bits (35),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 5/11 (45%), Positives = 6/11 (55%), Gaps = 0/11 (0%)
+
+Query  63   GYKSWEAFSNL  73
+            GY +W  F  L
+Sbjct  320  GYNAWRRFCGL  330
+
+
+ Score = 17.3 bits (33),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 11/24 (46%), Gaps = 0/24 (0%)
+
+Query  409  LTGEKEMAAELKALYSDIDVMELY  432
+            L     +A ELK+L    D   LY
+Sbjct  142  LREHNRLATELKSLNPRWDGERLY  165
+
+
+ Score = 15.4 bits (28),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 6/13 (46%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  38   SLIMKYVLTSRSY  50
+            + + KY+ T RSY
+Sbjct  192  TAMRKYLPTYRSY  204
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 206064
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1mdbA02 3.40.50.980 3_5_0/180-353
+
+Length=174
+
+Subject= 3cw8X01 3.40.50.980 3_5_0/1-174
+
+Length=174
+
+
+ Score = 18.5 bits (36),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 13/19 (68%), Gaps = 2/19 (11%)
+
+Query  6    AFLQLSGGSTGLSK--LIP  22
+            AF+  + G+TGL K  +IP
+Sbjct  156  AFIFYTSGTTGLPKAAIIP  174
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 24025
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

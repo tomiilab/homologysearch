@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1bipA00 1.10.120.10 3_5_0/1-122
+
+Length=122
+
+Subject= 1sm7A00 1.10.120.10 3_5_0/1-109
+
+Length=109
+
+
+ Score = 17.3 bits (33),  Expect = 0.048, Method: Compositional matrix adjust.
+ Identities = 9/35 (26%), Positives = 15/35 (43%), Gaps = 1/35 (3%)
+
+Query  40  MKARCCRQLEAIPAYCRCEAVRILMDGVVTSSGQH  74
+           ++ +CC +L      C C  ++     V    GQH
+Sbjct  44  LREQCCNELYQEDQVCVCPTLKQAAKSVRV-QGQH  77
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10464
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

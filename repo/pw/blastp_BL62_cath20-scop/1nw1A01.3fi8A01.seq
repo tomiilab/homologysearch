@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1nw1A01 3.10.450.110 3_5_0/32-113_140-153
+
+Length=96
+
+Subject= 3fi8A01 3.10.450.110 3_5_0/79-144_172-185
+
+Length=80
+
+
+ Score = 35.0 bits (79),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 30/61 (49%), Gaps = 1/61 (2%)
+
+Query  37  WKTVPLEHLRISRIKGGMSNMLFLCRLSE-VYPPIRNEPNKVLLRVYKLYGIFSGGRLEE  95
+           W     + + +++I  G++N LF   + E      R     VL R+Y L   F GGR+EE
+Sbjct  20  WSRCNEDDVCVNQILSGLTNQLFEVSIKEDTAIEYRITRRHVLFRIYLLLNTFDGGRIEE  79
+
+Query  96  Y  96
+           +
+Sbjct  80  W  80
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6177
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1inpA03 3.40.190.80 3_5_0/235-400
+
+Length=166
+
+Subject= 2fieD02 3.40.190.80 3_5_0/200-336
+
+Length=137
+
+
+ Score = 17.7 bits (34),  Expect = 0.057, Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 13/27 (48%), Gaps = 0/27 (0%)
+
+Query  137  GGLIAYRSEKQLETFLSRLLQHLAPVA  163
+            GG+  Y + K+      RLL    P+A
+Sbjct  60   GGIFLYPANKKSPNGKLRLLYECNPMA  86
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18150
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

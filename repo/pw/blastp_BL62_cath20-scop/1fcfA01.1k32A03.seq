@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1fcfA01 3.30.750.44 3_5_0/77-160_400-414
+
+Length=99
+
+Subject= 1k32A03 3.30.750.44 3_5_0/681-752
+
+Length=72
+
+
+ Score = 13.5 bits (23),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 4/17 (24%), Positives = 10/17 (59%), Gaps = 0/17 (0%)
+
+Query  8   LFLEAWRAVDRAYVDKS  24
+           ++ EAW+     Y +++
+Sbjct  9   MYDEAWKLARDNYWNEA  25
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5824
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

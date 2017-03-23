@@ -1,0 +1,57 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1jk0A00.seq ./repo/cath20-scop/2rccA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1jk0A00.seq
+  1>>>1jk0A00 1.10.620.20 3_5_0/26-359 - 334 aa
+Library: ./repo/cath20-scop/2rccA01.seq
+      251 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1132;  K=0.01135
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+2rccA01 1.10.620.20 3_5_0/38-296                   ( 251)  172 34.5 3.3e-06
+
+>2rccA01 1.10.620.20
+3_5_0/38-296                                           
+Length=251
+
+ Score = 34.5 bits (172),  Expect = 3e-06
+ Identities = 57/236 (24%), Positives = 124/236 (52%), Gaps = 23/236 (9%)
+
+Query  72   WQAYKRAEASFWTAEEIDLSKDIHDWNNRMNENERFFISRVLAFFAASDGIVNE-NLVEN 130
+            +  YK   A+FWT  EI+ S D  ++   + E E+  + +++ ++A  D +  + +   +
+Sbjct  4    YPLYKNL-ANFWTPFEIN-SHDAKQFPT-LTETEQEAFKKIIGLLAFLDSVQTDYSRAAE 60
+
+Query  131  FSTEVQIPEAKSFYGFQIMIENIHSETYSLLIDTYIKDPKESEFLFNAIHTIPEIGEKAE 190
+            + T+  +  A S   FQ   E +H+++YS ++ + +    + E +F+       + E+ E
+Sbjct  61   YLTDSSLA-ALSVLSFQ---EVVHNQSYSYVLSSLVPKATQDE-IFEYWKHDDVLKERNE 115
+
+Query  191  WAL----RWIQDADAL-FGERLVAFASIEGVFFSGSFASIFWLKKRGMMPGLTFSNELIC 245
+            + +    +++++     F E +V    +EG+ F   FA ++ L +   +   T++   I 
+Sbjct  116  FIIDGYEKFVDNPTPKTFLESIVYDVILEGLNFYSGFAFFYNLARNQKVSTSTIN--YIN 173
+
+Query  246  RDEGLHTDFACLLFAHLK------NKPDPAIVEKIVTEAVEIEQRYFLDALPVALLGMNA 299
+            RDE LH  +   +F  L       N  +     K   +A ++E+ +F   +   + G+N 
+Sbjct  174  RDEQLHVYLFTNIFKELLVEFPELNTEETKTFVKTTLKAADLEKDWFRYIIGDKIPGINP 233
+
+Query  300  DLMNQYVEFVADRLLVAFG 318
+            +  + Y+ F+A++  V +G
+Sbjct  234  E-DETYISFIANKRAVQLG 251
+
+
+
+334 residues in 1 query   sequences
+251 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:26 2015 done: Wed Dec  2 17:50:26 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

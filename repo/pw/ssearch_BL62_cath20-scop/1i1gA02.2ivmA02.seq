@@ -1,0 +1,41 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1i1gA02.seq ./repo/cath20-scop/2ivmA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1i1gA02.seq
+  1>>>1i1gA02 3.30.70.920 3_5_0/65-141 - 77 aa
+Library: ./repo/cath20-scop/2ivmA02.seq
+       81 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.2865;  K=0.06679
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+2ivmA02 3.30.70.920 3_5_0/58-138                   (  81)   43 21.7  0.0019
+
+>2ivmA02 3.30.70.920
+3_5_0/58-138                                           
+Length=81
+
+ Score = 21.7 bits (43),  Expect = 0.002
+ Identities = 15/52 (28%), Positives = 29/52 (55%), Gaps = 5/52 (9%)
+
+Query  1    VTITGVDTKPEKLFEVAEKLKEYDFVKELYLSSGDH---MIMAVIWAKDGEDLAEII 54
+            V IT +D  P +  +   +L+  + V+  Y  +G+    +++ V  A+  EDL + I
+Sbjct  14   VAITPLD--PSQPDDAPARLEHIEEVESCYSVAGEESYVLLVRVASARALEDLLQRI 68
+
+
+
+77 residues in 1 query   sequences
+81 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:38 2015 done: Wed Dec  2 17:53:38 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

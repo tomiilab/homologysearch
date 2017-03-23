@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1mwqA00 3.30.70.1060 3_5_0/-1-98
+
+Length=99
+
+Subject= 1s7iA00 3.30.70.1060 3_5_0/1-124
+
+Length=124
+
+
+ Score = 15.4 bits (28),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 5/14 (36%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  3   YYVIFAQDIPNTLE  16
+           +Y+I A+D+   L+
+Sbjct  87  FYLIEARDLNQALQ  100
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9744
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1lk9A03 3.90.1150.10 3_5_0/311-423
+
+Length=113
+
+Subject= 1mdxA02 3.90.1150.10 3_5_0/259-384
+
+Length=126
+
+
+ Score = 15.0 bits (27),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 5/13 (38%), Positives = 8/13 (62%), Gaps = 0/13 (0%)
+
+Query  27  DRFSYQELPQSEY  39
+           +RF    LP +E+
+Sbjct  83  ERFPTLTLPDTEW  95
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11300
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

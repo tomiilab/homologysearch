@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1a0gA01 3.30.470.10 3_5_0/1-118
+
+Length=118
+
+Subject= 3cswC01 3.30.470.10 3_5_0/-1-104
+
+Length=106
+
+
+ Score = 32.0 bits (71),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 16/69 (23%), Positives = 32/69 (46%), Gaps = 0/69 (0%)
+
+Query  5   WNDQIVKDEEVKIDKEDRGYQFGDGVYEVVKVYNGEMFTVNEHIDRLYASAEKIRITIPY  64
+           W  +  + +E+ +D           VYE ++ Y+   F   +H  RL  SA+   + +  
+Sbjct  7   WRGKFRRADEISLDFSLFEKSLQGAVYETLRTYSRAPFAAYKHYTRLKRSADFFNLPLSL  66
+
+Query  65  TKDKFHQLL  73
+           + D+F ++L
+Sbjct  67  SFDEFTKVL  75
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9964
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

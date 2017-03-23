@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1a34A00 2.60.120.220 3_5_0/13-159
+
+Length=147
+
+Subject= 1stmA00 2.60.120.220 3_5_0/17-157
+
+Length=141
+
+
+ Score = 11.5 bits (18),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 11/40 (28%), Positives = 17/40 (43%), Gaps = 4/40 (10%)
+
+Query  82   VRLKPLFKTGD----STEEFEGRASNINTRASVGYRIPTN  117
+            VRL P     +    +TEE E   +     ++ G   P+N
+Sbjct  84   VRLTPRVGQNNWFFGNTEEAETILAIDGLVSTKGANAPSN  123
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 16375
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

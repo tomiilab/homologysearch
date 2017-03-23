@@ -1,0 +1,91 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1ctlA00 2.10.110.10 3_5_0/1-85
+         (85 letters)
+
+Database: ./repo/cath20-scop/1nypA00.seq 
+           1 sequences; 66 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1nypA00 2.10.110.10 3_5_0/1-66                                         34   3e-07
+
+>1nypA00 2.10.110.10 3_5_0/1-66
+          Length = 66
+
+ Score = 34.1 bits (77), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 31/64 (48%), Gaps = 2/64 (3%)
+
+Query: 7  GSDGCPRCGQAVYAAE-KVIGA-GKSWHKSCFRCAKCGKSLESTTLADKDGEIYCKGCYA 64
+          GS G P CG      E +V+ A GK WH   F CAKC K        ++ G  YC+  Y 
+Sbjct: 1  GSMGVPICGACRRPIEGRVVNAMGKQWHVEHFVCAKCEKPFLGHRHYERKGLAYCETHYN 60
+
+Query: 65 KNFG 68
+          + FG
+Sbjct: 61 QLFG 64
+
+
+  Database: ./repo/cath20-scop/1nypA00.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 66
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.318    0.153    0.685 
+
+Lambda     K      H
+   0.267   0.0470    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 55
+Number of Sequences: 1
+Number of extensions: 4
+Number of successful extensions: 4
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 1
+length of query: 85
+length of database: 66
+effective HSP length: 7
+effective length of query: 78
+effective length of database: 59
+effective search space:     4602
+effective search space used:     4602
+T: 11
+A: 40
+X1: 8 ( 3.7 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 7 ( 5.9 bits)
+S2: 8 ( 7.5 bits)

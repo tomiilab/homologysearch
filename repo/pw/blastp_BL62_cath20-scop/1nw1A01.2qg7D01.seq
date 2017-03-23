@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1nw1A01 3.10.450.110 3_5_0/32-113_140-153
+
+Length=96
+
+Subject= 2qg7D01 3.10.450.110 3_5_0/50-142_169-182
+
+Length=106
+
+
+ Score = 25.0 bits (53),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  76   KVLLRVY-KLYGIFSGGRLEEY  96
+            K L+R+Y K+Y  F+ GR+EE+
+Sbjct  85   KYLIRLYGKIYVFFTNGRIEEF  106
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8075
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

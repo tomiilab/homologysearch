@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1espA02 1.10.390.10 3_5_0/156-316
+
+Length=161
+
+Subject= 1gw6A03 1.10.390.10 3_5_0/305-461
+
+Length=157
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.131    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20160
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

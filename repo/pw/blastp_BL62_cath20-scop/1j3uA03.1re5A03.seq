@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1j3uA03 1.10.40.30 3_5_0/408-459
+
+Length=52
+
+Subject= 1re5A03 1.10.40.30 3_5_0/362-450
+
+Length=89
+
+
+ Score = 16.9 bits (32),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 5/12 (42%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  38  LTEEQLNEILNP  49
+           L+ E+L+ +L+P
+Sbjct  55  LSGEELDRLLDP  66
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3948
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

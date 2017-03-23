@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1te2A02 1.10.150.240 3_5_0/20-91
+
+Length=70
+
+Subject= 2hcfA02 1.10.150.240 3_5_0/19-86
+
+Length=63
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3770
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

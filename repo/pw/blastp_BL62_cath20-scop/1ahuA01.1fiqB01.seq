@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1ahuA01 3.30.43.10 3_5_0/6-128
+
+Length=123
+
+Subject= 1fiqB01 3.30.43.10 3_5_0/224-286
+
+Length=63
+
+
+ Score = 15.0 bits (27),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 6/16 (38%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  82  VGLANKFSFPLWPISI  97
+           +G+  KF   L+P+ I
+Sbjct  41  IGIEMKFKNQLFPMII  56
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6156
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

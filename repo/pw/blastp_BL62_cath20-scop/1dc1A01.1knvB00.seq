@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1dc1A01 3.40.91.10 3_5_0/5-38_127-323
+
+Length=222
+
+Subject= 1knvB00 3.40.91.10 3_5_0/3-293
+
+Length=291
+
+
+ Score = 13.5 bits (23),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 7/23 (30%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  79   MDKPEDDYELETFAKGISWTING  101
+            +DK E+  +    AKG++   +G
+Sbjct  45   LDKLENYVKDVVKAKGLAIPTSG  67
+
+
+ Score = 12.7 bits (21),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 6/18 (33%), Positives = 8/18 (44%), Gaps = 0/18 (0%)
+
+Query  84   DDYELETFAKGISWTING  101
+            DD  L+T A      +N 
+Sbjct  246  DDDALQTAATHTIVNVNS  263
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 52866
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

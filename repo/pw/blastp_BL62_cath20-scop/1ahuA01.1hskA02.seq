@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1ahuA01 3.30.43.10 3_5_0/6-128
+
+Length=123
+
+Subject= 1hskA02 3.30.43.10 3_5_0/15-102
+
+Length=88
+
+
+ Score = 18.1 bits (35),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 9/35 (26%), Positives = 16/35 (46%), Gaps = 0/35 (0%)
+
+Query  66  ASAIVAPRNVADVQSIVGLANKFSFPLWPISIGRN  100
+           A   + P    +VQ++V  A +   P+  +  G N
+Sbjct  35  ADFYITPTKNEEVQAVVKYAYQNEIPVTYLGNGSN  69
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8624
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

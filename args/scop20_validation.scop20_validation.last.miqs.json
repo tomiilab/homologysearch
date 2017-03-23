@@ -1,0 +1,85 @@
+{
+    "benchmark":"scop20_validation",
+    "args":[   
+        ["ssearch","BL62", "scop20_validation", null, null, null, 
+            {
+                "c":"black",
+                "lw":1,
+                "ls":"-",
+                "label":"SSEARCH BL62"
+            }
+        ],
+        ["ssearch","MIQS", "scop20_validation", null, null,null,
+            {
+                "c":"grey",
+                "lw":1,
+                "ls":"-",
+                "label":"SSEARCH MIQS"
+            }
+        ],
+        ["cs-blast","NA", "scop20_validation", null, null, null,
+            {
+                "c":"orange",
+                "lw":1,
+                "ls":"-",
+                "label":"CS-BLAST"
+            }
+        ],
+        ["last4","BL62", "scop20_validation", null, null, null,
+            {   
+                "c":"b",
+                "lw":1,
+                "ls":"-",
+                "label":"LAST4 BL62"
+            }
+        ],
+        ["last4","MIQS", "scop20_validation", null, null, null,
+            {   
+                "c":"r",
+                "lw":1,
+                "ls":"-",
+                "label":"LAST4 MIQS"
+            }
+        ],
+        ["last3","BL62", "scop20_validation", null, null, null,
+            {   
+                "c":"b",
+                "lw":2,
+                "ls":"-",
+                "label":"LAST3 BL62"
+            }
+        ],
+        ["last3","MIQS", "scop20_validation", null, null, null,
+            {   
+                "c":"r",
+                "lw":2,
+                "ls":"-",
+                "label":"LAST3 MIQS"
+            }
+        ],
+        ["last2","BL62", "scop20_validation", null, null, null,
+            {   
+                "c":"b",
+                "lw":3,
+                "ls":"-",
+                "label":"LAST2 BL62"
+            }
+        ],
+        ["last2","MIQS", "scop20_validation", null, null, null,
+            {   
+                "c":"r",
+                "lw":3,
+                "ls":"-",
+                "label":"LAST2 MIQS"
+            }
+        ],
+        ["blastp","BL62", "scop20_validation", null, null, null,
+            {
+                "c":"g",
+                "lw":1,
+                "ls":"-",
+                "label":"BLASTP"
+            }
+        ]
+    ]
+}

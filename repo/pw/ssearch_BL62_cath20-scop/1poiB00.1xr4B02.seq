@@ -1,0 +1,57 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1poiB00.seq ./repo/cath20-scop/1xr4B02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1poiB00.seq
+  1>>>1poiB00 3.40.810.20 3_5_0/3-262 - 260 aa
+Library: ./repo/cath20-scop/1xr4B02.seq
+      265 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1593;  K=0.006276
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1xr4B02 3.40.810.20 3_5_0/236-505                  ( 265)   60 21.1    0.03
+
+>1xr4B02 3.40.810.20
+3_5_0/236-505                                          
+Length=265
+
+ Score = 21.1 bits (60),  Expect = 0.03
+ Identities = 60/182 (32%), Positives = 92/182 (50%), Gaps = 79/182 (43%)
+
+Query  12   AVTIAKQIKNGQVVTVGTGLPLIGASVAKRVYAPDCHIIVESGLMDCSPVEVPRSVGDL- 70
+            AVT   + K    +T   GL  I  +V       D H   E GL+  + ++     GD  
+Sbjct  45   AVTRFLEDKRRHNITASFGLGGITGTV-------DLH---EKGLIK-ALLDTQSFDGDAA 93
+
+Query  71   RFMAHCGCIWPNVRFVGFEINEYLHKAN------RLIAFIGGAQIDPYGNVNSTSIGDYH 124
+            R +A       N   +    N+Y + A+      RL   +   +ID   NVN T      
+Sbjct  94   RSLAQ------NPHHIEISTNQYANPASKGAACERLNVVLSALEIDVNFNVNVTGSNGV- 146
+
+Query  125  HPKTRFTG-SGGANGIATYSN-TIIMMQHEKRRF---MNKIDYVTSPGWIDGPGGRERLG 179
+                   G SGG +  A  ++ TII     + R    + K+    +PG            
+Sbjct  147  -----LRGASGGHSDTAAGADLTIITAPLVRGRIPCVVEKVLTTVTPG------------ 189
+
+Query  180  LPGDVGPQLVVTDKGILKFDEKTKRMYLAAYYPTSSPEDVLEN---TGFDLDVS----KA 232
+                    ++VTD GI             A  P    +D+L+N    G  L +     +A
+Sbjct  190  ----ASVDVLVTDHGI-------------AVNPAR--QDLLDNLRAAGVALTIEQLQQRA 230
+
+Query  233  VELEA-PDPA-----VIKLIR 247
+             +L   P P      V+ ++R
+Sbjct  231  EQLTGKPQPIEFTDRVVAVVR 251
+
+
+
+260 residues in 1 query   sequences
+265 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:36 2015 done: Wed Dec  2 17:53:36 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

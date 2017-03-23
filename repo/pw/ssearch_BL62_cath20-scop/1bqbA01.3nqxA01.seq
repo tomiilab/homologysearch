@@ -1,0 +1,49 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1bqbA01.seq ./repo/cath20-scop/3nqxA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1bqbA01.seq
+  1>>>1bqbA01 3.10.170.10 3_5_0/3-156 - 154 aa
+Library: ./repo/cath20-scop/3nqxA01.seq
+      153 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1416;  K=0.01881
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+3nqxA01 3.10.170.10 3_5_0/205-357                  ( 153)  126 31.5 7.9e-06
+
+>3nqxA01 3.10.170.10
+3_5_0/205-357                                          
+Length=153
+
+ Score = 31.5 bits (126),  Expect = 8e-06
+ Identities = 45/138 (32%), Positives = 69/138 (50%), Gaps = 27/138 (19%)
+
+Query  1    ATG------TGKGVLG-DTKDININSIDGGFSLEDLTHQGKLSAYNFNDQT-GQATLITN 52
+            ATG      TGK + G D   ++++      S+ +      +   N N  T G +     
+Sbjct  3    ATGPGGNLKTGKYLYGTDFDSLDVSQSGNTCSMNN----ANVRTINLNGGTSGSSAYSFT 58
+
+Query  53   EDENFVKDDQRAGV---DANYYAKQTYDYYKNTFGRESYDNHGSPIVSLTHVN-HYGGQD 108
+              EN  K+   A     DA+++    ++ Y +  G        +P+     +  HY    
+Sbjct  59   CPENTFKEINGAYSPLNDAHFFGNVIFNMYNDWLGT-------APLSFQLQMRVHYSS-- 109
+
+Query  109  NRNNAAWIGDKMIYGDGDGRTFTNLSGANDVVAHEITHGVTQQTA 153
+            N  NA W G  M +GDG   TF  L    DV AHE++HG T+Q +
+Sbjct  110  NYENAFWDGSAMTFGDGQN-TFYPLVSL-DVSAHEVSHGFTEQNS 152
+
+
+
+154 residues in 1 query   sequences
+153 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:32 2015 done: Wed Dec  2 17:53:32 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

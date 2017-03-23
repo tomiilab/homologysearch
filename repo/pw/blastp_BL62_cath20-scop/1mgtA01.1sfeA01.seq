@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1mgtA01 3.30.160.70 3_5_0/1-88
+
+Length=88
+
+Subject= 1sfeA01 3.30.160.70 3_5_0/12-92
+
+Length=81
+
+
+ Score = 11.2 bits (17),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 3/3 (100%), Positives = 3/3 (100%), Gaps = 0/3 (0%)
+
+Query  76  DNA  78
+           DNA
+Sbjct  48  DNA  50
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.144    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5840
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

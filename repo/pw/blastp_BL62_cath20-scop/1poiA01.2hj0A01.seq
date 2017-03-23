@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1poiA01 3.40.1080.10 3_5_0/2-116_170-319
+
+Length=264
+
+Subject= 2hj0A01 3.40.1080.10 3_5_0/3-242_488-513
+
+Length=259
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 55926
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

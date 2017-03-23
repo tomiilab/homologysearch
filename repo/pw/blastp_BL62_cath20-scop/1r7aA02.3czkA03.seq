@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1r7aA02 3.90.400.10 3_5_0/86-166
+
+Length=81
+
+Subject= 3czkA03 3.90.400.10 3_5_0/180-252
+
+Length=73
+
+
+ Score = 17.7 bits (34),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 5/15 (33%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  65  RLVWVSFTPQQVDID  79
+           + +W +F P Q D++
+Sbjct  59  QWMWTTFYPYQWDLN  73
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4884
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

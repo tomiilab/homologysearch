@@ -1,0 +1,65 @@
+BLASTP 2.2.27+
+
+
+Query= 1ds0A00 3.60.130.10 3_5_0/2-324
+
+Length=323
+
+Subject= 1os7A00 3.60.130.10 3_5_0/2-282
+
+Length=281
+
+
+ Score = 24.6 bits (52),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/70 (30%), Positives = 33/70 (47%), Gaps = 10/70 (14%)
+
+Query  240  DPADKEAVAALSKALDEVTEAVY-----LEPGDLLIVDNFRTTH-ARTPFSPRWDGKDRW  293
+            D ++KE+ A LS     +T+  +      +P D+ I DN  T H A   + P    + R 
+Sbjct  211  DVSEKESEALLSFLFAHITKPEFQVRWRWQPNDIAIWDNRVTQHYANADYLP----QRRI  266
+
+Query  294  LHRVYIRTDR  303
+            +HR  I  D+
+Sbjct  267  MHRATILGDK  276
+
+
+ Score = 14.6 bits (26),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 11/40 (28%), Positives = 15/40 (38%), Gaps = 0/40 (0%)
+
+Query  61   HLLLRGLPVEADADLPTTPSSTPAPEDRSLLTMEAMLGLV  100
+            H ++R  PV     L      T    D S    EA+L  +
+Sbjct  185  HPVVRTHPVSGKQALFVNEGFTTRIVDVSEKESEALLSFL  224
+
+
+ Score = 13.5 bits (23),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 4/5 (80%), Positives = 4/5 (80%), Gaps = 0/5 (0%)
+
+Query  120  HDVYP  124
+            H VYP
+Sbjct  69   HPVYP  73
+
+
+ Score = 13.1 bits (22),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 7/21 (33%), Positives = 8/21 (38%), Gaps = 0/21 (0%)
+
+Query  22   TPRADLYAFLDAAHTAAASLP  42
+             P   L + L A H    S P
+Sbjct  139  VPFRQLLSGLRAEHDFRKSFP  159
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 75184
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

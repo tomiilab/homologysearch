@@ -1,0 +1,65 @@
+BLASTP 2.2.27+
+
+
+Query= 2cqzA00 1.10.3210.10 3_5_0/1-173
+
+Length=173
+
+Subject= 2ogiB00 1.10.3210.10 3_5_0/2-195
+
+Length=191
+
+
+ Score = 21.9 bits (45),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 38/85 (45%), Gaps = 12/85 (14%)
+
+Query  29   SIADHSFGVAFITL----VLADVLEKRGKRIDVEKALKMAIVHDLAEAIITDIPLSAQEF  84
+            +IA H+ G A  TL     +AD +E       VE+A ++A V DL +A+  +   +    
+Sbjct  110  AIAKHTVGSAQSTLDKIVYVADYIEHNRDFPGVEEARELAKV-DLNKAVAYETARTVAFL  168
+
+Query  85   VDKDKAEALVFKKVFPEFYELYREY  109
+              K        + ++P+  E Y  Y
+Sbjct  169  ASK-------AQPIYPKTIETYNAY  186
+
+
+ Score = 21.2 bits (43),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  20  LIKGVQEPESIADHSFGVAFITLVLADVLEKRGKRIDVEKALKMAIVHDLAEAIITD  76
+           L+  V+  +   +H  GV    + LA   E+ G   D EKA   A++HD A+ +  D
+Sbjct  13  LLSKVRHSDKRFNHVLGVERAAIELA---ERYG--YDKEKAGLAALLHDYAKELSDD  64
+
+
+ Score = 14.6 bits (26),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 10/20 (50%), Gaps = 0/20 (0%)
+
+Query  68   DLAEAIITDIPLSAQEFVDK  87
+            D+  AI      SAQ  +DK
+Sbjct  106  DILAAIAKHTVGSAQSTLDK  125
+
+
+ Score = 12.7 bits (21),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 10/50 (20%), Positives = 24/50 (48%), Gaps = 2/50 (4%)
+
+Query  124  DKLDMILQAYQYELSGNKNLDEFWEAIEEIKRLE--LSKYLEDILNSVGR  171
+            D+   ++  YQ +    K  +  W  +  I +++  L+   +DIL ++ +
+Sbjct  64   DEFLRLIDKYQPDPDLKKWGNNIWHGLVGIYKIQEDLAIKDQDILAAIAK  113
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 26488
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

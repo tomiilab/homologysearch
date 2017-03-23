@@ -1,0 +1,61 @@
+BLASTP 2.2.27+
+
+
+Query= 1h0hA03 3.40.228.10 3_5_0/157-268_321-410_735-801
+
+Length=268
+
+Subject= 1ogyA03 3.40.228.10 3_5_0/148-385_641-677
+
+Length=275
+
+
+ Score = 57.0 bits (136),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 60/253 (24%), Positives = 95/253 (38%), Gaps = 46/253 (18%)
+
+Query  3    SATVAALAESYGRGAMTNHWIDLKNSDVILMMGSNPAENHPISFKWVMRAKDKGATLIHV  62
+            ++   A   ++G       + D + +D  ++ GSN AE HPI +    R  D+  +  HV
+Sbjct  7    ASAATAFMRTFGMDEPMGCYDDFEAADAFVLWGSNMAEMHPILWS---RLTDRRLSHEHV  63
+
+Query  63   D----PRYT-RTSTKCDLYAPLRSGSDIAFLNGMTKYILEKELYFKDYVVNYTNV-----  112
+                   +T R+S   D     R G+D A LN +  +I+      +D+V  +TN      
+Sbjct  64   RVAVLSTFTHRSSDLSDTPIIFRPGTDRAILNYIAHHIISTGRVNRDFVDRHTNFALGAT  123
+
+Query  113  -----------------------------FQIMKKHYERYDLDKISAICGTPKELILKVY  143
+                                         F+        Y L+K + I G    L+ ++ 
+Sbjct  124  DIGYGLRPEHQLQLAAKGAADAGAMTPTDFETFAALVSEYTLEKAAEISGVEPALLEELA  183
+
+Query  144  DAYCATGKPDKAGTIMYAMGWTQHTVGVQNIRAMSINQLLLGNIGVAGGGVNALRGEARI  203
+            + Y     PD+    ++ MG+ QH  GV     +    LL G I   G    +L G+ R 
+Sbjct  184  ELYA---DPDRKWMSLWTMGFNQHVRGVWANHMVYNLHLLTGKISEPGNSPFSLTGQPRW  240
+
+Query  204  IYNRASVDLNGKP  216
+             Y R   D   KP
+Sbjct  241  RY-REGFDPYVKP  252
+
+
+ Score = 16.2 bits (30),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 9/37 (24%), Positives = 15/37 (41%), Gaps = 7/37 (19%)
+
+Query  130  AICGTPKELILKVYDAYCAT-------GKPDKAGTIM  159
+            ++ G P+    + +D Y          GKPD    I+
+Sbjct  233  SLTGQPRWRYREGFDPYVKPGEGLRFYGKPDGRAVIL  269
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 60750
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

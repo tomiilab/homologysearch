@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2hj0A01 3.40.1080.10 3_5_0/3-242_488-513
+
+Length=259
+
+Subject= 2oasA01 3.40.1080.10 3_5_0/2-179
+
+Length=175
+
+
+ Score = 13.1 bits (22),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 6/7 (86%), Gaps = 0/7 (0%)
+
+Query  77  VLDEIAK  83
+           +LD +AK
+Sbjct  32  LLDALAK  38
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.136    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 36652
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

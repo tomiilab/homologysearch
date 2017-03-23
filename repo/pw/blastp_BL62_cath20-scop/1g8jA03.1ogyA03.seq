@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1g8jA03 3.40.228.10 3_5_0/202-423_658-682
+
+Length=247
+
+Subject= 1ogyA03 3.40.228.10 3_5_0/148-385_641-677
+
+Length=275
+
+
+ Score = 29.6 bits (65),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 10/34 (29%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  98   LAIEPGTDTALFNGLFTYVVEQGWIDKPFIEAHT  131
+            +   PGTD A+ N +  +++  G +++ F++ HT
+Sbjct  83   IIFRPGTDRAILNYIAHHIISTGRVNRDFVDRHT  116
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 55500
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

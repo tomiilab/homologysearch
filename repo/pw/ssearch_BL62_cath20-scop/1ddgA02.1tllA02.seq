@@ -1,0 +1,53 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1ddgA02.seq ./repo/cath20-scop/1tllA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1ddgA02.seq
+  1>>>1ddgA02 1.20.990.10 3_5_0/280-384 - 105 aa
+Library: ./repo/cath20-scop/1tllA02.seq
+      162 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1806;  K=0.0276
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+1tllA02 1.20.990.10 3_5_0/960-987_1038-1171        ( 162)   39 15.3    0.34
+
+>1tllA02 1.20.990.10
+3_5_0/960-987_1038-1171                                
+Length=162
+
+ Score = 15.3 bits (39),  Expect = 0.3
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 17/63 (26%)
+
+Query  3    NDPALVKELVELLWLKGDEPVTVEGKTLPLNEALQWHFELTVNTA-NIVENYATLTRSET 61
+            N   LV  L+E L    D P        P N  ++       NTA  ++ N+    + E+
+Sbjct  30   NHEDLVNALIERL---EDAP--------PANHVVKVEMLEERNTALGVISNW----KDES 74
+
+Query  62   LLPLVGDKAKLQHYA-ATTP 80
+             LP        ++Y   TTP
+Sbjct  75   RLPPCTIFQAFKYYLDITTP 94
+
+
+ Score = 14.0 bits (34),  Expect = 0.6
+ Identities = 9/36 (25%), Positives = 18/36 (50%), Gaps = 4/36 (11%)
+
+Query  28   KTLPLNEALQ----WHFELTVNTANIVENYATLTRSETLL 63
+            + L L++ LQ    W +        ++E + ++    TLL
+Sbjct  115  RLLVLSKGLQEYEEWKWGKNPTMVEVLEEFPSIQMPATLL 154
+
+
+
+105 residues in 1 query   sequences
+162 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:32 2015 done: Wed Dec  2 17:53:32 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

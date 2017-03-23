@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1k6iA02 3.90.25.10 3_5_0/152-190_220-274_329-351
+
+Length=117
+
+Subject= 1sb8A02 3.90.25.10 3_5_0/194-238_265-308_324-341
+
+Length=107
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9975
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

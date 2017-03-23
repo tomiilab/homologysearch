@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1b37A02 3.90.660.10 3_5_0/88-186_293-411
+
+Length=218
+
+Subject= 1rsgB02 3.90.660.10 3_5_0/48-199_291-454
+
+Length=299
+
+
+ Score = 13.9 bits (24),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 11/40 (28%), Positives = 16/40 (40%), Gaps = 10/40 (25%)
+
+Query  126  FLYASSRRGYYGVWQEFEKQYPDANVLLVTVTDEESRRIE  165
+            F+Y    RG     +E          LL+ + D ES+  E
+Sbjct  50   FIYIDEERGRVDHDKE----------LLLEIVDNESKFAE  79
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 53350
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

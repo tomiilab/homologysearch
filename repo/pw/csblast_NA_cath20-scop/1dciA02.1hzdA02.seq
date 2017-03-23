@@ -1,0 +1,87 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1dciA02 1.10.12.10 3_5_0/265-327
+         (63 letters)
+
+Database: ./repo/cath20-scop/1hzdA02.seq 
+           1 sequences; 60 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1hzdA02 1.10.12.10 3_5_0/280-339                                       13   0.41 
+
+>1hzdA02 1.10.12.10 3_5_0/280-339
+          Length = 60
+
+ Score = 13.0 bits (22), Expect = 0.41,   Method: Composition-based stats.
+ Identities = 5/18 (27%), Positives = 11/18 (61%)
+
+Query: 39 TQDIIKSVQAAMEKKDSK 56
+          T+D ++ + A  EK+  +
+Sbjct: 39 TKDRLEGLLAFKEKRPPR 56
+
+
+  Database: ./repo/cath20-scop/1hzdA02.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 60
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.314    0.141    0.436 
+
+Lambda     K      H
+   0.267   0.0432    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 7
+Number of Sequences: 1
+Number of extensions: 2
+Number of successful extensions: 2
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 1
+length of query: 63
+length of database: 60
+effective HSP length: 4
+effective length of query: 59
+effective length of database: 56
+effective search space:     3304
+effective search space used:     3304
+T: 11
+A: 40
+X1: 6 ( 2.7 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 6 ( 5.6 bits)
+S2: 6 ( 6.8 bits)

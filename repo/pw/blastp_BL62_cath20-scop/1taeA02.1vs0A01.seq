@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1taeA02 3.30.1490.70 3_5_0/88-123_254-324
+
+Length=107
+
+Subject= 1vs0A01 3.30.1490.70 3_5_0/453-483_594-638
+
+Length=74
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6370
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

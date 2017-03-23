@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1d5tA03 1.10.405.10 3_5_0/119-223
+
+Length=105
+
+Subject= 1f8rA03 1.10.405.10 3_5_0/130-230
+
+Length=101
+
+
+ Score = 15.4 bits (28),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  92  KLYSESLAR  100
+           +LY ESL +
+Sbjct  26  QLYEESLGK  34
+
+
+ Score = 12.7 bits (21),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 5/7 (71%), Gaps = 0/7 (0%)
+
+Query  74  YRTDDYL  80
+           Y T +YL
+Sbjct  54  YSTKEYL  60
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8460
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

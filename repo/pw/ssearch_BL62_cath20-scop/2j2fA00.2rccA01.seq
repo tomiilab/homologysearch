@@ -1,0 +1,61 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/2j2fA00.seq ./repo/cath20-scop/2rccA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/2j2fA00.seq
+  1>>>2j2fA00 1.10.620.20 3_5_0/16-363 - 348 aa
+Library: ./repo/cath20-scop/2rccA01.seq
+      251 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1484;  K=0.00557
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+2rccA01 1.10.620.20 3_5_0/38-296                   ( 251)   50 18.2    0.25
+
+>2rccA01 1.10.620.20
+3_5_0/38-296                                           
+Length=251
+
+ Score = 18.2 bits (50),  Expect = 0.3
+ Identities = 50/174 (28%), Positives = 86/174 (49%), Gaps = 54/174 (31%)
+
+Query  24   IFKSLDN-WAEENILVH-LK--PVEKCWQPQDFLPDPASDGFDEQVRELRERAKEIPDDY 79
+            ++K+L N W    I  H  K  P     + + F        F + V+    RA E   D 
+Sbjct  6    LYKNLANFWTPFEINSHDAKQFPTLTETEQEAFKKIIGLLAFLDSVQTDYSRAAEYLTDS 65
+
+Query  80   FVVLVGDMITEEAL--PTYQTMLNTL--DGVRDETGASPTSWAIWTRAWTAEENRHGDLL 135
+             +  +  +  +E +   +Y  +L++L     +DE       +  W         +H D+L
+Sbjct  66   SLAALSVLSFQEVVHNQSYSYVLSSLVPKATQDEI------FEYW---------KHDDVL 110
+
+Query  136  ---NKYLYLSGRVDMRQIEKTIQYLIGSGMDPRTENSPYL-GFIYTSFQERADFISHG-- 189
+               N+++ + G       EK +         P+T    +L   +Y    E  +F S G  
+Sbjct  111  KERNEFI-IDG------YEKFVD-----NPTPKT----FLESIVYDVILEGLNFYS-GFA 153
+
+Query  190  ---NTARQAKEHGDIKLAQICGTIAADEKRHETAYTKIVEKLFEIDPD 234
+               N AR  K    +  + I   I  DE+ H   +T I ++L    P+
+Sbjct  154  FFYNLARNQK----VSTSTI-NYINRDEQLHVYLFTNIFKELLVEFPE 196
+
+
+ Score = 16.7 bits (43),  Expect = 0.6
+ Identities = 11/24 (45%), Positives = 18/24 (75%), Gaps = 6/24 (25%)
+
+Query  150  IEKT-IQYLIGS---GMDPRTENSPYLGFI 175
+            +EK   +Y+IG    G++P  E+  Y+ FI
+Sbjct  215  LEKDWFRYIIGDKIPGINP--EDETYISFI 242
+
+
+
+348 residues in 1 query   sequences
+251 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:38 2015 done: Wed Dec  2 17:53:38 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

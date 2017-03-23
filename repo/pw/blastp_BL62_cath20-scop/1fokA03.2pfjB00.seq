@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1fokA03 3.40.91.30 3_5_0/401-578
+
+Length=178
+
+Subject= 2pfjB00 3.40.91.30 3_5_0/16-145
+
+Length=130
+
+
+ Score = 15.8 bits (29),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 5/7 (71%), Positives = 5/7 (71%), Gaps = 0/7 (0%)
+
+Query  57  GSPIDYG  63
+           GSP  YG
+Sbjct  89  GSPTSYG  95
+
+
+ Score = 12.7 bits (21),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 5/15 (33%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  54  YTVGSPIDYGVIVDT  68
+           YT    +  G+ V+T
+Sbjct  37  YTPDFLLPNGIFVET  51
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18193
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

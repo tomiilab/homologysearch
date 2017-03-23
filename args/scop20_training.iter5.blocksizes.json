@@ -1,0 +1,45 @@
+{
+    "benchmark":"scop20_training",
+    "args":[     
+        ["psiblast","BL62","scop20_training", 5, 0.002, "uniref50", 
+            {
+                "c":"gray",
+                "lw":2,
+                "ls":"-",
+                "label":"PSI-BLAST MBW=1"
+            }
+        ],
+        ["psiblastoda5","BL62","scop20_training", 5, 0.002, "uniref50",
+             {
+                    "c":"blue",
+                    "lw":2,
+                    "ls":"-",
+                    "label":"PSI-BLASTexB MBW=5"
+             }
+        ],
+        ["psiblastoda13","BL62","scop20_training", 5, 0.002, "uniref50",
+             {
+                    "c":"cyan",
+                    "lw":2,
+                    "ls":"-",
+                    "label":"PSI-BLASTexB MBW=13"
+             }
+        ],
+        ["psiblastoda25","BL62","scop20_training", 5, 0.002, "uniref50",
+             {
+                    "c":"hotpink",
+                    "lw":2,
+                    "ls":"-",
+                    "label":"PSI-BLASTexB MBW=25"
+             }
+        ],
+        ["psiblastoda41","BL62","scop20_training", 5, 0.002, "uniref50",
+             {
+                    "c":"orange",
+                    "lw":2,
+                    "ls":"-",
+                    "label":"PSI-BLASTexB MBW=41"
+             }
+        ]
+    ]
+}

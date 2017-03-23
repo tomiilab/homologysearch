@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1b37A02 3.90.660.10 3_5_0/88-186_293-411
+
+Length=218
+
+Subject= 1f8rA01 3.90.660.10 3_5_0/4-25_73-129_233-236_324-420
+
+Length=180
+
+
+ Score = 21.2 bits (43),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 14/25 (56%), Gaps = 1/25 (4%)
+
+Query  93   LQNTVPLFDMAVYTKIFLKFPRKFW  117
+            ++N    FD  + TKIFL    KFW
+Sbjct  73   IKNIRKKFD-EIGTKIFLTCTTKFW  96
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 31680
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

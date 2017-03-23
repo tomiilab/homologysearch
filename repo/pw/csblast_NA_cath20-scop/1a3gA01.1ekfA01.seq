@@ -1,0 +1,109 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1a3gA01 3.30.470.10 3_5_0/4-126_297-308
+         (135 letters)
+
+Database: ./repo/cath20-scop/1ekfA01.seq 
+           1 sequences; 189 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+1ekfA01 3.30.470.10 3_5_0/1-174_351-365                                43   3e-09
+
+>1ekfA01 3.30.470.10 3_5_0/1-174_351-365
+          Length = 189
+
+ Score = 42.5 bits (99), Expect = 3e-09,   Method: Composition-based stats.
+ Identities = 30/104 (28%), Positives = 50/104 (48%), Gaps = 9/104 (8%)
+
+Query: 14  WEDAKVHVMSHALHYGTSVFEGIRCYDSHKGPV-VFRHREHMQRLHDSAKIYRFPVSQSI 72
+           +++  +H  S +LHY   +FEG++ +      V +FR   +M R+  SA     P S   
+Sbjct: 56  FQNLTLHPASSSLHYSLQLFEGMKAFKGKDQQVRLFRPWLNMDRMLRSAMRLCLP-SFDK 114
+
+Query: 73  DELMEACRDVIR-------KNNLTSAYIRPLIFVGDVGMGVNPP 109
+            EL+E  R +I            TS Y+RP++   +  +GV+ P
+Sbjct: 115 LELLECIRRLIEVDKDWVPDAAGTSLYVRPVLIGNEPSLGVSQP 158
+
+
+
+ Score = 13.6 bits (24), Expect = 1.4,   Method: Composition-based stats.
+ Identities = 5/7 (71%), Positives = 5/7 (71%), Gaps = 1/7 (14%)
+
+Query: 123 WEDKWGW 129
+           W DK GW
+Sbjct: 43  WNDK-GW 48
+
+
+
+ Score = 10.6 bits (16), Expect =    13,   Method: Composition-based stats.
+ Identities = 2/2 (100%), Positives = 2/2 (100%)
+
+Query: 122 PW 123
+           PW
+Sbjct: 93  PW 94
+
+
+  Database: ./repo/cath20-scop/1ekfA01.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 189
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.319    0.156    0.542 
+
+Lambda     K      H
+   0.267   0.0476    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 112
+Number of Sequences: 1
+Number of extensions: 11
+Number of successful extensions: 9
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 5
+length of query: 135
+length of database: 189
+effective HSP length: 17
+effective length of query: 118
+effective length of database: 172
+effective search space:    20296
+effective search space used:    20296
+T: 11
+A: 40
+X1: 14 ( 6.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 13 ( 8.7 bits)
+S2: 14 ( 9.8 bits)

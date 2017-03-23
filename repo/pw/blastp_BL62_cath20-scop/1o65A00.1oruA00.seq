@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1o65A00 2.40.33.20 3_5_0/3-235
+
+Length=218
+
+Subject= 1oruA00 2.40.33.20 3_5_0/2-182
+
+Length=176
+
+
+ Score = 14.2 bits (25),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 5/7 (71%), Positives = 5/7 (71%), Gaps = 0/7 (0%)
+
+Query  37   GDEQAVH  43
+            GDE  VH
+Sbjct  167  GDEIEVH  173
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 30888
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

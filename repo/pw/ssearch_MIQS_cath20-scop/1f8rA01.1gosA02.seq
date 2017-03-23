@@ -1,0 +1,49 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1f8rA01.seq ./repo/cath20-scop/1gosA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1f8rA01.seq
+  1>>>1f8rA01 3.90.660.10 3_5_0/4-25_73-129_233-2 - 180 aa
+Library: ./repo/cath20-scop/1gosA02.seq
+      174 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1500;  K=0.01897
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1gosA02 3.90.660.10 3_5_0/42-62_79-107_200-210_290 ( 174)   68 20.4   0.022
+
+>1gosA02 3.90.660.10
+3_5_0/42-62_79-107_200-210_290-402                     
+Length=174
+
+ Score = 20.4 bits (68),  Expect = 0.02
+ Identities = 28/151 (18%), Positives = 62/151 (41%), Gaps = 11/151 (7%)
+
+Query  21   RNRTYRNEEAGWYANLGPMRLPE-KHRIVREYIRKFDLRLNEFSQENDNAWYFIKNIRKK 79
+            R  T RN++   Y +LG   +   K   V   I+    +   F       W   +  +++
+Sbjct  1    RTYTLRNQKVK-YVDLGGSYVGTYKVNEVERLIHHVKGKSYPFRGPFPPVWSTTNGGQER 59
+
+Query  80   FDEIGT--KIFLTCTTKFWEDDGIHGGK--STTDLPSRFIY---YPNHNFTNGVGVIIAY 132
+               +G+  K ++     FW      G       + P  +      P+ N++  +G I+A+
+Sbjct  60   KFPLGSVIKCIVYYKEPFWRKKDYCGTMIIDGEEAPVAYTLDDTKPEGNYAAIMGFILAH 119
+
+Query  133  GIGDDANFFQALDFKDCADIVFNDLSLIHQLPKK--DIQSFC 172
+                 A + +   +K  +++  + L  +  L     + +++C
+Sbjct  120  KARKLARLTKEERLKKLCELYAKVLGSLEALEPVHYEEKNWC 161
+
+
+
+180 residues in 1 query   sequences
+174 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:19 2015 done: Wed Dec  2 17:50:19 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1kzhA02 3.40.50.460 3_5_0/220-317_393-431_502-552
+
+Length=188
+
+Subject= 1pfkA02 3.40.50.460 3_5_0/142-251_303-318
+
+Length=126
+
+
+ Score = 23.1 bits (48),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 20/90 (22%), Positives = 40/90 (44%), Gaps = 8/90 (9%)
+
+Query  17   RDAMSTKKYWHFVKLMGRSASHVALECALKTHPNICIVSEEVLAKKKTLSEIIDEMVSVI  76
+            RD  S+ +    V++MGR    + L  A+       +V E   +++    ++++E+ + I
+Sbjct  13   RDTSSSHQRISVVEVMGRYCGDLTLAAAIAGGCEFVVVPEVEFSRE----DLVNEIKAGI  68
+
+Query  77   LKRSLNGDNFGVVIVPEGLIEFPTEKLFIE  106
+             K    G    +V + E + +      FIE
+Sbjct  69   AK----GKKHAIVAITEHMCDVDELAHFIE  94
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18639
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

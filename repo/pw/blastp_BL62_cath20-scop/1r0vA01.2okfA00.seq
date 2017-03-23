@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1r0vA01 3.40.1350.10 3_5_0/62-138
+
+Length=77
+
+Subject= 2okfA00 3.40.1350.10 3_5_0/4-139
+
+Length=128
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7906
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

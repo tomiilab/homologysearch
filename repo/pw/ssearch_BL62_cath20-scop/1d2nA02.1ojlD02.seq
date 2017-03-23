@@ -1,0 +1,41 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1d2nA02.seq ./repo/cath20-scop/1ojlD02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1d2nA02.seq
+  1>>>1d2nA02 1.10.8.60 3_5_0/677-743 - 67 aa
+Library: ./repo/cath20-scop/1ojlD02.seq
+       82 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.2577;  K=0.06524
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+1ojlD02 1.10.8.60 3_5_0/311-392                    (  82)   24 12.9    0.52
+
+>1ojlD02 1.10.8.60
+3_5_0/311-392                                            
+Length=82
+
+ Score = 12.9 bits (24),  Expect = 0.5
+ Identities = 6/13 (46%), Positives = 11/13 (84%), Gaps = 6/13 (46%)
+
+Query  10   EALELL------GNFKDKE 22
+            +A++LL      GN ++ E
+Sbjct  34   QAMDLLIHYDWPGNIRELE 52
+
+
+
+67 residues in 1 query   sequences
+82 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:32 2015 done: Wed Dec  2 17:53:32 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

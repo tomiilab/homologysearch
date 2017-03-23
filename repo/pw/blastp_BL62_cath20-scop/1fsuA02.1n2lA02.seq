@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1fsuA02 3.30.1120.10 3_5_0/389-509
+
+Length=104
+
+Subject= 1n2lA02 3.30.1120.10 3_5_0/371-471
+
+Length=98
+
+
+ Score = 22.3 bits (46),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 15/58 (26%), Positives = 28/58 (48%), Gaps = 6/58 (10%)
+
+Query  27  AIRHGNWKLLTGYPGCGY--WFPPPSQYNVSEIPSSDPPTKTLWLFDIDRDPEERHDL  82
+           A+R G +K      G  +      P+ +  S + + +PP     L+D+ +DP E ++L
+Sbjct  18  AVRTGKYKAHFFTQGSAHSDTTADPACHASSSLTAHEPP----LLYDLSKDPGENYNL  71
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8091
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

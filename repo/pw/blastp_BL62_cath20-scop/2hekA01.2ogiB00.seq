@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2hekA01 1.10.3210.10 3_5_0/1-281
+
+Length=281
+
+Subject= 2ogiB00 1.10.3210.10 3_5_0/2-195
+
+Length=191
+
+
+ Score = 24.6 bits (52),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 17/35 (49%), Gaps = 1/35 (3%)
+
+Query  51  RFEHSLGVYHITERICESLKVKEKELVKLAGLLHD  85
+           RF H LGV      + E     +KE   LA LLHD
+Sbjct  23  RFNHVLGVERAAIELAERYGY-DKEKAGLAALLHD  56
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.144    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 43344
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

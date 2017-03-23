@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1gl2C00 1.20.5.110 3_5_0/139-198
+
+Length=60
+
+Subject= 1gl2D00 1.20.5.110 3_5_0/152-206
+
+Length=55
+
+
+ Score = 21.2 bits (43),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 25/38 (66%), Gaps = 1/38 (3%)
+
+Query  20  QIGTEIIEELGEQRDQLERTKSRLVNTNENL-SKSRKI  56
+           Q+G EI  EL EQ + ++   + + NT+E L +++R++
+Sbjct  16  QMGQEIGNELDEQNEIIDDLANLVENTDEKLRTEARRV  53
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.123    0.303    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2964
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

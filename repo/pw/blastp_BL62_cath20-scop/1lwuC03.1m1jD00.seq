@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1lwuC03 1.20.5.50 3_5_0/83-144
+
+Length=62
+
+Subject= 1m1jD00 1.20.5.50 3_5_0/27-220
+
+Length=194
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.129    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9100
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

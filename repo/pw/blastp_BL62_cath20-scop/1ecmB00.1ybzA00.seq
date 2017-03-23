@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1ecmB00 1.20.59.10 3_5_0/6-100
+
+Length=95
+
+Subject= 1ybzA00 1.20.59.10 3_5_0/0-75
+
+Length=76
+
+
+ Score = 32.3 bits (72),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  5   LREKISALDEKLLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLER  53
+           LR++I  +D ++++LL +R E+A  +GK K   + P+ D  RE ++L R
+Sbjct  8   LRKEIDKIDNQIISLLKKRLEIAQAIGKIKKELNLPIEDRKREEEVLRR  56
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5916
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

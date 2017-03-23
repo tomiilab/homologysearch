@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1khvA05 1.20.960.20 3_5_0/404-500
+
+Length=97
+
+Subject= 1u09A03 1.20.960.20 3_5_0/404-476
+
+Length=73
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.130    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5785
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

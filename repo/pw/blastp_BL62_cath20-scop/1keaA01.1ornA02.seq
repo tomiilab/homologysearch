@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1keaA01 1.10.1670.10 3_5_0/3-25_139-219
+
+Length=104
+
+Subject= 1ornA02 1.10.1670.10 3_5_0/2-21_134-213
+
+Length=100
+
+
+ Score = 20.8 bits (42),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/77 (22%), Positives = 33/77 (43%), Gaps = 9/77 (12%)
+
+Query  25  AAMVDANFVRVINRYFGGSYENLNYNHKALWELAETL---VPGGKCRDFNLGLMDFSAII  81
+           A  VD +  RV  R     +++      ++ E+ +TL   +P  +    +  ++ F    
+Sbjct  22  AIAVDTHVERVSKRLGFCRWDD------SVLEVEKTLMKIIPKEEWSITHHRMIFFGRYH  75
+
+Query  82  CAPRKPKCEKCGMSKLC  98
+           C  + P+C  C +  LC
+Sbjct  76  CKAQSPQCPSCPLLHLC  92
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.137    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8277
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1dofA02 1.10.275.10 3_5_0/2-94
+
+Length=85
+
+Subject= 2ptqA01 1.10.275.10 3_5_0/1-117
+
+Length=117
+
+
+ Score = 22.7 bits (47),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 19/32 (59%), Gaps = 2/32 (6%)
+
+Query  2   VSPFDWRYGSE--EIRRLFTNEAIINAYLEVE  31
+           VSP D RYG +   +R +F+   ++   ++VE
+Sbjct  9   VSPVDGRYGDKVSALRGIFSEYGLLKFRVQVE  40
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7844
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

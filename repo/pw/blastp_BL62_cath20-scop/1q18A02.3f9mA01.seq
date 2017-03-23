@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1q18A02 3.40.367.20 3_5_0/100-299
+
+Length=197
+
+Subject= 3f9mA01 3.40.367.20 3_5_0/4-59_216-442
+
+Length=283
+
+
+ Score = 12.7 bits (21),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 5/7 (71%), Gaps = 0/7 (0%)
+
+Query  176  RAAFEDK  182
+            R AFE +
+Sbjct  168  RGAFETR  174
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.144    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 45240
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

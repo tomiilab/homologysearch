@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 3ci0I00 3.30.1300.30 3_5_0/31-114
+
+Length=81
+
+Subject= 3ci0K01 3.30.1300.30 3_5_0/29-91_275-315
+
+Length=104
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.126    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6840
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1bucA01 1.10.540.10 3_5_0/1-123
+
+Length=123
+
+Subject= 2or0B01 1.10.540.10 3_5_0/-17-106
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.138    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11990
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

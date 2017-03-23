@@ -1,0 +1,49 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1igrA03.seq ./repo/cath20-scop/1m6bB03.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1igrA03.seq
+  1>>>1igrA03 3.80.20.20 3_5_0/300-478 - 172 aa
+Library: ./repo/cath20-scop/1m6bB03.seq
+      204 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1640;  K=0.02493
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1m6bB03 3.80.20.20 3_5_0/310-513                   ( 204)  148 40.3 2.5e-08
+
+>1m6bB03 3.80.20.20
+3_5_0/310-513                                           
+Length=204
+
+ Score = 40.3 bits (148),  Expect = 3e-08
+ Identities = 44/159 (27%), Positives = 85/159 (53%), Gaps = 18/159 (11%)
+
+Query  1    KVCEEEKKTKTIDSVTSAQM--LQGCTIFKGNL--LINIRRGN------NIASELENFMG 50
+            K CE       +++V S+++  +  CT + GNL  LI    G+       +  E  N + 
+Sbjct  1    KACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFR 60
+
+Query  51   LIEVVTGYVKIRH-SHALVSLSFLKNLRLILGEEQLEGNYSFYVLDNQNLQQLWDWDHRN 109
+             +  +TGY++I+     + ++S + NL  I G    +  +S+ ++ N N+  L     R+
+Sbjct  61   TVREITGYLNIQSWPPHMHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSL---GFRS 117
+
+Query  110  LT-IKAGKMYFAFNPKLCVSEIYRMEEVTGTKGRQSKGDINTRNNGERASCEKEQKL 165
+            L  I AG++Y++ N +LC        +V   +G  ++  ++ ++N  R  C  E K+
+Sbjct  118  LKEISAGRIYISANRQLCYHHSLNWTKV--LRG-PTEERLDIKHNRPRRDCVAEGKV 171
+
+
+
+172 residues in 1 query   sequences
+204 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:26 2015 done: Wed Dec  2 17:50:26 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

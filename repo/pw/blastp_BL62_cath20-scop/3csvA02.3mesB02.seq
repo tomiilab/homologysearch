@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 3csvA02 3.90.1200.10 3_5_0/93-332
+
+Length=235
+
+Subject= 3mesB02 3.90.1200.10 3_5_0/111-137_152-423
+
+Length=288
+
+
+ Score = 19.2 bits (38),  Expect = 0.070, Method: Compositional matrix adjust.
+ Identities = 11/55 (20%), Positives = 23/55 (42%), Gaps = 5/55 (9%)
+
+Query  88   VFVHRDFHAQNLLWLPEREGLARVGVIDFQDAKLGHRAYDLVSLLQDARRDVPAQ  142
+            VF H D    NLL     +    + +ID++ + +     D+ +   +   D  ++
+Sbjct  136  VFAHNDLQENNLL-----QTQNNIRMIDYEYSAINFAGADIANYFCEYIYDYCSE  185
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 55704
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

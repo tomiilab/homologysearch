@@ -1,0 +1,82 @@
+# LAST version 638
+#
+# a=13 b=2 A=13 B=2 e=30 d=16 x=46 y=46 z=46 D=1e+06 E=3.26797e+09
+# R=10 u=0 s=1 S=0 T=0 m=10000 l=1 n=10000 k=1 i=8192 w=1000 t=4.55006 j=3 Q=0
+# ./repo/temp_lastdb/3s6oC00.seq
+# Reference sequences=1 normal letters=306
+# lambda=0.155005 K=0.0147228
+#
+#    A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+# A  3 -1  0  0  2  0  0  0 -1 -1 -1 -1 -1 -2  0  1  1 -4 -2  0  0 -1  0 -1 -6
+# R -1  6  0 -1 -3  2 -1 -2  1 -2 -3  3 -1 -3 -1  0 -1 -4 -2 -2 -1 -2 -1 -1 -6
+# N  0  0  5  3 -2  1  1  0  1 -4 -4  1 -2 -3 -1  1  0 -5 -1 -3  4 -4  1 -1 -6
+# D  0 -1  3  6 -4  1  3 -1  0 -5 -5  0 -3 -6  0  0  0 -5 -4 -3  5 -5  3 -1 -6
+# C  2 -3 -2 -4 12 -3 -3 -2 -1  0 -2 -3  0 -3 -3  1  0 -6 -1  2 -3 -1 -3 -1 -6
+# Q  0  2  1  1 -3  4  2 -2  1 -2 -2  2  0 -2  0  0  0 -5 -3 -2  1 -2  2 -1 -6
+# E  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -3  4 -1 -6
+# G  0 -2  0 -1 -2 -2 -1  8 -2 -5 -5 -2 -4 -5 -2  0 -2 -5 -4 -4 -1 -5 -1 -1 -6
+# H -1  1  1  0 -1  1  0 -2  7 -2 -2  0 -2  0 -2  0  0  0  2 -2  0 -2  0 -1 -6
+# I -1 -2 -4 -5  0 -2 -3 -5 -2  5  3 -2  2  1 -4 -3 -1 -1 -1  3 -5  4 -3 -1 -6
+# L -1 -3 -4 -5 -2 -2 -3 -5 -2  3  5 -2  3  2 -3 -3 -2  0  0  2 -5  4 -3 -1 -6
+# K -1  3  1  0 -3  2  1 -2  0 -2 -2  4 -1 -4  0  0  0 -4 -2 -2  0 -2  1 -1 -6
+# M -1 -1 -2 -3  0  0 -2 -4 -2  2  3 -1  5  1 -3 -2 -1 -2 -1  1 -3  3 -2 -1 -6
+# F -2 -3 -3 -6 -3 -2 -4 -5  0  1  2 -4  1  7 -4 -3 -2  4  5  0 -5  2 -4 -1 -6
+# P  0 -1 -1  0 -3  0  0 -2 -2 -4 -3  0 -3 -4  8  0  0 -4 -5 -3  0 -3  0 -1 -6
+# S  1  0  1  0  1  0  0  0  0 -3 -3  0 -2 -3  0  3  2 -4 -2 -1  0 -3  0 -1 -6
+# T  1 -1  0  0  0  0  0 -2  0 -1 -2  0 -1 -2  0  2  4 -5 -2  0  0 -1  0 -1 -6
+# W -4 -4 -5 -5 -6 -5 -6 -5  0 -1  0 -4 -2  4 -4 -4 -5 15  5 -3 -5  0 -6 -1 -6
+# Y -2 -2 -1 -4 -1 -3 -2 -4  2 -1  0 -2 -1  5 -5 -2 -2  5  8 -1 -3  0 -2 -1 -6
+# V  0 -2 -3 -3  2 -2 -2 -4 -2  3  2 -2  1  0 -3 -1  0 -3 -1  4 -3  3 -2 -1 -6
+# B  0 -1  4  5 -3  1  2 -1  0 -5 -5  0 -3 -5  0  0  0 -5 -3 -3  5 -5  2 -1 -6
+# J -1 -2 -4 -5 -1 -2 -3 -5 -2  4  4 -2  3  2 -3 -3 -1  0  0  3 -5  4 -1 -1 -6
+# Z  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -1  4 -1 -6
+# X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -6 -6
+# * -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=109 EG2=6.8e+08 E=3.4e-06
+s 3s6oC00 50 145 + 306 EQFLSEIVGAAAYPARHMSMESIYEYGSRAGVWRILREFDKRGLPLTVFGVGMAIERHPELARAFVELGHEIACHGWRWIHYQDMTPEREAEHMRLGMEAIERVTGVRPLGWYTGRDSPNTHRLVAEYGGFLYDSDHYGDDLPFW
+s 1w17A00 29 142 + 236 EKYDAFYLGNTKEKTIYLTFDNGYENGYTPKVLDVLKKHRVTG---TFFVTGHFVKDQPQLIKRMSDEGHIIGNHSFHHPDLTTKTADQIQDELDSVNEEVYKITGKQDNLYLRPPRGVFSEYVLKETKRLGYQTVFWSVAFVDW
+
+a score=53 EG2=4e+12 E=0.13
+s 3s6oC00 152 94 + 306 RVTGVRPLGWYTGRDSPNTHRLVAEYGGFLYDSDHYGDDLPFWMDVEVSGG-ASVPQLIVPYTLDANDMRFATPQGFNTADHFFHYLRDAFDVLY
+s 1w17A00  68 95 + 236 RVTGTFFVTGHFVKDQPQLIKRMSDEGHIIGNHSFHHPDLTTKTADQIQDELDSVNEEVYKITGKQDNLYLRPPRGVFSEYVLKETKRLGYQTVF
+
+a score=39 EG2=3.5e+13 E=1.6
+s 3s6oC00 161 76 + 306 WYTGRDSPNTHRLVAEYGGFLYDSDHYGDDLPFWMDVEVSGGASVPQLIVPYTLDANDMRFATPQGFNTADHFFHY
+s 1w17A00  34 71 + 236 FYLGNTKEKTIYLTFDNG---YENGYTPKVLDVLKKHRVTGTFFVTGHFVKD--QPQLIKRMSDEGHIIGNHSFHH
+
+a score=37 EG2=4.8e+13 E=2.3
+s 3s6oC00 240 26 + 306 AFDVLYEEGDEAPKMMSIGMHCRLLG
+s 1w17A00  47 25 + 236 TFDNGYENG-YTPKVLDVLKKHRVTG
+
+a score=33 EG2=8.8e+13 E=4.7
+s 3s6oC00 5 31 + 306 PRDLIGYG-RHPVQANWPGRARVAVQFVLNYE
+s 1w17A00 1 32 + 236 PNEPINWGFKRSVNHQPPDAGKQLNSLIEKYD
+
+a score=33 EG2=8.8e+13 E=4.7
+s 3s6oC00 111 29 + 306 ARAFVELGHEIACHGWRWIHYQDMTPERE
+s 1w17A00 205 29 + 236 AEALDDAITDLKKQGYTFKSIDDLMFEKE
+
+a score=33 EG2=8.8e+13 E=4.7
+s 3s6oC00 179 24 + 306 GFLYDSDHYGDDLPFWMDVEVSGG
+s 1w17A00  71 24 + 236 GTFFVTGHFVKDQPQLIKRMSDEG
+
+a score=33 EG2=8.8e+13 E=4.7
+s 3s6oC00 268 37 + 306 GRFRALQRFLDHIERHDRVWVARRVEIARHWREHHPY
+s 1w17A00  37 37 + 236 GNTKEKTIYLTFDNGYENGYTPKVLDVLKKHRVTGTF
+
+a score=32 EG2=1e+14 E=5.7
+s 3s6oC00 164 19 + 306 GRDSPNTHRLVAEYGGFLY
+s 1w17A00 177 19 + 236 GKKYAYDHMIKQAHPGAIY
+
+a score=31 EG2=1.2e+14 E=6.8
+s 3s6oC00 235 26 + 306 HYLRDAFDVLYEEGDEAPKMMSIGMH
+s 1w17A00  78 26 + 236 HFVKDQPQLIKRMSDEGHIIGNHSFH
+
+# Query sequences=1

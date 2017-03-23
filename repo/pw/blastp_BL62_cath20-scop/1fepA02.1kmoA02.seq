@@ -1,0 +1,85 @@
+BLASTP 2.2.27+
+
+
+Query= 1fepA02 2.40.170.20 3_5_0/152-724
+
+Length=531
+
+Subject= 1kmoA02 2.40.170.20 3_5_0/223-741
+
+Length=519
+
+
+ Score = 25.0 bits (53),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 35/77 (45%), Gaps = 13/77 (17%)
+
+Query  214  SSNTQADRSPYSKAEIFSLFAENNELTDSTIVTPGLRFDH------HSIVG-------NN  260
+            S ++  DR   S  E  + + ++     +  +TPG+RF+H      ++I G       N 
+Sbjct  209  SGSSPYDRDTRSGTEAHAWYLDDKIDIGNWTITPGMRFEHIESYQNNAITGTHEEVSYNA  268
+
+Query  261  WSPALNISQGLGDDFTL  277
+              PALN+   L D + L
+Sbjct  269  PLPALNVLYHLTDSWNL  285
+
+
+ Score = 18.5 bits (36),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 22/92 (24%), Positives = 37/92 (40%), Gaps = 11/92 (12%)
+
+Query  52   WDINQGHQSARAGTYATTLPAGREGVINKDINGVVRW------DFAP-LQSLELEAGYSR  104
+            +++N   QS++    A T+    +G   + I G + W      DF P +  L L  G   
+Sbjct  427  FNLNSDFQSSQFADNANTVKESADGSTGR-IPGFMLWGARVAYDFGPQMADLNLAFGVK-  484
+
+Query  105  QGNLYAGDTQNTNSDSYTRSKYGDETNRLYRQ  136
+              N++  D    + D   +  Y  +   LY Q
+Sbjct  485  --NIFDQDYFIRSYDDNNKGIYAGQPRTLYMQ  514
+
+
+ Score = 17.7 bits (34),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 21/54 (39%), Gaps = 9/54 (17%)
+
+Query  474  TKNVSLTGGVDNLFDKRL---------WRAGNAQTTGDLAGANYIAGAGAYTYN  518
+            T N+ + G  DN F   L         WR  +A    DL   +  A    +T+N
+Sbjct  23   THNLMVGGTADNGFGTALLYSGTRGSDWREHSATRIDDLMLKSKYAPDEVHTFN  76
+
+
+ Score = 16.2 bits (30),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  415  TLNSTLSWQAREDLSQTTFT  434
+            T ++ L  QAR DL   T T
+Sbjct  359  TRHTGLETQARYDLGTLTPT  378
+
+
+ Score = 15.8 bits (29),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 4/13 (31%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  42   GNLDKTQADAWDI  54
+            GN++  +A  W++
+Sbjct  308  GNVEPEKARTWEL  320
+
+
+ Score = 15.8 bits (29),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  91   APLQSLELEAGYSRQGNLYA  110
+            APL +L +    +   NLYA
+Sbjct  268  APLPALNVLYHLTDSWNLYA  287
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 240064
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

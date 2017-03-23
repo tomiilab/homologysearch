@@ -1,0 +1,96 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2hj0A01 3.40.1080.10 3_5_0/3-242_488-513
+         (259 letters)
+
+Database: ./repo/cath20-scop/2oasA01.seq 
+           1 sequences; 175 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+2oasA01 3.40.1080.10 3_5_0/2-179                                       16   0.80 
+
+>2oasA01 3.40.1080.10 3_5_0/2-179
+          Length = 175
+
+ Score = 15.5 bits (29), Expect = 0.80,   Method: Composition-based stats.
+ Identities = 11/38 (28%), Positives = 16/38 (42%), Gaps = 11/38 (28%)
+
+Query: 154 IDVAFLGAPSSDAYGNANGTRGKTTCGSLGYAIDAKYA 191
+           ID A +     D +G          C SLG +++A  A
+Sbjct: 109 IDTAIIQVSPPDKHG----------C-SLGISVEATLA 135
+
+
+
+ Score = 14.0 bits (25), Expect = 2.4,   Method: Composition-based stats.
+ Identities = 7/18 (38%), Positives = 8/18 (44%), Gaps = 7/18 (38%)
+
+Query: 138 RSHGGRARAIATDDIHID 155
+           R+HG          IHID
+Sbjct: 152 RTHGDGF-------IHID 162
+
+
+  Database: ./repo/cath20-scop/2oasA01.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 175
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.317    0.160    0.513 
+
+Lambda     K      H
+   0.267   0.0491    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 167
+Number of Sequences: 1
+Number of extensions: 13
+Number of successful extensions: 6
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 5
+length of query: 259
+length of database: 175
+effective HSP length: 21
+effective length of query: 238
+effective length of database: 154
+effective search space:    36652
+effective search space used:    36652
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 15 ( 9.5 bits)
+S2: 16 (10.5 bits)

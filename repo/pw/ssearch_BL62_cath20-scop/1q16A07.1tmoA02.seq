@@ -1,0 +1,57 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1q16A07.seq ./repo/cath20-scop/1tmoA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1q16A07.seq
+  1>>>1q16A07 3.40.228.10 3_5_0/239-300_513-578 - 128 aa
+Library: ./repo/cath20-scop/1tmoA02.seq
+      250 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.2042;  K=0.02087
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1tmoA02 3.40.228.10 3_5_0/149-372_585-610          ( 250)   71 26.5 0.00034
+
+>1tmoA02 3.40.228.10
+3_5_0/149-372_585-610                                  
+Length=250
+
+ Score = 26.5 bits (71),  Expect = 0.0003
+ Identities = 30/83 (36%), Positives = 42/83 (50%), Gaps = 21/83 (25%)
+
+Query  29   FTE-VRY-KGTKT-VAVTPDYAEIAKLCDLWLAPKQGVSRSQIIRIAREFADNADKTHGR 85
+            F E V Y  GTK  VA TP+          W AP  GV       + R+ A    K  GR
+Sbjct  130  FEEFVPYVMGTKDGVAKTPE----------WAAPICGVEA----HVIRDLAKTLVK--GR 173
+
+Query  86   SMIIVGAGLNHWYHLDMNYRGLINMLIFCGCVGQSGGG--WAHY 127
+            +  ++G  +    H +  Y     +    G +G  GGG  + H+
+Sbjct  174  TQFMMGWCIQRQQHGEQPYWMAAVLATMIGQIGLPGGGISYGHH 217
+
+
+ Score = 17.1 bits (39),  Expect = 0.2
+ Identities = 16/68 (23%), Positives = 34/68 (50%), Gaps = 8/68 (11%)
+
+Query  5    WYNSSYI---IAWGSNVPQTRTPDAHFFTEVRYKGTKTVAVTPDYAEI-AKL-CD-LWLA 58
+            W N  Y    + W +   ++    A    +V+    + +++ P   +  A L C+ L++ 
+Sbjct  38   WSNDPYKNLQVGWNAETHESFAYLAQLKEKVKQGKIRVISIDPVVTKTQAYLGCEQLYVN 97
+
+Query  59   PKQGVSRSQIIRIARE 74
+            P+  V+   ++ IA E
+Sbjct  98   PQTDVTL--MLAIAHE 111
+
+
+
+128 residues in 1 query   sequences
+250 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:40 2015 done: Wed Dec  2 17:53:40 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

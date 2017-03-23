@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1zjjA02 3.40.50.10410 3_5_0/69-185
+
+Length=117
+
+Subject= 2hx1A02 3.40.50.10410 3_5_0/82-203
+
+Length=119
+
+
+ Score = 13.1 bits (22),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 4/7 (57%), Gaps = 0/7 (0%)
+
+Query  84  NPDATLP  90
+           N D T P
+Sbjct  84  NTDNTYP  90
+
+
+ Score = 12.3 bits (20),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 8/29 (28%), Positives = 13/29 (45%), Gaps = 1/29 (3%)
+
+Query  68  KYATLAIRNG-ATFIGTNPDATLPGEEGI  95
+           +Y  L +  G   ++GT   A     +GI
+Sbjct  6   EYIDLKVDGGIVAYLGTANSANYLVSDGI  34
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.139    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11024
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

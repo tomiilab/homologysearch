@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1dofA02 1.10.275.10 3_5_0/2-94
+
+Length=85
+
+Subject= 1re5A01 1.10.275.10 3_5_0/3-104
+
+Length=102
+
+
+ Score = 22.3 bits (46),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 23/99 (23%), Positives = 36/99 (36%), Gaps = 18/99 (18%)
+
+Query  5    FDWRYGSEEIRRLFTNEAIINAYLEVE--------------RALVCALEELGVAER----  46
+            FD  + +  +R +F++   +   L+ E               + V A+E    AER    
+Sbjct  4    FDAYFTAPAMREIFSDRGRLQGMLDFEAALARAEASAGLVPHSAVAAIEAACQAERYDTG  63
+
+Query  47   GCCEKVNKASVSADEVHDILSLVLLLEQKSGCRYVHYGA  85
+                 +  A  SA  +   L  V+        RYVH GA
+Sbjct  64   ALANAIATAGNSAIPLVKALGKVIATGVPEAERYVHLGA  102
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6900
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1dizA03 1.10.1670.10 3_5_0/231-282
+
+Length=52
+
+Subject= 3fspA01 1.10.1670.10 3_5_0/8-26_139-234
+
+Length=115
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.141    0.511    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4860
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,61 @@
+BLASTP 2.2.27+
+
+
+Query= 1h3eA02 1.10.240.10 3_5_0/224-340
+
+Length=117
+
+Subject= 2cycA02 1.10.240.10 3_5_0/227-371
+
+Length=145
+
+
+ Score = 14.2 bits (25),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 11/21 (52%), Gaps = 3/21 (14%)
+
+Query  18   IGLTEPPEAMFKKLMRVPDPL  38
+            I L EP    F+K    P+PL
+Sbjct  122  INLLEPIRRYFEKH---PEPL  139
+
+
+ Score = 14.2 bits (25),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 8/17 (47%), Gaps = 0/17 (0%)
+
+Query  52  EEIEALLKAGPVPAHRV  68
+           EEI   L+    PA  V
+Sbjct  42  EEIRQKLRKAFCPAREV  58
+
+
+ Score = 14.2 bits (25),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 6/7 (86%), Gaps = 0/7 (0%)
+
+Query  108  GPEEVRR  114
+             PEE+R+
+Sbjct  40   SPEEIRQ  46
+
+
+ Score = 11.2 bits (17),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 4/8 (50%), Positives = 4/8 (50%), Gaps = 0/8 (0%)
+
+Query  17  YIGLTEPP  24
+           YI   E P
+Sbjct  69  YIIFREEP  76
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13493
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

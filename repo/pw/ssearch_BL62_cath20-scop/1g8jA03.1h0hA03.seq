@@ -1,0 +1,57 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1g8jA03.seq ./repo/cath20-scop/1h0hA03.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1g8jA03.seq
+  1>>>1g8jA03 3.40.228.10 3_5_0/202-423_658-682 - 247 aa
+Library: ./repo/cath20-scop/1h0hA03.seq
+      268 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1470;  K=0.005449
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1h0hA03 3.40.228.10 3_5_0/157-268_321-410_735-801  ( 268)  160 41.5 2.2e-08
+
+>1h0hA03 3.40.228.10
+3_5_0/157-268_321-410_735-801                          
+Length=268
+
+ Score = 41.5 bits (160),  Expect = 2e-08
+ Identities = 65/198 (32%), Positives = 108/198 (54%), Gaps = 55/198 (27%)
+
+Query  10   GIGELNNAYEDAQLADVIWSIGNNPYESQTNYFLNHWLPNLQGATTSKKKERFPNENFPQ 69
+            G G + N + D + +DVI  +G+NP E+    F   W+         + K++        
+Sbjct  14   GRGAMTNHWIDLKNSDVILMMGSNPAENHPISF--KWV--------MRAKDK-------G 56
+
+Query  70   ARIIFVDPRETPSVAIARHVAGNDRVLHLAIEPGTDTALFNGLFTYVVEQGWIDKPFIEA 129
+            A +I VDPR T      R     D  L+  +  G+D A  NG+  Y++E+    K ++  
+Sbjct  57   ATLIHVDPRYT------RTSTKCD--LYAPLRSGSDIAFLNGMTKYILEKELYFKDYVVN 108
+
+Query  130  HTKGFDDAVKT-NRLSLDECSNITGVPVDMLKRAAEWSY----KPKASGQAPRTMHAYEK 184
+            +T  F    K   R  LD+ S I G P +++ +  + +Y    KP  +G    T+  Y  
+Sbjct  109  YTNVFQIMKKHYERYDLDKISAICGTPKELILKVYD-AYCATGKPDKAG----TI-MYAM 162
+
+Query  185  GIIWGNDNYVIQS----ALLDLVIATHNVGRRGTGCVRMGGH-EMLYTEGKFDTDDGKAH 239
+            G  W      +Q+    ++  L++   N+G  G G   + G   ++Y     D + GK +
+Sbjct  163  G--WTQHTVGVQNIRAMSINQLLLG--NIGVAGGGVNALRGEARIIYNRASVDLN-GKPY 217
+
+Query  240  FKPAP------WN 246
+               AP      WN
+Sbjct  218  ---APEKAVVEWN 227
+
+
+
+247 residues in 1 query   sequences
+268 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:41 2015 done: Wed Dec  2 17:53:41 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

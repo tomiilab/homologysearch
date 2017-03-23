@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1eboF00 1.10.287.210 3_5_0/3-133
+
+Length=113
+
+Subject= 3b8mA02 1.10.287.210 3_5_0/207-317
+
+Length=105
+
+
+ Score = 11.2 bits (17),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 6/18 (33%), Positives = 8/18 (44%), Gaps = 0/18 (0%)
+
+Query  83  LGPDCRIEPHDWTKNITD  100
+           LG D      +  K +TD
+Sbjct  61  LGADGIERKLEIEKAVTD  78
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9393
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,49 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1amuA01.seq ./repo/cath20-scop/1ba3A01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1amuA01.seq
+  1>>>1amuA01 3.40.50.980 3_5_0/36-205 - 165 aa
+Library: ./repo/cath20-scop/1ba3A01.seq
+      156 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1801;  K=0.01547
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1ba3A01 3.40.50.980 3_5_0/56-213                   ( 156)   83 27.6 0.00013
+
+>1ba3A01 3.40.50.980
+3_5_0/56-213                                           
+Length=156
+
+ Score = 27.6 bits (83),  Expect = 0.0001
+ Identities = 36/130 (27%), Positives = 66/130 (50%), Gaps = 30/130 (23%)
+
+Query  32   YHELNVKANQLARIFIEKGIGKDTLVGIMMEKSIDLFIGILAVLKAGGAYVPIDIEYPKE 91
+            Y E++V+   LA      G+  +  + +  E S+  F+ +L  L  G A  P +  Y + 
+Sbjct  1    YFEMSVR---LAEAMKRYGLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNER 57
+
+Query  92   RIQYILDDSQARMLLTQKHLVHLIHNIQ-----------------FNGQVEIFEEDTIKI 134
+             +   ++ SQ  ++   K  +  I N+Q                 + G   ++   T  +
+Sbjct  58   ELLNSMNISQPTVVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHL 117
+
+Query  135  REGTNLH--VPSKSTD----LAYVIYTS---PKGTMLEHK 165
+              G N +  VP +S D    +A ++ +S   PKG  L H+
+Sbjct  118  PPGFNEYDFVP-ESFDRDKTIALIMNSSTGLPKGVALPHR 156
+
+
+
+165 residues in 1 query   sequences
+156 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:38 2015 done: Wed Dec  2 17:53:38 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1f0xA02 3.30.43.10 3_5_0/9-105_520-567
+
+Length=145
+
+Subject= 1fiqB01 3.30.43.10 3_5_0/224-286
+
+Length=63
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7155
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

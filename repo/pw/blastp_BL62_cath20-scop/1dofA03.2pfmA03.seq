@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1dofA03 1.10.40.30 3_5_0/348-403
+
+Length=56
+
+Subject= 2pfmA03 1.10.40.30 3_5_0/351-435
+
+Length=85
+
+
+ Score = 12.7 bits (21),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 11/38 (29%), Positives = 18/38 (47%), Gaps = 1/38 (3%)
+
+Query  11  MNRMIKEGASRAEAYKKAKEVKALTFEYQKWPVERLIE  48
+           M  +I +G  R EAY   +  KA+     +   + L+E
+Sbjct  10  MLTLIDKGMVREEAYDIVQP-KAMEAWETQVQFKELVE  46
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3950
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

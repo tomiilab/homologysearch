@@ -1,0 +1,132 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2cqzA00 1.10.3210.10 3_5_0/1-173
+         (173 letters)
+
+Database: ./repo/cath20-scop/2hekA01.seq 
+           1 sequences; 281 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+2hekA01 1.10.3210.10 3_5_0/1-281                                       16   0.59 
+
+>2hekA01 1.10.3210.10 3_5_0/1-281
+          Length = 281
+
+ Score = 15.9 bits (30), Expect = 0.59,   Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 23/39 (58%), Gaps = 6/39 (15%)
+
+Query: 32 DHSFGVAFITLVLADVLEKRGKRIDVEKALKMA-IVHDL 69
+          +HS GV  IT  + + L+ + K +     +K+A ++HDL
+Sbjct: 53 EHSLGVYHITERICESLKVKEKEL-----VKLAGLLHDL 86
+
+
+
+ Score = 15.1 bits (28), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 7/13 (53%), Positives = 9/13 (69%)
+
+Query: 2   IEKILLVQTLKRL 14
+           I  I LV+ LK+L
+Sbjct: 228 ILSIHLVEFLKKL 240
+
+
+
+ Score = 13.9 bits (25), Expect = 2.5,   Method: Composition-based stats.
+ Identities = 12/51 (23%), Positives = 19/51 (37%), Gaps = 2/51 (3%)
+
+Query: 118 QLVRIADKLDMILQAYQYELSGNKNLDEFWEAIEEIKRLELSKYLEDILNS 168
+            LV    KL  I Q    +++    L++ +   E  KR    +  E I   
+Sbjct: 232 HLVEFLKKL--ISQEDFTDINNFLRLNDAFVISELFKRKAFREDFERIFQR 280
+
+
+
+ Score = 12.0 bits (20), Expect = 9.2,   Method: Composition-based stats.
+ Identities = 4/21 (19%), Positives = 10/21 (47%)
+
+Query: 84  FVDKDKAEALVFKKVFPEFYE 104
+           FV  +  +   F++ F   ++
+Sbjct: 259 FVISELFKRKAFREDFERIFQ 279
+
+
+
+ Score = 12.0 bits (20), Expect = 9.5,   Method: Composition-based stats.
+ Identities = 4/6 (66%), Positives = 6/6 (100%)
+
+Query: 151 EEIKRL 156
+           E+I+RL
+Sbjct: 129 EDIERL 134
+
+
+
+ Score = 11.6 bits (19), Expect =    12,   Method: Composition-based stats.
+ Identities = 5/15 (33%), Positives = 8/15 (53%)
+
+Query: 110 QECSSPEAQLVRIAD 124
+           +E S P    VR+ +
+Sbjct: 3   KEFSDPLYGFVRVGE 17
+
+
+  Database: ./repo/cath20-scop/2hekA01.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 281
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.316    0.165    0.505 
+
+Lambda     K      H
+   0.267   0.0504    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 206
+Number of Sequences: 1
+Number of extensions: 21
+Number of successful extensions: 11
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 6
+length of query: 173
+length of database: 281
+effective HSP length: 22
+effective length of query: 151
+effective length of database: 259
+effective search space:    39109
+effective search space used:    39109
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 15 ( 9.4 bits)
+S2: 16 (10.5 bits)

@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1qhdA01 2.60.120.170 3_5_0/159-328
+
+Length=170
+
+Subject= 1uf2C02 2.60.120.170 3_5_0/146-302
+
+Length=157
+
+
+ Score = 15.4 bits (28),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 6/6 (100%), Positives = 6/6 (100%), Gaps = 0/6 (0%)
+
+Query  119  FGTIIA  124
+            FGTIIA
+Sbjct  87   FGTIIA  92
+
+
+ Score = 12.7 bits (21),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 5/11 (45%), Positives = 6/11 (55%), Gaps = 0/11 (0%)
+
+Query  103  IEFLLNGQIIN  113
+            + F L G  IN
+Sbjct  124  LSFSLGGGNIN  134
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21128
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

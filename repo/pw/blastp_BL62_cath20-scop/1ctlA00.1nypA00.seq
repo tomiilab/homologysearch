@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1ctlA00 2.10.110.10 3_5_0/1-85
+
+Length=85
+
+Subject= 1nypA00 2.10.110.10 3_5_0/1-66
+
+Length=66
+
+
+ Score = 39.3 bits (90),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 31/64 (48%), Gaps = 2/64 (3%)
+
+Query  7   GSDGCPRCGQAVYAAE-KVIGA-GKSWHKSCFRCAKCGKSLESTTLADKDGEIYCKGCYA  64
+           GS G P CG      E +V+ A GK WH   F CAKC K        ++ G  YC+  Y 
+Sbjct  1   GSMGVPICGACRRPIEGRVVNAMGKQWHVEHFVCAKCEKPFLGHRHYERKGLAYCETHYN  60
+
+Query  65  KNFG  68
+           + FG
+Sbjct  61  QLFG  64
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4602
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

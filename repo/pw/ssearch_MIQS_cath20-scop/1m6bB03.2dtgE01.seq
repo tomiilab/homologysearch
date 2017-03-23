@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1m6bB03.seq ./repo/cath20-scop/2dtgE01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1m6bB03.seq
+  1>>>1m6bB03 3.80.20.20 3_5_0/310-513 - 204 aa
+Library: ./repo/cath20-scop/2dtgE01.seq
+      188 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1345;  K=0.01066
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+2dtgE01 3.80.20.20 3_5_0/4-191                     ( 188)  190 43.4 3.3e-09
+
+>2dtgE01 3.80.20.20
+3_5_0/4-191                                             
+Length=188
+
+ Score = 43.4 bits (190),  Expect = 3e-09
+ Identities = 45/168 (26%), Positives = 93/168 (55%), Gaps = 19/168 (11%)
+
+Query  18   SNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPH 77
+            + +  + NC+ I G+L++L+       +   P  D   L+ F  +  IT YL +      
+Sbjct  15   TRLHELENCSVIEGHLQILLM------FKTRPE-DFRDLS-FPKLIMITDYLLLFRVYGL 66
+
+Query  78   MHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLCYH 137
+                 +F NLT I G  L+   ++L+I++ +++  LG+ +L +I+ G + I  N +LCY 
+Sbjct  67   ESLKDLFPNLTVIRGSRLFFN-YALVIFEMVHLKELGLYNLMNITRGSVRIEKNNELCYL 125
+
+Query  138  HSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPGPGQCLSCRNYSR 197
+             +++W+++L    ++++ ++ +    +C   G +C P  + G      P  +++ +   R
+Sbjct  126  ATIDWSRILDSVEDNHIVLNKD-DNEEC---GDIC-PGTAKGKT--NCPATVINGQFVER 178
+
+Query  198  GGVCVTH 204
+               C TH
+Sbjct  179  ---CWTH 182
+
+
+
+204 residues in 1 query   sequences
+188 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:19 2015 done: Wed Dec  2 17:50:19 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

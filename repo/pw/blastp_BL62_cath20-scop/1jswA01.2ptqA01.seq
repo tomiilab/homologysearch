@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1jswA01 1.10.275.10 3_5_0/6-142
+
+Length=137
+
+Subject= 2ptqA01 1.10.275.10 3_5_0/1-117
+
+Length=117
+
+
+ Score = 16.2 bits (30),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 10/20 (50%), Gaps = 2/20 (10%)
+
+Query  13  PADAYYG--VHTLRAIENFY  30
+           P D  YG  V  LR I + Y
+Sbjct  11  PVDGRYGDKVSALRGIFSEY  30
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12669
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

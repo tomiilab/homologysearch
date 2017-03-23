@@ -1,0 +1,41 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1cooA00.seq ./repo/cath20-scop/3etlA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1cooA00.seq
+  1>>>1cooA00 1.10.150.20 3_5_0/249-329 - 81 aa
+Library: ./repo/cath20-scop/3etlA01.seq
+       65 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.2129;  K=0.08458
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+3etlA01 1.10.150.20 3_5_0/2-66                     (  65)   32 13.4    0.39
+
+>3etlA01 1.10.150.20
+3_5_0/2-66                                             
+Length=65
+
+ Score = 13.4 bits (32),  Expect = 0.4
+ Identities = 8/38 (21%), Positives = 23/38 (60%), Gaps = 2/38 (5%)
+
+Query  32   DLVQRTEVELLKTPNL-GKKSLTEIKDVLASRGLS-LGMR 69
+            D+++ +   + +  ++ G    +  K ++A+R L+ LG++
+Sbjct  25   DFMKIATATIGELTDIEGISEKAAAKMIMAARDLCDLGFK 64
+
+
+
+81 residues in 1 query   sequences
+65 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:25 2015 done: Wed Dec  2 17:50:25 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

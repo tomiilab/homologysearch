@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2gz4A00 1.10.3210.10 3_5_0/6-205
+
+Length=200
+
+Subject= 3bg2A01 1.10.3210.10 3_5_0/2-120_157-244
+
+Length=189
+
+
+ Score = 13.5 bits (23),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 7/26 (27%), Positives = 10/26 (38%), Gaps = 0/26 (0%)
+
+Query  148  GFSTAEAQKFFGLPRGITRDMFDIIP  173
+            GF     +  F  P    +D   +IP
+Sbjct  29   GFEVDYDRIIFSAPFRSLQDKTQVIP  54
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 30420
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

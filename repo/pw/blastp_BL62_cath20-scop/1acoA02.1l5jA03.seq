@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1acoA02 3.40.1060.10 3_5_0/203-315
+
+Length=113
+
+Subject= 1l5jA03 3.40.1060.10 3_5_0/382-401_530-682
+
+Length=173
+
+
+ Score = 14.6 bits (26),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 5/12 (42%), Positives = 7/12 (58%), Gaps = 0/12 (0%)
+
+Query  27   TVKGGTGAIVEY  38
+            T+K     I+EY
+Sbjct  99   TIKLNKEPIIEY  110
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15484
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

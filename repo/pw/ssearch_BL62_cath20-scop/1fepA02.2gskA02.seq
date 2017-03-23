@@ -1,0 +1,73 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1fepA02.seq ./repo/cath20-scop/2gskA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1fepA02.seq
+  1>>>1fepA02 2.40.170.20 3_5_0/152-724 - 531 aa
+Library: ./repo/cath20-scop/2gskA02.seq
+      464 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.0837;  K=0.007073
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.030
+
+The best scores are:                                      s-w bits E(1)
+2gskA02 2.40.170.20 3_5_0/131-594                  ( 464)  254 37.8   1e-06
+
+>2gskA02 2.40.170.20
+3_5_0/131-594                                          
+Length=464
+
+ Score = 37.8 bits (254),  Expect = 1e-06
+ Identities = 127/426 (29%), Positives = 207/426 (48%), Gaps = 97/426 (22%)
+
+Query  19   GATKRTNFSLTGP--LGDEFSFRLYGNLDKTQADAWDI-NQGHQSARAGTYATTLPAGRE 75
+            G+    N+ ++    LGD+    L G  D      +D+   G+     GT A T     +
+Sbjct  15   GSNSYQNYDVSTQQQLGDKTRVTLLG--DYAHTHGYDVVAYGN----TGTQAQT---DND 65
+
+Query  76   GVINKDINGVVRWDFAPLQSLELEAGYSRQGNLYAGDTQNTNSDSYTRSKYGD-----ET 130
+            G ++K + G +  +F    S     G+ R G  Y  D + TN D+Y    Y       +T
+Sbjct  66   GFLSKTLYGALEHNFTDAWS-----GFVR-G--YGYDNR-TNYDAY----YSPGSPLLDT 112
+
+Query  131  NRLYRQNYALTWNGGWD-NG-VTTSNWV-QYEHTRNSRIPEGLAGQDFVDIDLDDVLHSE 187
+             +LY Q+    W+ G   NG +  S  +  Y H+++          D     LD++    
+Sbjct  113  RKLYSQS----WDAGLRYNGELIKSQLITSYSHSKDYNYDPHYGRYDS-SATLDEMKQYT 167
+
+Query  188  VNLPIDFLVNQ-TLTLGTEWNQQRKDLSSNTQADRSPYSKAEIFSLFAENNELTDSTIVT 246
+            V    + +V   ++  G +W  Q++  +  T      Y +           ++ D T   
+Sbjct  168  VQWANNVIVGHGSIGAGVDW--QKQTTTPGTGYVEDGYDQRNTGIYLTGLQQVGDFTF-E 224
+
+Query  247  PGLRFDHHSIVGNN--WSPALNISQGLGDDFTLKGIARAYKAPSLYQTNPNYILYSKGQG 304
+               R D +S  G +  W  +       G  F +     +YKAP+L Q      LY    G
+Sbjct  225  GAARSDDNSQFGRHGTWQTSAGWEFIEGYRF-IASYGTSYKAPNLGQ------LY----G 273
+
+Query  305  CYLQGNDDLKAETSINKEIGLEFKRDGWLAGVTWFRNDYRNKIEAGYVAVGQNAVGTDLY 364
+             Y  GN +L  E S   E   E    G  AGV W  + YRN +             +DL 
+Sbjct  274  FY--GNPNLDPEKSKQWEGAFE----GLTAGVNWRISGYRNDV-------------SDLI 314
+
+Query  365  QWD-------NVPKAVVEGLEGSLNV---PVSETVWTNNITYLKSENKTTGDRLSIIPEY 414
+             +D       N  KA ++G+E + N    P++ TV   +  Y+ + N  T   L    + 
+Sbjct  315  DYDDHTLKYYNEGKARIKGVEATANFDTGPLTHTV---SYDYVDARNAITDTPLLRRAKQ 371
+
+Query  415  TLNSTLSWQAREDLSQTTFTWYGKQQPKKYNYKGQPAVGPETKEISPYSIVGLSATWDVT 474
+             +   L WQ  +     T+ + G +  K  +Y   P    +T ++   S+  L+  + VT
+Sbjct  372  QVKYQLDWQLYDFDWGITYQYLGTRYDK--DYSSYPY---QTVKMGGVSLWDLAVAYPVT 426
+
+Query  475  KNVSLTGGVDNLFDKRLWRAGNAQTTGDLAGANYIAGAGAYTY 517
+             ++++ G + NLFDK        QT    AG  Y   +G+YT+
+Sbjct  427  SHLTVRGKIANLFDKDYETVYGYQT----AGREYTL-SGSYTF 464
+
+
+
+531 residues in 1 query   sequences
+464 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:37 2015 done: Wed Dec  2 17:53:37 2015
+ Total Scan time:  0.030 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

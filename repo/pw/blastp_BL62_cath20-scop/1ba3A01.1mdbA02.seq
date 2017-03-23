@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1ba3A01 3.40.50.980 3_5_0/56-213
+
+Length=156
+
+Subject= 1mdbA02 3.40.50.980 3_5_0/180-353
+
+Length=174
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21528
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

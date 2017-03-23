@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1auwA01 1.10.275.10 3_5_0/27-123_195-234
+
+Length=137
+
+Subject= 1dofA02 1.10.275.10 3_5_0/2-94
+
+Length=85
+
+
+ Score = 15.4 bits (28),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 7/20 (35%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  18  AYAKALEKAGILTKTELEKI  37
+           A   ALE+ G+  +   EK+
+Sbjct  33  ALVCALEELGVAERGCCEKV  52
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9125
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1kbzA02 3.90.25.10 3_5_0/162-184_221-264_281-298
+
+Length=85
+
+Subject= 2p5uA02 3.90.25.10 3_5_0/175-215_242-311
+
+Length=111
+
+
+ Score = 11.9 bits (19),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 9/35 (26%), Positives = 14/35 (40%), Gaps = 4/35 (11%)
+
+Query  35  DEARKAGITLALTE--LNAVPTSAYPTPASRPGNS  67
+           D   +AG+     E  L  +P + Y      PG+ 
+Sbjct  5   DPHGEAGVVAIFAERVLKGLPVTLYAR--KTPGDE  37
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.127    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7575
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

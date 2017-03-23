@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1itkA04 1.10.420.10 3_5_0/581-709
+
+Length=129
+
+Subject= 1mn1A02 1.10.420.10 3_5_0/142-272_302-342
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 17628
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

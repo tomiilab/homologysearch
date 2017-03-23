@@ -1,0 +1,49 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1ba3A01.seq ./repo/cath20-scop/3cw8X01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1ba3A01.seq
+  1>>>1ba3A01 3.40.50.980 3_5_0/56-213 - 156 aa
+Library: ./repo/cath20-scop/3cw8X01.seq
+      174 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.2389;  K=0.0343
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+3cw8X01 3.40.50.980 3_5_0/1-174                    ( 174)   61 25.9 0.00044
+
+>3cw8X01 3.40.50.980
+3_5_0/1-174                                            
+Length=174
+
+ Score = 25.9 bits (61),  Expect = 0.0004
+ Identities = 33/136 (24%), Positives = 54/136 (39%), Gaps = 21/136 (15%)
+
+Query  3    EMSVRLAEAMKRY---GLNTNHRIVVCSENSLQFFMPVLGALFIGVAVAPANDIYNEREL 59
+            E+  R+     R    GL    R+ V + NS    + +L    +G   A  N      EL
+Sbjct  34   ELRARVEAVAARLHADGLRPQQRVAVVAPNSADVVIAILALHRLGAVPALLNPRLKSAEL 93
+
+Query  60   LNSMNISQPT--VVFVSKKGLQKILNVQKKLPIIQKIIIMDSKTDYQGFQSMYTFVTSHL 117
+               +   + T  V+ V ++    I        II    + D   D + +        S+ 
+Sbjct  94   AELIKRGEMTAAVIAVGRQVADAIFQSGSGARII---FLGDLVRDGEPY--------SYG 142
+
+Query  118  PPGFNEYDFVPESFDRDKTIALIMNSSTGLPKGVALP 154
+            PP   +    P+            + +TGLPK   +P
+Sbjct  143  PP-IED----PQREPAQPAFIFYTSGTTGLPKAAIIP 174
+
+
+
+156 residues in 1 query   sequences
+174 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:38 2015 done: Wed Dec  2 17:53:38 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

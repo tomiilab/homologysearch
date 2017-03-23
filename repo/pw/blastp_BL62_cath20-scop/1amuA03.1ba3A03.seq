@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1amuA03 2.30.38.10 3_5_0/346-426
+
+Length=81
+
+Subject= 1ba3A03 2.30.38.10 3_5_0/359-435
+
+Length=77
+
+
+ Score = 29.6 bits (65),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 23/52 (44%), Gaps = 6/52 (12%)
+
+Query  24  VGEAGELCIGGEGLARGYWKRPELTSQKFVDNPFVPGEKLYKTGDQARWLSD  75
+           V + GELC+ G  +  GY   PE T      N  +  +    +GD A W  D
+Sbjct  26  VNQRGELCVRGPMIMSGYVNNPEAT------NALIDKDGWLHSGDIAYWDED  71
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.140    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5180
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

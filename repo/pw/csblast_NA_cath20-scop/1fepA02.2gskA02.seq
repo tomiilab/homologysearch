@@ -1,0 +1,117 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1fepA02 2.40.170.20 3_5_0/152-724
+         (531 letters)
+
+Database: ./repo/cath20-scop/2gskA02.seq 
+           1 sequences; 464 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+2gskA02 2.40.170.20 3_5_0/131-594                                      50   2e-10
+
+>2gskA02 2.40.170.20 3_5_0/131-594
+          Length = 464
+
+ Score = 50.3 bits (119), Expect = 2e-10,   Method: Composition-based stats.
+ Identities = 57/225 (25%), Positives = 89/225 (39%), Gaps = 41/225 (18%)
+
+Query: 284 YKAPSLYQTNPNYILYSKGQGCYLQGNDDLKAETSINKEIGLEFKRDGWLAGVTWFRNDY 343
+           YKAP+L Q    Y            GN +L  E S   E   E    G  AGV W  + Y
+Sbjct: 263 YKAPNLGQLYGFY------------GNPNLDPEKSKQWEGAFE----GLTAGVNWRISGY 306
+
+Query: 344 RNKIEAGYVAVGQNAVGTDLYQWD-------NVPKAVVEGLEGSLNVPVSETVWTNNITY 396
+           RN +             +DL  +D       N  KA ++G+E + N        T +  Y
+Sbjct: 307 RNDV-------------SDLIDYDDHTLKYYNEGKARIKGVEATANFDTGPLTHTVSYDY 353
+
+Query: 397 LKSENKTTGDRLSIIPEYTLNSTLSWQAREDLSQTTFTWYGKQQPKKYNYKGQPAVGPET 456
+           + + N  T   L    +  +   L WQ  +     T+ + G +  K Y+     +   +T
+Sbjct: 354 VDARNAITDTPLLRRAKQQVKYQLDWQLYDFDWGITYQYLGTRYDKDYS-----SYPYQT 408
+
+Query: 457 KEISPYSIVGLSATWDVTKNVSLTGGVDNLFDKRLWRAGNAQTTG 501
+            ++   S+  L+  + VT ++++ G + NLFDK        QT G
+Sbjct: 409 VKMGGVSLWDLAVAYPVTSHLTVRGKIANLFDKDYETVYGYQTAG 453
+
+
+
+ Score = 17.6 bits (34), Expect = 1.0,   Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 15/30 (50%), Gaps = 1/30 (3%)
+
+Query: 9   YFNAPEHKEEGATKRTNFSLTGPLGDEFSF 38
+           Y+N  + + +G     NF  TGPL    S+
+Sbjct: 323 YYNEGKARIKGVEATANFD-TGPLTHTVSY 351
+
+
+
+ Score = 16.8 bits (32), Expect = 1.9,   Method: Composition-based stats.
+ Identities = 10/31 (32%), Positives = 14/31 (45%)
+
+Query: 111 GDTQNTNSDSYTRSKYGDETNRLYRQNYALT 141
+           G     N D  T+ + GD+T      +YA T
+Sbjct: 15  GSNSYQNYDVSTQQQLGDKTRVTLLGDYAHT 45
+
+
+  Database: ./repo/cath20-scop/2gskA02.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 464
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.316    0.145    0.488 
+
+Lambda     K      H
+   0.267   0.0442    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 1129
+Number of Sequences: 1
+Number of extensions: 86
+Number of successful extensions: 21
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 7
+length of query: 531
+length of database: 464
+effective HSP length: 34
+effective length of query: 497
+effective length of database: 430
+effective search space:   213710
+effective search space used:   213710
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 22 (12.8 bits)
+S2: 22 (13.0 bits)

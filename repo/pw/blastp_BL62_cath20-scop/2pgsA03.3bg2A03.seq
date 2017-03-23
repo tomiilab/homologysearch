@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 2pgsA03 1.10.3410.10 3_5_0/241-353
+
+Length=94
+
+Subject= 3bg2A03 1.10.3410.10 3_5_0/245-359
+
+Length=96
+
+
+ Score = 44.7 bits (104),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 41/86 (48%), Gaps = 20/86 (23%)
+
+Query  1   AADDICYALIDLEDGLEDLLDYAEVESLLLGLVGRR--------KLAILRGKAIEHLTNA  52
+           AADDICY +ID EDG+             LGL+           +++ LR  AI  L N 
+Sbjct  7   AADDICYTIIDFEDGIN------------LGLIPEYNALQETSDRVSYLRALAIGTLINE  54
+
+Query  53  AARAFVEQQDALLAGTLPGDLVEHHG  78
+           +   F++ ++ +LAGT    L++   
+Sbjct  55  SVDTFMKYEEEILAGTFDQSLIDKSN  80
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7224
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

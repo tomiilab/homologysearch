@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1ahuA01 3.30.43.10 3_5_0/6-128
+
+Length=123
+
+Subject= 3i99A01 3.30.43.10 3_5_0/9-82
+
+Length=71
+
+
+ Score = 23.9 bits (50),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 30/61 (49%), Gaps = 7/61 (11%)
+
+Query  40  QIVDGSYMKPTHTHDPHHVMDQDYFLASAIVAPRNVADVQSIVGLANKFSFPLWPISIGR  99
+           QI  G+ +KP HT      ++Q   LA+ +V   ++ D++++   A   S P   I  G 
+Sbjct  3   QIQLGANLKPYHTFG----IEQ---LAAQLVVAESIDDLKALYCSAEWASLPKLIIGKGS  55
+
+Query  100 N  100
+           N
+Sbjct  56  N  56
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6893
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

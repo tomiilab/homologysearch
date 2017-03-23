@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 2quiA02 1.10.240.10 3_5_0/340-471
+
+Length=132
+
+Subject= 2yy5A02 1.10.240.10 3_5_0/191-309
+
+Length=119
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12390
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

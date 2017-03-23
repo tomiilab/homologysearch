@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2x3fA02 3.30.1300.10 3_5_0/179-278
+
+Length=100
+
+Subject= 3ivcA02 3.30.1300.10 3_5_0/186-298
+
+Length=113
+
+
+ Score = 28.9 bits (63),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  1   EADGLAKSSRNVYLTEQER  19
+           EADGLA SSRN YL   +R
+Sbjct  4   EADGLAMSSRNRYLDPAQR  22
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9078
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

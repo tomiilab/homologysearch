@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1k6iA02 3.90.25.10 3_5_0/152-190_220-274_329-351
+
+Length=117
+
+Subject= 2hrzA02 3.90.25.10 3_5_0/187-231_260-290_315-336
+
+Length=98
+
+
+ Score = 16.9 bits (32),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 7/12 (58%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  80  EQLEAIEVVFGE  91
+           EQ+EA+  V GE
+Sbjct  53  EQIEALRKVAGE  64
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9030
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

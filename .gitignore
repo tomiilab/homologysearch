@@ -1,0 +1,9 @@
+*.pyc
+temp/
+repo/raw
+repo/blastpgpdb
+repo/blastdb
+repo/lastdb
+repo/lastmdb
+repo/fastadb
+*.png

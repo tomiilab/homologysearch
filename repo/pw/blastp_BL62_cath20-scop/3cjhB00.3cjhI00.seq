@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 3cjhB00 1.10.287.810 3_5_0/28-86
+
+Length=59
+
+Subject= 3cjhI00 1.10.287.810 3_5_0/46-99
+
+Length=54
+
+
+ Score = 21.2 bits (43),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 7/30 (23%), Positives = 18/30 (60%), Gaps = 4/30 (13%)
+
+Query  17  CFKKCVESVNDSNLSSQEEQCLSNCVNRFL  46
+           CF+KC+     S  +++ + C+  C+ +++
+Sbjct  12  CFEKCL----TSPYATRNDACIDQCLAKYM  37
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2856
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

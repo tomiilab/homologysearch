@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1suwA01 3.40.50.10330 3_5_0/1-101_227-249
+
+Length=124
+
+Subject= 2an1A01 3.40.50.10330 3_5_0/4-127_265-292
+
+Length=145
+
+
+ Score = 41.6 bits (96),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 40/78 (51%), Gaps = 5/78 (6%)
+
+Query  21   KRLEVEVELFNQPSEEL----ENFDFIVSVGGDGTILRILQKLKRCP-PIFGINTGRVGL  75
+            +++  E++L N P+  L    +  D  V VGGDG +L   + L R    + GIN G +G 
+Sbjct  31   QQIAHELQLKNVPTGTLAEIGQQADLAVVVGGDGNMLGAARTLARYDINVIGINRGNLGF  90
+
+Query  76   LTHASPENFEVELKKAVE  93
+            LT   P+N   +L   +E
+Sbjct  91   LTDLDPDNALQQLSDVLE  108
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.142    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14170
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

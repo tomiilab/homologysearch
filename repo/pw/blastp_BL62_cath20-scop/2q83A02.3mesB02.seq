@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2q83A02 3.90.1200.10 3_5_0/125-357
+
+Length=226
+
+Subject= 3mesB02 3.90.1200.10 3_5_0/111-137_152-423
+
+Length=288
+
+
+ Score = 15.8 bits (29),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 5/10 (50%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  137  DLPIRDLRKI  146
+            D P  +LRK+
+Sbjct  196  DYPCEELRKL  205
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 53328
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

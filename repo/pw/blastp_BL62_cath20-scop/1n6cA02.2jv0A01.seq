@@ -1,0 +1,53 @@
+BLASTP 2.2.27+
+
+
+Query= 1n6cA02 2.170.270.10 3_5_0/194-363
+
+Length=168
+
+Subject= 2jv0A01 2.170.270.10 3_5_0/9-161
+
+Length=152
+
+
+ Score = 20.4 bits (41),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  127  RTLRAVEADEELTVAYGYSPP  147
+            +TL+ +   EEL V YG   P
+Sbjct  117  KTLKPIAPGEELLVWYGEDNP  137
+
+
+ Score = 14.6 bits (26),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 5/8 (63%), Positives = 7/8 (88%), Gaps = 0/8 (0%)
+
+Query  79  ETVIDVPE  86
+           ET+ +VPE
+Sbjct  5   ETLAEVPE  12
+
+
+ Score = 11.2 bits (17),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 3/10 (30%), Positives = 5/10 (50%), Gaps = 0/10 (0%)
+
+Query  150  SGPEAPEWYQ  159
+            + PE   W +
+Sbjct  83   TDPEKGNWLR  92
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20385
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

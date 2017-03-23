@@ -1,0 +1,65 @@
+BLASTP 2.2.27+
+
+
+Query= 1fepA02 2.40.170.20 3_5_0/152-724
+
+Length=531
+
+Subject= 2gskA02 2.40.170.20 3_5_0/131-594
+
+Length=464
+
+
+ Score = 48.1 bits (113),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 57/226 (25%), Positives = 90/226 (40%), Gaps = 41/226 (18%)
+
+Query  283  AYKAPSLYQTNPNYILYSKGQGCYLQGNDDLKAETSINKEIGLEFKRDGWLAGVTWFRND  342
+            +YKAP+L            GQ     GN +L  E S   E   E    G  AGV W  + 
+Sbjct  262  SYKAPNL------------GQLYGFYGNPNLDPEKSKQWEGAFE----GLTAGVNWRISG  305
+
+Query  343  YRNKIEAGYVAVGQNAVGTDLYQWD-------NVPKAVVEGLEGSLNVPVSETVWTNNIT  395
+            YRN +             +DL  +D       N  KA ++G+E + N        T +  
+Sbjct  306  YRNDV-------------SDLIDYDDHTLKYYNEGKARIKGVEATANFDTGPLTHTVSYD  352
+
+Query  396  YLKSENKTTGDRLSIIPEYTLNSTLSWQAREDLSQTTFTWYGKQQPKKYNYKGQPAVGPE  455
+            Y+ + N  T   L    +  +   L WQ  +     T+ + G +  K Y+     +   +
+Sbjct  353  YVDARNAITDTPLLRRAKQQVKYQLDWQLYDFDWGITYQYLGTRYDKDYS-----SYPYQ  407
+
+Query  456  TKEISPYSIVGLSATWDVTKNVSLTGGVDNLFDKRLWRAGNAQTTG  501
+            T ++   S+  L+  + VT ++++ G + NLFDK        QT G
+Sbjct  408  TVKMGGVSLWDLAVAYPVTSHLTVRGKIANLFDKDYETVYGYQTAG  453
+
+
+ Score = 18.9 bits (37),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 15/30 (50%), Gaps = 1/30 (3%)
+
+Query  9    YFNAPEHKEEGATKRTNFSLTGPLGDEFSF  38
+            Y+N  + + +G     NF  TGPL    S+
+Sbjct  323  YYNEGKARIKGVEATANFD-TGPLTHTVSY  351
+
+
+ Score = 15.4 bits (28),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  117  NSDSYTRSKYGDETNRLYRQNYALT  141
+            N D  T+ + GD+T      +YA T
+Sbjct  21   NYDVSTQQQLGDKTRVTLLGDYAHT  45
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 213710
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

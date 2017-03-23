@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1phkA01 3.30.200.20 3_5_0/15-105
+
+Length=91
+
+Subject= 2y4iB01 3.30.200.20 3_5_0/653-743
+
+Length=91
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6724
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

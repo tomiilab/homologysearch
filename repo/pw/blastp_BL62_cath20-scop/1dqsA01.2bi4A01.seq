@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1dqsA01 3.40.50.1970 3_5_0/4-182
+
+Length=179
+
+Subject= 2bi4A01 3.40.50.1970 3_5_0/2-186
+
+Length=185
+
+
+ Score = 13.1 bits (22),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 9/12 (75%), Gaps = 1/12 (8%)
+
+Query  101  GRDTVVIALGGG  112
+            G D ++ A+GGG
+Sbjct  87   GADYLI-AIGGG  97
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 26560
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

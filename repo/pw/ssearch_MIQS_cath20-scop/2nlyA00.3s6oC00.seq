@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/2nlyA00.seq ./repo/cath20-scop/3s6oC00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/2nlyA00.seq
+  1>>>2nlyA00 3.20.20.370 3_5_0/31-254 - 216 aa
+Library: ./repo/cath20-scop/3s6oC00.seq
+      306 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1866;  K=0.03505
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+3s6oC00 3.20.20.370 3_5_0/3-308                    ( 306)   56 19.9   0.065
+
+>3s6oC00 3.20.20.370
+3_5_0/3-308                                            
+Length=306
+
+ Score = 19.9 bits (56),  Expect = 0.06
+ Identities = 30/191 (15%), Positives = 82/191 (42%), Gaps = 12/191 (6%)
+
+Query  7    IIDDFGGDVKGVDDFLTGEIPVTVAVMPFLEHSTKQAEIAQAA-GLEVIVHMPLEPKPSG 65
+            I+ +F  D +G+   + G + +++   P L ++  +     A+ G   I +  + P+   
+Sbjct  85   ILREF--DKRGLPLTVFG-VGMAIERHPELARAFVELGHEIACHGWRWIHYQDMTPEREA 141
+
+Query  66   ITSNLSVGEVKSRVRKAFDDIPYAVGLNNHMGSKIVENEKIMRAILEVVKEKNAFIIDSG 125
+                L +  ++ RV      + +  G ++    ++V +   +    +   +   F +D  
+Sbjct  142  EHMRLGMEAIE-RV-TGVRPLGWYTGRDSPNTHRLVAEYGGFLYDSDHYGDDLPFWMDVE 199
+
+Query  126  TSPHSLIPQLAEELEVPYATRSIFLDNTHSSRKEVIKNMRK----LAKKAKQGSEPIGIG 181
+             S  + +PQL     +      +   +  ++    +  +R     L ++  +  + + IG
+Sbjct  200  VSGGASVPQLIVPYTLDANDMRFATPQGFNTADHFFHYLRDAFDVLYEEGDEAPKMMSIG 259
+
+Query  182  -HVGVRGDE-TYAGIRSMLDEFQ 202
+             H+ + G    +  ++ +LD ++
+Sbjct  260  MHCRLLGRPGRFRALQRFLDHIE 282
+
+
+
+216 residues in 1 query   sequences
+306 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:17 2015 done: Wed Dec  2 17:50:17 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

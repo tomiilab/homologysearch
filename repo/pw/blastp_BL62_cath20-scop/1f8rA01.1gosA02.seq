@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1f8rA01 3.90.660.10 3_5_0/4-25_73-129_233-236_324-420
+
+Length=180
+
+Subject= 1gosA02 3.90.660.10 3_5_0/42-62_79-107_200-210_290-402
+
+Length=174
+
+
+ Score = 13.9 bits (24),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 6/15 (40%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  94   KFWEDDGIHGGKSTT  108
+            K W ++   GG  TT
+Sbjct  158  KNWCEEQYSGGCYTT  172
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.142    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 24955
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

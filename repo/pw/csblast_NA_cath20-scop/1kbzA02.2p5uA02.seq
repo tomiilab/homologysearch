@@ -1,0 +1,96 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1kbzA02 3.90.25.10 3_5_0/162-184_221-264_281-298
+         (85 letters)
+
+Database: ./repo/cath20-scop/2p5uA02.seq 
+           1 sequences; 111 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+2p5uA02 3.90.25.10 3_5_0/175-215_242-311                               13   0.86 
+
+>2p5uA02 3.90.25.10 3_5_0/175-215_242-311
+          Length = 111
+
+ Score = 13.3 bits (23), Expect = 0.86,   Method: Composition-based stats.
+ Identities = 3/10 (30%), Positives = 5/10 (50%)
+
+Query: 32 LVFDEARKAG 41
+          ++   A  AG
+Sbjct: 51 VLMAVAEAAG 60
+
+
+
+ Score = 12.5 bits (21), Expect = 1.2,   Method: Composition-based stats.
+ Identities = 8/30 (26%), Positives = 13/30 (43%), Gaps = 4/30 (13%)
+
+Query: 39 KAGITLALTE--LNAVPTSAYPTPASRPGN 66
+          +AG+     E  L  +P + Y      PG+
+Sbjct: 9  EAGVVAIFAERVLKGLPVTLYA--RKTPGD 36
+
+
+  Database: ./repo/cath20-scop/2p5uA02.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 111
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.315    0.154    0.515 
+
+Lambda     K      H
+   0.267   0.0474    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 32
+Number of Sequences: 1
+Number of extensions: 2
+Number of successful extensions: 2
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 2
+length of query: 85
+length of database: 111
+effective HSP length: 10
+effective length of query: 75
+effective length of database: 101
+effective search space:     7575
+effective search space used:     7575
+T: 11
+A: 40
+X1: 10 ( 4.5 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 9 ( 6.8 bits)
+S2: 10 ( 8.3 bits)

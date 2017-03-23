@@ -1,0 +1,49 @@
+BLASTP 2.2.27+
+
+
+Query= 1r2cC02 1.10.468.10 3_5_0/143-313
+
+Length=171
+
+Subject= 5prcC01 1.10.468.10 3_5_0/1-144_315-332
+
+Length=162
+
+
+ Score = 25.8 bits (55),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 32/81 (40%), Gaps = 18/81 (22%)
+
+Query  91   MMSISD--SLGTNCTFCHNAQTFESWGKKSTPQRAIAWWGIRMVRDLNMNYLAPLNASLP  148
+            M +I++  S    CT+CH+     S  K       +A   + M R +N N+         
+Sbjct  74   MTAITEWVSPQEGCTYCHDENNLASEAKYP---YVVARRMLEMTRAINTNW---------  121
+
+Query  149  ASRLGRQGEAPQADCRTCHQG  169
+               + + G      C TCH+G
+Sbjct  122  TQHVAQTG----VTCYTCHRG  138
+
+
+ Score = 14.2 bits (25),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 16/57 (28%), Positives = 22/57 (39%), Gaps = 5/57 (9%)
+
+Query  25   ETRSGYVVRLAKYTAYSALNYDPFTMFLANDKRQV----RVVPQTALPLVGVSRGKE  77
+            E +  YVV         A+N + +T  +A          R  P    PL G SR K+
+Sbjct  99   EAKYPYVVARRMLEMTRAINTN-WTQHVAQTGVTCYTCHRGTPLPPYPLFGASRLKD  154
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22032
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

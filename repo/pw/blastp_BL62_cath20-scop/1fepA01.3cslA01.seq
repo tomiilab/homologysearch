@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1fepA01 2.170.130.10 3_5_0/11-146
+
+Length=133
+
+Subject= 3cslA01 2.170.130.10 3_5_0/113-240
+
+Length=128
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13566
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

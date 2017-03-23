@@ -1,0 +1,57 @@
+BLASTP 2.2.27+
+
+
+Query= 1b37A02 3.90.660.10 3_5_0/88-186_293-411
+
+Length=218
+
+Subject= 1gosA02 3.90.660.10 3_5_0/42-62_79-107_200-210_290-402
+
+Length=174
+
+
+ Score = 14.2 bits (25),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 5/18 (28%), Positives = 11/18 (61%), Gaps = 0/18 (0%)
+
+Query  143  EKQYPDANVLLVTVTDEE  160
+            E+++P  +V+   V  +E
+Sbjct  58   ERKFPLGSVIKCIVYYKE  75
+
+
+ Score = 13.9 bits (24),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 8/64 (13%), Positives = 28/64 (44%), Gaps = 3/64 (5%)
+
+Query  147  PDAN--VLLVTVTDEESRRIEQQSDEQTKAEIMQVLRKMFPGKDVPDATDILVPRWWSDR  204
+            P+ N   ++  +   ++R++ + + E+   ++ ++  K+    +  +        W  ++
+Sbjct  105  PEGNYAAIMGFILAHKARKLARLTKEERLKKLCELYAKVLGSLEALEPVHYEEKNWCEEQ  164
+
+Query  205  FYKG  208
+             Y G
+Sbjct  165  -YSG  167
+
+
+ Score = 13.5 bits (23),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 4/11 (36%), Positives = 6/11 (55%), Gaps = 0/11 (0%)
+
+Query  200  WWSDRFYKGTF  210
+            +W  + Y GT 
+Sbjct  77   FWRKKDYCGTM  87
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 30492
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

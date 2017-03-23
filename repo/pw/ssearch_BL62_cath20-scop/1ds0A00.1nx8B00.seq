@@ -1,0 +1,57 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/1ds0A00.seq ./repo/cath20-scop/1nx8B00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1ds0A00.seq
+  1>>>1ds0A00 3.60.130.10 3_5_0/2-324 - 323 aa
+Library: ./repo/cath20-scop/1nx8B00.seq
+      256 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1714;  K=0.006759
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+1nx8B00 3.60.130.10 3_5_0/2-272                    ( 256)   66 23.5  0.0068
+
+>1nx8B00 3.60.130.10
+3_5_0/2-272                                            
+Length=256
+
+ Score = 23.5 bits (66),  Expect = 0.007
+ Identities = 58/186 (31%), Positives = 92/186 (49%), Gaps = 58/186 (31%)
+
+Query  88   RSLLTMEAMLGLVGRRLGLHTG-YRELRS--GTVYHDVYPSPGAHH-----LSSE----- 134
+            ++LL  +    +V + L + +  +R++ S  GT+    Y   G  +     L  E     
+Sbjct  32   KNLLMRQGF--VVVKNLDIDSDTFRDIYSAYGTIVE--YAGVGFGYRDTLKLEGEKGKIV 87
+
+Query  135  TSETLLEFHTEMAYHRLQPNYVMLACSRADHER-TAATLV---ASVRKALP-----LLDE 185
+            T    L FH +      Q + V L  +   + +   AT V   A   + +P     +L+E
+Sbjct  88   TGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEE 147
+
+Query  186  RT-RARLLDR-RMPCCVDVAFRGGVD--------DPGAIAQVKP-LYGDADDPFLGYDRE 234
+             T   R+L   ++P   D+   G V         D G  A  +P + G  D     + +E
+Sbjct  148  ETFEVRVLGWFKVPVFTDL---GWVRKMLIYFPFDEGQPASWEPRIVGFTDHETQAFFQE 204
+
+Query  235  LLAPEDPADKEAVAALSKALDEVTEAVYLEPGDLLIVDNFRTTHARTPFSPRWDGKDRWL 294
+            L             A  K         + E GDLLI+DN R  H R  F+      D  +
+Sbjct  205  L------------GAFLKQ-PRYYYKHFWEDGDLLIMDNRRVIHEREEFND-----DDIV 246
+
+Query  295  HRVY 298
+             R+Y
+Sbjct  247  RRLY 250
+
+
+
+323 residues in 1 query   sequences
+256 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:39 2015 done: Wed Dec  2 17:53:39 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

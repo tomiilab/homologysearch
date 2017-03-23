@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2p4vA02 3.10.50.30 3_5_0/77-156
+
+Length=80
+
+Subject= 2pn0A02 3.10.50.30 3_5_0/46-127
+
+Length=80
+
+
+ Score = 18.5 bits (36),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 19/46 (41%), Gaps = 10/46 (22%)
+
+Query  24  THRFRIVGYDEIFGRKDY----------ISIDSPMARALLKKEVGD  59
+           T RFR+    E F    Y          ISI +P+  ALL    GD
+Sbjct  14  TVRFRVESSAEEFLTLVYPKDVDTSGEKISILAPVGSALLGLAQGD  59
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5184
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1n3jA00 2.170.270.10 3_5_0/1-119
+
+Length=119
+
+Subject= 1n6cA02 2.170.270.10 3_5_0/194-363
+
+Length=168
+
+
+ Score = 23.9 bits (50),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 26/56 (46%), Gaps = 7/56 (13%)
+
+Query  56   NMSAMALGFGAIFNHSKDPNA-----RHELTAGLKRMRIFTIKPIAIGEEITISYG  106
+            ++S      G   NHS  PN       H     +K +R  T++ +   EE+T++YG
+Sbjct  90   HVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIR--TLRAVEADEELTVAYG  143
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15656
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

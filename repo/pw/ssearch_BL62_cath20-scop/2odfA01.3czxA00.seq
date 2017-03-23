@@ -1,0 +1,49 @@
+# ssearch36 -s BL62 ./repo/cath20-scop/2odfA01.seq ./repo/cath20-scop/3czxA00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/2odfA01.seq
+  1>>>2odfA01 3.40.630.40 3_5_0/15-257 - 243 aa
+Library: ./repo/cath20-scop/3czxA00.seq
+      178 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1933;  K=0.01547
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL62 matrix (11:-4), open/ext: -7/-1
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+3czxA00 3.40.630.40 3_5_0/0-181                    ( 178)   51 20.2   0.034
+
+>3czxA00 3.40.630.40
+3_5_0/0-181                                            
+Length=178
+
+ Score = 20.2 bits (51),  Expect = 0.03
+ Identities = 39/141 (27%), Positives = 70/141 (49%), Gaps = 36/141 (25%)
+
+Query  39   SSHAAWDPGALAVARLLSEKFHATLVYQRFSRLVYDCNRPPESPSAMPVKSEIYDIPGNF 98
+            + H+  DPGA+      S++  A L   R   +V    R   +   + VK++     GN 
+Sbjct  9    AGHSNTDPGAVNG----SDR-EADLAQDR--NIVASILR---NDYGLTVKTDGTG-KGN- 56
+
+Query  99   DLDEAERFARTSALYVPFHDRVSEIIAERQAAGRKVVVVTIHSFTPVYHGRFREVEIGIL 158
+             L +A +  R S + + FH   +   A + A G       I + +   + R+ +V     
+Sbjct  57   PLRDAVKLIRGSDVAIEFHTNAA---ANKTATG-------IEALSTPKNKRWCQV----- 101
+
+Query  159  HDNDSRLADAMLAGAEGASLTVRRNDPYGPEDGVTHTLRLHALPDGLLNVMIEIRND 215
+                  L  A+   A+     +R  D + P++   H+   +A   G++     I ND
+Sbjct  102  ------LGKAV---AKKTGWKLRGEDGFKPDNAGQHSRLAYAQAGGIVFEPFFISND 149
+
+
+
+243 residues in 1 query   sequences
+178 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:53:39 2015 done: Wed Dec  2 17:53:39 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

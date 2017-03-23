@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1jeqA04 1.10.1600.10 3_5_0/440-534
+
+Length=95
+
+Subject= 1jeyB03 1.10.1600.10 3_5_0/444-545
+
+Length=102
+
+
+ Score = 16.2 bits (30),  Expect = 0.059, Method: Compositional matrix adjust.
+ Identities = 9/28 (32%), Positives = 13/28 (46%), Gaps = 0/28 (0%)
+
+Query  34  YRSDSFENPVLQQHFRNLEALALDLMEP  61
+           + +    NP  Q+ F+ L   AL   EP
+Sbjct  34  FPTTKIPNPRFQRLFQCLLHRALHPREP  61
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7820
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

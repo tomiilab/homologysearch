@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1ovqA00 3.30.420.140 3_5_0/1-138
+
+Length=138
+
+Subject= 2oceA03 3.30.420.140 3_5_0/328-455
+
+Length=128
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13899
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

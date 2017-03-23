@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1r0vA01.seq ./repo/cath20-scop/1y1oA00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1r0vA01.seq
+  1>>>1r0vA01 3.40.1350.10 3_5_0/62-138 - 77 aa
+Library: ./repo/cath20-scop/1y1oA00.seq
+      166 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1972;  K=0.06819
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+1y1oA00 3.40.1350.10 3_5_0/32-198                  ( 166)   39 15.0    0.33
+
+>1y1oA00 3.40.1350.10
+3_5_0/32-198                                          
+Length=166
+
+ Score = 15.0 bits (39),  Expect = 0.3
+ Identities = 12/57 (21%), Positives = 25/57 (43%), Gaps = 7/57 (12%)
+
+Query  10   EDLRDRGNKVKIQGEFLLTKKPYLPISERKTIRMEEIAEKARNFDELRLAVVDEESEITY 69
+            +DL    +  + +G  ++ KKP         +++  +    R+   +  A   + S   Y
+Sbjct  4    DDLNATNEYYRERGIAVIHKKP-------TPVQIVRVDYPKRSAAVITEAYFRQASTTDY 56
+
+Query  70   FRVY 73
+              VY
+Sbjct  57   NGVY 60
+
+
+ Score = 14.7 bits (38),  Expect = 0.4
+ Identities = 12/48 (25%), Positives = 27/48 (56%), Gaps = 4/48 (8%)
+
+Query  15   RGNKVKIQGEFLLTKKPYLPISE--RKTIRMEEI-AEKARNFDELRLAVVDE 63
+            RG+ + ++ +    K  + P+ +     IR E++ A     F  LR+++++E
+Sbjct  61   RGKYIDFEAKETKNKTAF-PLKNFHAHQIRHEQVVAHGGICFAILRFSLLNE 111
+
+
+
+77 residues in 1 query   sequences
+166 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:21 2015 done: Wed Dec  2 17:50:21 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

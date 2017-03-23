@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/2jxpA01.seq ./repo/cath20-scop/3bf2A00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/2jxpA01.seq
+  1>>>2jxpA01 3.30.160.150 3_5_0/15-155 - 141 aa
+Library: ./repo/cath20-scop/3bf2A00.seq
+      122 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1565;  K=0.02582
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+3bf2A00 3.30.160.150 3_5_0/30-159                  ( 122)   86 24.7 0.00064
+
+>3bf2A00 3.30.160.150
+3_5_0/30-159                                          
+Length=122
+
+ Score = 24.7 bits (86),  Expect = 0.0006
+ Identities = 19/73 (26%), Positives = 42/73 (57%), Gaps = 6/73 (8%)
+
+Query  53   SLSESGRVREFELVYRVAARLLDAHNAELASLQEIRLTRILPFLDAQELAKAAEEEMLYK 112
+            + + +  + E+ L+  V A++L     E      + + R+L + D   L K  EE  L+ 
+Sbjct  49   TYTVTAVINEYLLILTVEAQVL--KRGEPVGKPTVSVRRVLAYAD---LGKQEEEAALWA 103
+
+Query  113  DMQKDAVQQILRQVSAFTS 131
+            + ++DA +QI+R+++ + +
+Sbjct  104  E-RQDAAEQIVRRLTFLKA 121
+
+
+ Score = 15.0 bits (43),  Expect = 0.4
+ Identities = 9/36 (25%), Positives = 20/36 (55%), Gaps = 3/36 (8%)
+
+Query  56   ESGRVREFEL---VYRVAARLLDAHNAELASLQEIRLTR 91
+            E G+  +F L   +Y+ + R+ DA  A+   ++ +   +
+Sbjct  9    EGGQALQFPLETALYQASGRVDDAAGAQTLRIDSVSQNK 47
+
+
+
+141 residues in 1 query   sequences
+122 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:28 2015 done: Wed Dec  2 17:50:28 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

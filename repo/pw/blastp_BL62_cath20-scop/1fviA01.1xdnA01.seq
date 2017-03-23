@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1fviA01 3.30.1490.70 3_5_0/2-29_137-187
+
+Length=79
+
+Subject= 1xdnA01 3.30.1490.70 3_5_0/52-89_245-316
+
+Length=108
+
+
+ Score = 11.2 bits (17),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 3/8 (38%), Positives = 5/8 (63%), Gaps = 0/8 (0%)
+
+Query  33  EINNITEL  40
+           ++ N T L
+Sbjct  52  DVENFTPL  59
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6762
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

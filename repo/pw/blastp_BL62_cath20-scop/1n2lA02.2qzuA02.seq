@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1n2lA02 3.30.1120.10 3_5_0/371-471
+
+Length=98
+
+Subject= 2qzuA02 3.30.1120.10 3_5_0/398-482
+
+Length=84
+
+
+ Score = 19.6 bits (39),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 14/26 (54%), Gaps = 2/26 (8%)
+
+Query  43  ACHASSSLTAHEPPLLYDLSKDPGEN  68
+           A HA+      +  +L+D + DP EN
+Sbjct  27  AVHATDGKI--DNVILFDRTNDPHEN  50
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6675
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1jmsA04 3.30.210.10 3_5_0/441-509
+
+Length=69
+
+Subject= 3k75D03 3.30.210.10 3_5_0/266-338
+
+Length=73
+
+
+ Score = 24.3 bits (51),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 17/68 (25%), Positives = 35/68 (51%), Gaps = 5/68 (7%)
+
+Query  6   ALLGWTGSRQFERDLRRYATHERKMMLDNHAL----YDRTKRVFLEAESEEEIFAHLGLD  61
+            +L +TGS  F +++R +A  E+   ++ + +            L  +SE++IF ++   
+Sbjct  3   GVLYFTGSDIFNKNMRAHAL-EKGFTINEYTIRPLGVTGVAGEPLPVDSEQDIFDYIQWR  61
+
+Query  62  YIEPWERN  69
+           Y EP +R+
+Sbjct  62  YREPKDRS  69
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4221
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1cf5A02 4.10.470.10 3_5_0/161-246
+
+Length=86
+
+Subject= 1llnA02 4.10.470.10 3_5_0/176-262
+
+Length=81
+
+
+ Score = 23.5 bits (49),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 3/32 (9%)
+
+Query  4   YIERHVAKYVATN-FKPNLAIISLENQWSALS  34
+           YIE +VAK+   N ++P+ AI SLE  W ++S
+Sbjct  2   YIE-NVAKFDDANGYQPDPAI-SLEKNWDSVS  31
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5694
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

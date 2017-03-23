@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 2vd3A03 3.30.70.120 3_5_0/214-287
+
+Length=74
+
+Subject= 3ce8A00 3.30.70.120 3_5_0/2-101
+
+Length=87
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5214
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

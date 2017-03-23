@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1llnA02 4.10.470.10 3_5_0/176-262
+
+Length=81
+
+Subject= 2ga4A02 4.10.470.10 3_5_0/171-297
+
+Length=113
+
+
+ Score = 14.6 bits (26),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 4/5 (80%), Positives = 5/5 (100%), Gaps = 0/5 (0%)
+
+Query  47  PGDLD  51
+           PGD+D
+Sbjct  23  PGDVD  27
+
+
+ Score = 11.9 bits (19),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 4/9 (44%), Positives = 5/9 (56%), Gaps = 0/9 (0%)
+
+Query  53  NNKPWTTAT  61
+           NN  W + T
+Sbjct  88  NNTLWESNT  96
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7313
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,86 @@
+# LAST version 638
+#
+# a=11 b=2 A=11 B=2 e=30 d=12 x=31 y=31 z=31 D=1e+06 E=2.15517e+09
+# R=10 u=0 s=1 S=0 T=0 m=10000 l=1 n=10000 k=1 i=8192 w=1000 t=3.08611 j=3 Q=0
+# ./repo/temp_lastdb/2gskA02.seq
+# Reference sequences=1 normal letters=464
+# lambda=0.305935 K=0.102404
+#
+#    A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+# A  4 -1 -2 -2  0 -1 -1  0 -2 -1 -1 -1 -1 -2 -1  1  0 -3 -2  0 -2 -1 -1 -1 -4
+# R -1  5  0 -2 -3  1  0 -2  0 -3 -2  2 -1 -3 -2 -1 -1 -3 -2 -3 -1 -2  0 -1 -4
+# N -2  0  6  1 -3  0  0  0  1 -3 -3  0 -2 -3 -2  1  0 -4 -2 -3  4 -3  0 -1 -4
+# D -2 -2  1  6 -3  0  2 -1 -1 -3 -4 -1 -3 -3 -1  0 -1 -4 -3 -3  4 -3  1 -1 -4
+# C  0 -3 -3 -3  9 -3 -4 -3 -3 -1 -1 -3 -1 -2 -3 -1 -1 -2 -2 -1 -3 -1 -3 -1 -4
+# Q -1  1  0  0 -3  5  2 -2  0 -3 -2  1  0 -3 -1  0 -1 -2 -1 -2  0 -2  4 -1 -4
+# E -1  0  0  2 -4  2  5 -2  0 -3 -3  1 -2 -3 -1  0 -1 -3 -2 -2  1 -3  4 -1 -4
+# G  0 -2  0 -1 -3 -2 -2  6 -2 -4 -4 -2 -3 -3 -2  0 -2 -2 -3 -3 -1 -4 -2 -1 -4
+# H -2  0  1 -1 -3  0  0 -2  8 -3 -3 -1 -2 -1 -2 -1 -2 -2  2 -3  0 -3  0 -1 -4
+# I -1 -3 -3 -3 -1 -3 -3 -4 -3  4  2 -3  1  0 -3 -2 -1 -3 -1  3 -3  3 -3 -1 -4
+# L -1 -2 -3 -4 -1 -2 -3 -4 -3  2  4 -2  2  0 -3 -2 -1 -2 -1  1 -4  3 -3 -1 -4
+# K -1  2  0 -1 -3  1  1 -2 -1 -3 -2  5 -1 -3 -1  0 -1 -3 -2 -2  0 -3  1 -1 -4
+# M -1 -1 -2 -3 -1  0 -2 -3 -2  1  2 -1  5  0 -2 -1 -1 -1 -1  1 -3  2 -1 -1 -4
+# F -2 -3 -3 -3 -2 -3 -3 -3 -1  0  0 -3  0  6 -4 -2 -2  1  3 -1 -3  0 -3 -1 -4
+# P -1 -2 -2 -1 -3 -1 -1 -2 -2 -3 -3 -1 -2 -4  7 -1 -1 -4 -3 -2 -2 -3 -1 -1 -4
+# S  1 -1  1  0 -1  0  0  0 -1 -2 -2  0 -1 -2 -1  4  1 -3 -2 -2  0 -2  0 -1 -4
+# T  0 -1  0 -1 -1 -1 -1 -2 -2 -1 -1 -1 -1 -2 -1  1  5 -2 -2  0 -1 -1 -1 -1 -4
+# W -3 -3 -4 -4 -2 -2 -3 -2 -2 -3 -2 -3 -1  1 -4 -3 -2 11  2 -3 -4 -2 -2 -1 -4
+# Y -2 -2 -2 -3 -2 -1 -2 -3  2 -1 -1 -2 -1  3 -3 -2 -2  2  7 -1 -3 -1 -2 -1 -4
+# V  0 -3 -3 -3 -1 -2 -2 -3 -3  3  1 -2  1 -1 -2 -2  0 -3 -1  4 -3  2 -2 -1 -4
+# B -2 -1  4  4 -3  0  1 -1  0 -3 -4  0 -3 -3 -2  0 -1 -4 -3 -3  4 -3  0 -1 -4
+# J -1 -2 -3 -3 -1 -2 -3 -4 -3  3  3 -3  2  0 -3 -2 -1 -2 -1  2 -3  3 -3 -1 -4
+# Z -1  0  0  1 -3  4  4 -2  0 -3 -3  1 -1 -3 -1  0 -1 -2 -2 -2  0 -3  4 -1 -4
+# X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -4
+# * -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4 -4  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=68 EG2=9.4e+07 E=1.9e-05
+s 2gskA02 326 117 + 464 GKARIKGVEATANFDTGPLTHTV-SYDYVDARNAITDTPLLRRAKQQVKYQLD--WQLYDF-DWGITYQYLGT--RYDKDYSSYPYQTVKMGGVSLWDLAVAYPVT----SHLTVRGKIANLFDKDY
+s 1fi1A02 413 126 + 565 GEIRARGVEIEAKAALSASVNVVGSYTYTDAEYT-TDTTYKGNTPAQVPKHMASLWADYTFFDGPLSGLTLGTGGRYTGSSYGDPANSFKVGSYTVVDALVRYDLARVGMAGSNVALHVNNLFDREY
+
+a score=37 EG2=1.2e+12 E=0.29
+s 2gskA02 287 18 + 464 WEGAFEGLTAGVNWRISG
+s 1fi1A02 473 18 + 565 FDGPLSGLTLGTGGRYTG
+
+a score=35 EG2=2.3e+12 E=0.54
+s 2gskA02 224 65 + 464 GAARSDDNSQFGRHGTWQTSAGWEFIEGYRFIASYGTSYKAPNLGQLYGFYGNPNLDPEKSKQWE
+s 1fi1A02 316 57 + 565 GTTDKRDDKQF----TWRGGVNYLFDNGVTPYFSYSESFEP---SSQVGKDGN-IFAPSKGKQYE
+
+a score=35 EG2=2.3e+12 E=0.54
+s 2gskA02 306 12 + 464 RNDVSDLIDYDD
+s 1fi1A02 223 12 + 565 RNDINAWFGYDD
+
+a score=34 EG2=3.1e+12 E=0.73
+s 2gskA02 118 50 + 464 SWDAGLRYNGELIKSQLITSYSHSKDYNYDPHYGRYDSSATLDEMKQYTV
+s 1fi1A02 327 47 + 565 TWRGGVNY---LFDNGVTPYFSYSESFEPSSQVGKDGNIFAPSKGKQYEV
+
+a score=34 EG2=3.1e+12 E=0.73
+s 2gskA02 337 23 + 464 ANFDTGPLTHTV--SYDYVDARNAI
+s 1fi1A02 202 25 + 565 SKFATGDIDHTLLTGVDFMRMRNDI
+
+a score=32 EG2=5.7e+12 E=1.4
+s 2gskA02  74 32 + 464 ALEHNFTDAWSGFVRGYGYDNRTNYDAYYSPG
+s 1fi1A02 124 32 + 565 SFDHEFNDTFTVRQNLRFAENKTSQNSVYGYG
+
+a score=31 EG2=7.8e+12 E=1.9
+s 2gskA02  19 10 + 464 QNYDVSTQQQ
+s 1fi1A02 192 10 + 565 QNFSVDTQLQ
+
+a score=31 EG2=7.8e+12 E=1.9
+s 2gskA02  90 17 + 464 YGYDNRTNYDAYYSPGS
+s 1fi1A02 230 17 + 565 FGYDDSVPLLNLYNPSS
+
+a score=31 EG2=7.8e+12 E=1.9
+s 2gskA02 308 22 + 464 DVSDLIDYDDHTLKYYNEGKAR
+s 1fi1A02  18 21 + 565 DFSDSLD-DDGVYSYRLTGLAR
+
+a score=31 EG2=7.8e+12 E=1.9
+s 2gskA02 429 20 + 464 TVRGKIANLFDKDYETVYGY
+s 1fi1A02 327 20 + 565 TWRGGVNYLFDNGVTPYFSY
+
+# Query sequences=1

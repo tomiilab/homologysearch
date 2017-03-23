@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1i82A00 2.60.40.1190 3_5_0/0-188
+
+Length=189
+
+Subject= 1ug9A04 2.60.40.1190 3_5_0/774-938_939-1020
+
+Length=247
+
+
+ Score = 13.5 bits (23),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 10/55 (18%), Positives = 18/55 (33%), Gaps = 3/55 (5%)
+
+Query  56   LAIVKDPVLNKDNSNPWEQDSVEIFIDENNHKTG---YYEDDDAQFRVNYMNEQT  107
+            +  + DP  + +    +   +   ++      TG   Y   DD  F      E T
+Sbjct  4    IGALSDPAGDDNGPGTYRYPTNSAYVPGAFDLTGVDVYDAGDDYAFVATIAGEVT  58
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 37575
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

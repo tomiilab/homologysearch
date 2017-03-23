@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1wc8A01 3.30.1380.20 3_5_0/9-172
+
+Length=163
+
+Subject= 2osoA00 3.30.1380.20 3_5_0/0-158
+
+Length=152
+
+
+ Score = 16.2 bits (30),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 7/12 (58%), Gaps = 0/12 (0%)
+
+Query  48   IEDFLARSNVGC  59
+            I DF+A    GC
+Sbjct  109  IHDFIAGILAGC  120
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19710
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1ba3A02 3.40.50.980 3_5_0/214-355
+
+Length=142
+
+Subject= 3cw8X01 3.40.50.980 3_5_0/1-174
+
+Length=174
+
+
+ Score = 20.0 bits (40),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 8/13 (62%), Positives = 9/13 (69%), Gaps = 0/13 (0%)
+
+Query  112  EAVAKRFHLPGIR  124
+            EAVA R H  G+R
+Sbjct  40   EAVAARLHADGLR  52
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19625
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

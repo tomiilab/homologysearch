@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1a8rA02 3.30.1130.10 3_5_0/86-221
+
+Length=136
+
+Subject= 3bp1A01 3.30.1130.10 3_5_0/27-144
+
+Length=118
+
+
+ Score = 15.0 bits (27),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 16/32 (50%), Gaps = 5/32 (16%)
+
+Query  11   DEMVT--VRDITLTSTCESHFVTIDGKATVAY  40
+            DE+ T  V D+   S C    VT++ K+   Y
+Sbjct  88   DEVQTRLVHDL---SACAGETVTVNVKSLNEY  116
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.132    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12688
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

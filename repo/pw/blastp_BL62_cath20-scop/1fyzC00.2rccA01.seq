@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1fyzC00 1.10.620.20 3_5_0/2-389
+
+Length=388
+
+Subject= 2rccA01 1.10.620.20 3_5_0/38-296
+
+Length=251
+
+
+ Score = 14.6 bits (26),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 7/22 (32%), Positives = 11/22 (50%), Gaps = 0/22 (0%)
+
+Query  134  AMNPTWRDEFINRYWGAFLFNE  155
+             +N   RDE ++ Y    +F E
+Sbjct  168  TINYINRDEQLHVYLFTNIFKE  189
+
+
+ Score = 14.2 bits (25),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 8/23 (35%), Positives = 11/23 (48%), Gaps = 0/23 (0%)
+
+Query  19   ILKALPEAPLDGNNKMGYFVTPR  41
+            +LK   E  +DG  K     TP+
+Sbjct  109  VLKERNEFIIDGYEKFVDNPTPK  131
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 80864
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

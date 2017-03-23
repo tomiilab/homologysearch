@@ -1,0 +1,21 @@
+{
+    "benchmark":"scop20_validation",
+    "args":[
+        ["psiblast", "BL62", "scop20_validation", 2, 0.002, "uniref50", 
+            {
+                "c":"gray",
+                "lw":2,
+                "ls":"-",
+                "label":"PSIBLASTorg w=1"
+            }
+        ],
+        ["psiblastoda25","BL62","scop20_validation", 2, 0.002, "uniref50",
+             {
+                    "c":"hotpink",
+                    "lw":2,
+                    "ls":"-",
+                    "label":"PSIBLASTfix w=25"
+             }
+        ]
+    ]
+}

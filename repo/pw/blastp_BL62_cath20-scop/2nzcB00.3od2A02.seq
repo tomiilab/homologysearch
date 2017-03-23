@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 2nzcB00 3.30.70.1150 3_5_0/2-82
+
+Length=80
+
+Subject= 3od2A02 3.30.70.1150 3_5_0/48-132
+
+Length=85
+
+
+ Score = 13.9 bits (24),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 18/72 (25%), Positives = 31/72 (43%), Gaps = 5/72 (7%)
+
+Query  4   FYILTIVVED--REKAYRQVNELLHNFSEDIL-LRVGYPVREENAIIFLVLKTDNDTIGA  60
+           F +L+ V E   R+ A R V+   H+    +  L V   +  ++ +   VLK D   +  
+Sbjct  6   FAVLSYVYEHEKRDLASRIVSTQHHHHDLSVATLHV--HINHDDCLEIAVLKGDMGDVQH  63
+
+Query  61  LSGKLGQISGVR  72
+            +  +    GVR
+Sbjct  64  FADDVIAQRGVR  75
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.142    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5544
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1gwmA00 2.60.120.360 3_5_0/1-153
+
+Length=153
+
+Subject= 1wmxB00 2.60.120.360 3_5_0/4-198
+
+Length=195
+
+
+ Score = 16.9 bits (32),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 18/39 (46%), Gaps = 8/39 (21%)
+
+Query  87   EVETIS---PSDEYVTYILDVDFDLPFDRIDFQDAPGNG  122
+            E+ETI    P D  VTY       LP  R++ Q    +G
+Sbjct  26   ELETIGDTLPVDTTVTY-----NGLPTLRLNVQTTVQSG  59
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 23895
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

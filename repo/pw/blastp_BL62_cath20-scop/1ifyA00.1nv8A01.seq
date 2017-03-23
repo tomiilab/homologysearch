@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1ifyA00 1.10.8.10 3_5_0/156-204
+
+Length=49
+
+Subject= 1nv8A01 1.10.8.10 3_5_0/12-85
+
+Length=74
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3150
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

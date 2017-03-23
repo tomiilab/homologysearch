@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1jihA03 1.10.150.20 3_5_0/300-378
+
+Length=79
+
+Subject= 1y88A02 1.10.150.20 3_5_0/128-186
+
+Length=59
+
+
+ Score = 11.5 bits (18),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 9/33 (27%), Positives = 14/33 (42%), Gaps = 1/33 (3%)
+
+Query  19  DVLDLPHENSIKHIRETWPDNAGQLKEF-LDAK  50
+           +VLD      +   R+       +L+E  L AK
+Sbjct  11  EVLDELVRAGLVFCRDVVSAGEEKLREIGLSAK  43
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3869
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,141 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+References for sequence context-specific profiles:
+Angermueller C, Biegert A, and Soeding J (2012), 
+"Discriminative modelling of context-specific amino acid substitution probabilities", 
+Bioinformatics, 28 (24), 3240-3247.
+Biegert A, and Soeding J (2009), 
+"Sequence context-specific profiles for homology searching", 
+Proc Natl Acad Sci USA, 106 (10), 3770-3775.
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1poiA01 3.40.1080.10 3_5_0/2-116_170-319
+         (264 letters)
+
+Database: ./repo/cath20-scop/2oasA01.seq 
+           1 sequences; 175 total letters
+
+Searching.done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+2oasA01 3.40.1080.10 3_5_0/2-179                                       18   0.10 
+
+>2oasA01 3.40.1080.10 3_5_0/2-179
+          Length = 175
+
+ Score = 18.2 bits (36), Expect = 0.10,   Method: Composition-based stats.
+ Identities = 8/17 (47%), Positives = 12/17 (70%)
+
+Query: 6  LKDAIAKYVHSGDHIAL 22
+          L DA+AK+  + D+I L
+Sbjct: 32 LLDALAKHALTLDNITL 48
+
+
+
+ Score = 15.9 bits (30), Expect = 0.63,   Method: Composition-based stats.
+ Identities = 8/20 (40%), Positives = 11/20 (55%), Gaps = 2/20 (10%)
+
+Query: 115 GVPQVDVAIIHAQQASPDGT 134
+           G  ++D AII  Q + PD  
+Sbjct: 105 GEQKIDTAII--QVSPPDKH 122
+
+
+
+ Score = 14.4 bits (26), Expect = 1.6,   Method: Composition-based stats.
+ Identities = 4/8 (50%), Positives = 7/8 (87%)
+
+Query: 64  GRVKAYIN 71
+           G++ A+IN
+Sbjct: 141 GKIIAHIN 148
+
+
+
+ Score = 14.0 bits (25), Expect = 2.5,   Method: Composition-based stats.
+ Identities = 7/27 (25%), Positives = 9/27 (33%)
+
+Query: 34 AVFEILRQGITDLTGLGGAAGGDWDML 60
+              ++R G T  T  G       D L
+Sbjct: 10 EAVSLIRSGETLWTHSGATPKVLLDAL 36
+
+
+
+ Score = 13.6 bits (24), Expect = 2.9,   Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 10/15 (66%), Gaps = 3/15 (20%)
+
+Query: 24  GFT-TDRKPYAAVFE 37
+           GF   DR  +AAV+E
+Sbjct: 157 GFIHIDR--FAAVYE 169
+
+
+
+ Score = 13.2 bits (23), Expect = 4.4,   Method: Composition-based stats.
+ Identities = 6/20 (30%), Positives = 10/20 (50%), Gaps = 1/20 (5%)
+
+Query: 110 HAAALGVPQVDVAIIHAQQA 129
+           H  +LG+  V+  +   Q A
+Sbjct: 122 HGCSLGIS-VEATLAACQVA 140
+
+
+
+ Score = 12.1 bits (20), Expect = 8.5,   Method: Composition-based stats.
+ Identities = 6/18 (33%), Positives = 10/18 (55%), Gaps = 1/18 (5%)
+
+Query: 121 VAIIHAQ-QASPDGTVRI 137
+           +A I+ Q +   DG + I
+Sbjct: 144 IAHINPQPRTHGDGFIHI 161
+
+
+  Database: ./repo/cath20-scop/2oasA01.seq
+    Posted date:  Dec 3, 2015  1:00 PM
+  Number of letters in database: 175
+  Number of sequences in database:  1
+  
+Lambda     K      H
+   0.316    0.157    0.522 
+
+Lambda     K      H
+   0.267   0.0477    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 145
+Number of Sequences: 1
+Number of extensions: 13
+Number of successful extensions: 9
+Number of sequences better than 30.0: 1
+Number of HSP's better than 30.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 0
+Number of HSP's gapped (non-prelim): 8
+length of query: 264
+length of database: 175
+effective HSP length: 22
+effective length of query: 242
+effective length of database: 153
+effective search space:    37026
+effective search space used:    37026
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 15 ( 9.5 bits)
+S2: 16 (10.6 bits)

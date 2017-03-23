@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1js9B00 2.60.120.220 3_5_0/25-189
+
+Length=165
+
+Subject= 1stmA00 2.60.120.220 3_5_0/17-157
+
+Length=141
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18352
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1np7B02 1.25.40.80 3_5_0/138-308
+
+Length=171
+
+Subject= 1u3cA02 1.25.40.80 3_5_0/141-180_214-307
+
+Length=134
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.142    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18018
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

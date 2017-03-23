@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2cqzA00 1.10.3210.10 3_5_0/1-173
+
+Length=173
+
+Subject= 2hekA01 1.10.3210.10 3_5_0/1-281
+
+Length=281
+
+
+ Score = 14.6 bits (26),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 5/15 (33%), Positives = 8/15 (53%), Gaps = 0/15 (0%)
+
+Query  110  QECSSPEAQLVRIAD  124
+            +E S P    VR+ +
+Sbjct  3    KEFSDPLYGFVRVGE  17
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 39109
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

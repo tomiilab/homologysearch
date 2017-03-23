@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1gl2A00 1.20.5.110 3_5_0/11-64
+
+Length=54
+
+Subject= 1urqA00 1.20.5.110 3_5_0/1051-1108
+
+Length=58
+
+
+ Score = 16.9 bits (32),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 16/34 (47%), Gaps = 2/34 (6%)
+
+Query  9   VEGVKNIMTQNVERILARGE-NLDHLRNKTEDLE  41
+           +EGVK   +  V   LAR    LD    K  DLE
+Sbjct  2   IEGVKGAASGVVGE-LARARLALDERGQKLSDLE  34
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.124    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2805
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

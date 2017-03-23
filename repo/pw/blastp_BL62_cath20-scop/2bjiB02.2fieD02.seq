@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 2bjiB02 3.40.190.80 3_5_0/2147-2277
+
+Length=131
+
+Subject= 2fieD02 3.40.190.80 3_5_0/200-336
+
+Length=137
+
+
+ Score = 15.8 bits (29),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 11/37 (30%), Positives = 16/37 (43%), Gaps = 2/37 (5%)
+
+Query  66   YEMGIHCWDVAGAGIIVTEAGGVLLDVTGGPFDLMSR  102
+            YE     + +  AG + T     +LDV   P D+  R
+Sbjct  80   YECNPMAYVMEKAGGMATTGKEAVLDVI--PTDIHQR  114
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14152
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

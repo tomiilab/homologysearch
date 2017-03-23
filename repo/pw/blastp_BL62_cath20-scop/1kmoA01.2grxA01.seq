@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1kmoA01 2.170.130.10 3_5_0/95-222
+
+Length=128
+
+Subject= 2grxA01 2.170.130.10 3_5_0/8-160
+
+Length=153
+
+
+ Score = 31.2 bits (69),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 28/113 (25%), Positives = 54/113 (48%), Gaps = 9/113 (8%)
+
+Query  11   DVIRREDFAKTGATTMREVLNRIPGVSAPENNGTGSHDLAMNFGIRGLNPRLASRSTVLM  70
+             V+  E+ A     +++E L+  PGVS      + ++D   +  IRG      S++  L 
+Sbjct  44   SVVTAEEMALHQPKSVKEALSYTPGVSVGTRGASNTYD---HLIIRGFAAEGQSQNNYL-  99
+
+Query  71   DGIPVPFAPYGQPQLSLAPVSLGNMDAIDVVRGGGAVRYGPQSVGGVVNFVTR  123
+            +G+ +    Y       A +    ++  +++RG  +V YG  S GG++N V++
+Sbjct  100  NGLKLQGNFYND-----AVIDPYMLERAEIMRGPVSVLYGKSSPGGLLNMVSK  147
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15594
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

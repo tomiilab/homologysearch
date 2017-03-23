@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1itpA00 3.30.70.80 3_5_0/1-77
+
+Length=77
+
+Subject= 1r6vA02 3.30.70.80 3_5_0/27-104
+
+Length=78
+
+
+ Score = 13.5 bits (23),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 12/17 (71%), Gaps = 2/17 (12%)
+
+Query  4   GKFIVIFKNDVSE-DKI  19
+           GK +V + ND SE DKI
+Sbjct  14  GKILVGY-NDRSEVDKI  29
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.135    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4970
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

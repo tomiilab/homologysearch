@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1s68A01 3.30.1490.70 3_5_0/7-37_151-233
+
+Length=114
+
+Subject= 1x9nA02 3.30.1490.70 3_5_0/545-570_697-754
+
+Length=83
+
+
+ Score = 10.4 bits (15),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 3/4 (75%), Positives = 3/4 (75%), Gaps = 0/4 (0%)
+
+Query  66  VDAN  69
+           VDA 
+Sbjct  58  VDAT  61
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7592
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

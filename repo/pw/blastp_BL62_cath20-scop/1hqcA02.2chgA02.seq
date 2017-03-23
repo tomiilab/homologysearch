@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1hqcA02 1.10.8.60 3_5_0/168-243
+
+Length=76
+
+Subject= 2chgA02 1.10.8.60 3_5_0/161-226
+
+Length=66
+
+
+ Score = 15.4 bits (28),  Expect = 0.046, Method: Compositional matrix adjust.
+ Identities = 5/7 (71%), Positives = 7/7 (100%), Gaps = 0/7 (0%)
+
+Query  18  GVRITEE  24
+           GV+ITE+
+Sbjct  18  GVKITED  24
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4200
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1l6rA02 3.90.1070.10 3_5_0/81-144
+
+Length=64
+
+Subject= 1s2oA02 3.90.1070.10 3_5_0/89-159
+
+Length=71
+
+
+ Score = 13.5 bits (23),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 6/7 (86%), Gaps = 0/7 (0%)
+
+Query  31  STGFDID  37
+           S+G D+D
+Sbjct  61  SSGKDVD  67
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3894
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

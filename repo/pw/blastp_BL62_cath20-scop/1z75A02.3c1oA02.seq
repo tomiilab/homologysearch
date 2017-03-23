@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1z75A02 3.90.25.10 3_5_0/509-537_569-614_635-656
+
+Length=89
+
+Subject= 3c1oA02 3.90.25.10 3_5_0/150-188_212-276_290-314
+
+Length=129
+
+
+ Score = 15.0 bits (27),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 5/10 (50%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  74   TIDETLDFFL  83
+            +ID  LD F+
+Sbjct  111  SIDGLLDLFI  120
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9009
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

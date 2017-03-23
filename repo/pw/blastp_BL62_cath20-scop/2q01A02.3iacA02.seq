@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 2q01A02 1.10.2020.10 3_5_0/52-151
+
+Length=100
+
+Subject= 3iacA02 1.10.2020.10 3_5_0/46-138
+
+Length=92
+
+
+ Score = 22.7 bits (47),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 24/98 (24%), Positives = 38/98 (39%), Gaps = 8/98 (8%)
+
+Query  2   FQDATDLLLAPDHYLFRMLYSQGVSLDALKVRSKAGVPDTDPREAWRVFASHFYLFRGTP  61
+           F +   + L  DHY +R L S GV    +  +  +       + AW   A+      G P
+Sbjct  2   FDNLGQIWLEGDHYKWRALRSAGVDESLITGKETSDYE----KYAW---ANTVPKTLGNP  54
+
+Query  62  SWVWLNHVFSQVFGFTEFL-EASNADDYFDRITAALAT  98
+            + W +    + FG T  L     A+  + +    LAT
+Sbjct  55  LYHWTHLELRRPFGITGTLFGPDTAESIWTQCNEKLAT  92
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7380
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

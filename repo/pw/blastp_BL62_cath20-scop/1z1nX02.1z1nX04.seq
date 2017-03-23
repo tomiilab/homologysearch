@@ -1,0 +1,81 @@
+BLASTP 2.2.27+
+
+
+Query= 1z1nX02 3.90.10.10 3_5_0/117-235
+
+Length=117
+
+Subject= 1z1nX04 3.90.10.10 3_5_0/334-370_403-530
+
+Length=163
+
+
+ Score = 23.9 bits (50),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 29/76 (38%), Gaps = 13/76 (17%)
+
+Query  33   CKACHHTYDEAQKKLVYAKGEEGSCVYCHKQEPLPSPVDRVVPSTRDASHESCVNCHLST  92
+            C  CHH    A+  L   K     C  CH +       ++  P  + A H  C+ CH   
+Sbjct  96   CSGCHHN---AKPSLNPPK-----CASCHSKPFQERTANQ--PGLKGAFHNQCIGCH---  142
+
+Query  93   RKAQTESGPVLCVGCH  108
+            ++ Q       C GCH
+Sbjct  143  QEMQVNPKATDCQGCH  158
+
+
+ Score = 22.3 bits (46),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 13/25 (52%), Gaps = 5/25 (20%)
+
+Query  84   SCVNCHLSTRKAQTESGPVLCVGCH  108
+            SCV CH +   A+ E     C GCH
+Sbjct  3    SCVGCHTTQANARKE-----CAGCH  22
+
+
+ Score = 21.9 bits (45),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 8/11 (73%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  104  CVGCHTAEAQA  114
+            CVGCHT +A A
+Sbjct  4    CVGCHTTQANA  14
+
+
+ Score = 16.2 bits (30),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 7/15 (47%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  32  SCKACHHTYDEAQKK  46
+           SC  CH T   A+K+
+Sbjct  3   SCVGCHTTQANARKE  17
+
+
+ Score = 16.2 bits (30),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 4/7 (57%), Positives = 5/7 (71%), Gaps = 0/7 (0%)
+
+Query  102  VLCVGCH  108
+             +C GCH
+Sbjct  94   TMCSGCH  100
+
+
+ Score = 15.0 bits (27),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 5/8 (63%), Positives = 6/8 (75%), Gaps = 0/8 (0%)
+
+Query  47  LVYAKGEE  54
+           L Y KG+E
+Sbjct  53  LNYMKGDE  60
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15096
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

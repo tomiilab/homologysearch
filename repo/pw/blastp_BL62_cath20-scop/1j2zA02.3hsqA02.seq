@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1j2zA02 1.20.1180.10 3_5_0/194-260
+
+Length=67
+
+Subject= 3hsqA02 1.20.1180.10 3_5_0/192-259
+
+Length=68
+
+
+ Score = 19.2 bits (38),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (48%), Gaps = 2/44 (5%)
+
+Query  21  YKRLFRPIPSLRESAKLELEEHAN-NPFVKEICSFILESSRGVA  63
+           YK ++    S R++   ELE   N    VK I  F  +S RGV 
+Sbjct  23  YKVIYHSGISTRKALD-ELEASGNLIEQVKYIIKFFRDSDRGVT  65
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3906
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

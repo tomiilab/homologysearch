@@ -1,0 +1,90 @@
+# LAST version 638
+#
+# a=13 b=2 A=13 B=2 e=30 d=15 x=46 y=46 z=46 D=1e+06 E=3.55872e+09
+# R=10 u=0 s=1 S=0 T=0 m=10000 l=1 n=10000 k=1 i=8192 w=1000 t=4.55006 j=3 Q=0
+# ./repo/temp_lastdb/3fexA03.seq
+# Reference sequences=1 normal letters=281
+# lambda=0.155005 K=0.0147228
+#
+#    A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  J  Z  X  *
+# A  3 -1  0  0  2  0  0  0 -1 -1 -1 -1 -1 -2  0  1  1 -4 -2  0  0 -1  0 -1 -6
+# R -1  6  0 -1 -3  2 -1 -2  1 -2 -3  3 -1 -3 -1  0 -1 -4 -2 -2 -1 -2 -1 -1 -6
+# N  0  0  5  3 -2  1  1  0  1 -4 -4  1 -2 -3 -1  1  0 -5 -1 -3  4 -4  1 -1 -6
+# D  0 -1  3  6 -4  1  3 -1  0 -5 -5  0 -3 -6  0  0  0 -5 -4 -3  5 -5  3 -1 -6
+# C  2 -3 -2 -4 12 -3 -3 -2 -1  0 -2 -3  0 -3 -3  1  0 -6 -1  2 -3 -1 -3 -1 -6
+# Q  0  2  1  1 -3  4  2 -2  1 -2 -2  2  0 -2  0  0  0 -5 -3 -2  1 -2  2 -1 -6
+# E  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -3  4 -1 -6
+# G  0 -2  0 -1 -2 -2 -1  8 -2 -5 -5 -2 -4 -5 -2  0 -2 -5 -4 -4 -1 -5 -1 -1 -6
+# H -1  1  1  0 -1  1  0 -2  7 -2 -2  0 -2  0 -2  0  0  0  2 -2  0 -2  0 -1 -6
+# I -1 -2 -4 -5  0 -2 -3 -5 -2  5  3 -2  2  1 -4 -3 -1 -1 -1  3 -5  4 -3 -1 -6
+# L -1 -3 -4 -5 -2 -2 -3 -5 -2  3  5 -2  3  2 -3 -3 -2  0  0  2 -5  4 -3 -1 -6
+# K -1  3  1  0 -3  2  1 -2  0 -2 -2  4 -1 -4  0  0  0 -4 -2 -2  0 -2  1 -1 -6
+# M -1 -1 -2 -3  0  0 -2 -4 -2  2  3 -1  5  1 -3 -2 -1 -2 -1  1 -3  3 -2 -1 -6
+# F -2 -3 -3 -6 -3 -2 -4 -5  0  1  2 -4  1  7 -4 -3 -2  4  5  0 -5  2 -4 -1 -6
+# P  0 -1 -1  0 -3  0  0 -2 -2 -4 -3  0 -3 -4  8  0  0 -4 -5 -3  0 -3  0 -1 -6
+# S  1  0  1  0  1  0  0  0  0 -3 -3  0 -2 -3  0  3  2 -4 -2 -1  0 -3  0 -1 -6
+# T  1 -1  0  0  0  0  0 -2  0 -1 -2  0 -1 -2  0  2  4 -5 -2  0  0 -1  0 -1 -6
+# W -4 -4 -5 -5 -6 -5 -6 -5  0 -1  0 -4 -2  4 -4 -4 -5 15  5 -3 -5  0 -6 -1 -6
+# Y -2 -2 -1 -4 -1 -3 -2 -4  2 -1  0 -2 -1  5 -5 -2 -2  5  8 -1 -3  0 -2 -1 -6
+# V  0 -2 -3 -3  2 -2 -2 -4 -2  3  2 -2  1  0 -3 -1  0 -3 -1  4 -3  3 -2 -1 -6
+# B  0 -1  4  5 -3  1  2 -1  0 -5 -5  0 -3 -5  0  0  0 -5 -3 -3  5 -5  2 -1 -6
+# J -1 -2 -4 -5 -1 -2 -3 -5 -2  4  4 -2  3  2 -3 -3 -1  0  0  3 -5  4 -1 -1 -6
+# Z  0 -1  1  3 -3  2  4 -1  0 -3 -3  1 -2 -4  0  0  0 -6 -2 -2  2 -1  4 -1 -6
+# X -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -6 -6
+# * -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6 -6  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=52 EG2=4.7e+12 E=0.1
+s 3fexA03 167 112 + 281 AKEKLARKDGVLEEQIERLQEKVESAQSEQKNLFLVIFQRFIMILTEHLVRCETDGTSVLTPWYKNCIERLQQIFLQHHQIIQQYMVTLENLLFTAELDPHILAVFQQFCAL
+s 1ug3A01   5 106 + 195 SEEELEKKSKAIIEEYLHLNDMKEAVQCVQE----LASPSLLFIFVRHGVESTLERSAIAREHMGQLLHQL--LCAGHLSTAQYYQGLYEILELAEDMEIDIPHVWLYLAEL
+
+a score=40 EG2=3e+13 E=0.93
+s 3fexA03 129 57 + 281 FSSELSRDFTRLFVW--EILHSTIRKMNKHVLKIQKELEEAKEKLARKDGVLEEQIERL
+s 1ug3A01  92 59 + 195 LAEDMEIDIPHVWLYLAELVTPILQEGGVPMGELFREITKPLRPLGKAASLLLEILGLL
+
+a score=37 EG2=4.8e+13 E=1.6
+s 3fexA03 41 33 + 281 DVPFNPLKIEVFVQTLLHLAAKSFSHSFSALAK
+s 1ug3A01 99 33 + 195 DIPHVWLYLAELVTPILQEGGVPMGELFREITK
+
+a score=34 EG2=7.6e+13 E=2.9
+s 3fexA03 34 62 + 281 EIFSILKDVPFNPLKIEVFVQTLLHLAAKSFSHSFSALAKFHEVFKTLAESDEGKLHVLRVM
+s 1ug3A01 88 60 + 195 EILELAEDMEIDIPHVWLYLAELVTPILQEGGVPMGEL--FREITKPLRPLGKAASLLLEIL
+
+a score=33 EG2=8.8e+13 E=3.4
+s 3fexA03 142 63 + 281 VWEILHSTIRKMNKHVLKIQKELEEAKEKLARKDGVLEEQIERLQEKVESAQSEQKNLFLVIF
+s 1ug3A01  86 62 + 195 LYEILELA-EDMEIDIPHVWLYLAELVTPILQEGGVPMGELFREITKPLRPLGKAASLLLEIL
+
+a score=33 EG2=8.8e+13 E=3.4
+s 3fexA03 204 37 + 281 FQRFIMILTEHLVRCETDGTSVLTPWYKNCIERLQQI
+s 1ug3A01 100 37 + 195 IPHVWLYLAELVTPILQEGGVPMGELFREITKPLRPL
+
+a score=32 EG2=1e+14 E=4.1
+s 3fexA03  43 22 + 281 PFNPL-KIEVFVQTLLHLAAKSF
+s 1ug3A01 132 23 + 195 PLRPLGKAASLLLEILGLLCKSM
+
+a score=32 EG2=1e+14 E=4.1
+s 3fexA03 218 30 + 281 CETDGTSVLTPWYKNCIERLQQIFLQHHQI
+s 1ug3A01 151 30 + 195 CKSMGPKKVGTLWREAGLSWKEFLPEGQDI
+
+a score=30 EG2=1.4e+14 E=6
+s 3fexA03 68 45 + 281 FSALAKFHEVFKTLAESDEGKLHVLRVMFEVWRNHPQMIAVLVDK
+s 1ug3A01 77 41 + 195 LSTAQYYQGLYEILELAEDMEIDIPH----VWLYLAELVTPILQE
+
+a score=30 EG2=1.4e+14 E=6
+s 3fexA03 127 7 + 281 WIFSSEL
+s 1ug3A01 104 7 + 195 WLYLAEL
+
+a score=30 EG2=1.4e+14 E=6
+s 3fexA03 242 30 + 281 LQHHQIIQQYMVTLENLLFTAELDPHILAV
+s 1ug3A01   4 30 + 195 LSEEELEKKSKAIIEEYLHLNDMKEAVQCV
+
+a score=30 EG2=1.4e+14 E=6
+s 3fexA03 242 21 + 281 LQHHQIIQQYMVTLENLLFTA
+s 1ug3A01  54 21 + 195 LERSAIAREHMGQLLHQLLCA
+
+# Query sequences=1

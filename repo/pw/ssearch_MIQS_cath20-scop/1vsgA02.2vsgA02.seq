@@ -1,0 +1,49 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1vsgA02.seq ./repo/cath20-scop/2vsgA02.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1vsgA02.seq
+  1>>>1vsgA02 1.10.470.10 3_5_0/34-85_256-362 - 159 aa
+Library: ./repo/cath20-scop/2vsgA02.seq
+      160 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1517;  K=0.04008
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.010
+
+The best scores are:                                      s-w bits E(1)
+2vsgA02 1.10.470.10 3_5_0/31-83_252-358            ( 160)   79 21.9  0.0064
+
+>2vsgA02 1.10.470.10
+3_5_0/31-83_252-358                                    
+Length=160
+
+ Score = 21.9 bits (79),  Expect = 0.006
+ Identities = 27/134 (20%), Positives = 66/134 (49%), Gaps = 13/134 (9%)
+
+Query  3    ASKIQKMRDAALRASIYAEINHGTNRAKAAVIVANHYAMKADSGLEALK--QAETAEFRN 60
+            A+K+ + ++A    ++ A +N      +  +    +     ++ +E++K    +TA + +
+Sbjct  22   AAKFPESKEALTLRALEAALNTDLRALRDNIAQLAQGPKPGQTEVETMKLLAQKTAALDS 81
+
+Query  61   ETAGIAGKTGVTKLVEEALLKKKDSEASEIQTELKKYFSGHENEQWTAIEKLISEQPVAQ 120
+                +A  TG           KK S+  E +    +YF   E++  +  +K+  E+    
+Sbjct  82   IKFQLAASTG-----------KKTSDYKEDENLKTEYFGKTESNIEALWNKVKEEKVKGA 130
+
+Query  121  NLVGDNQPTKLGELEGNAKLTTILAYY 147
+            +    ++ +K+ +L+ + +L  +L YY
+Sbjct  131  DPEDPSKESKISDLNTEEQLQRVLDYY 157
+
+
+
+159 residues in 1 query   sequences
+160 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:21 2015 done: Wed Dec  2 17:50:21 2015
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

@@ -1,0 +1,41 @@
+BLASTP 2.2.27+
+
+
+Query= 1amuA02 3.40.50.980 3_5_0/206-345
+
+Length=140
+
+Subject= 1mdbA02 3.40.50.980 3_5_0/180-353
+
+Length=174
+
+
+ Score = 12.3 bits (20),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 17/83 (20%), Positives = 30/83 (36%), Gaps = 21/83 (25%)
+
+Query  64   INQKEITVITL-PPTYVVHLDP-----ERILSIQTLITAGSATSPSLVNKWKE-------  110
+            I ++++T+  L PP  +V +D      + + S+Q L   G+  S     + K        
+Sbjct  89   IEREKVTITALVPPLAMVWMDAASSRRDDLSSLQVLQVGGAKFSAEAARRVKAVFGCTLQ  148
+
+Query  111  --------KVTYINAYGPTETTI  125
+                     V Y     P E  +
+Sbjct  149  QVFGMAEGLVNYTRLDDPEEIIV  171
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19311
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

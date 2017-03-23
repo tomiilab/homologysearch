@@ -1,0 +1,37 @@
+BLASTP 2.2.27+
+
+
+Query= 1eyzA02 3.30.1490.20 3_5_0/123-196
+
+Length=72
+
+Subject= 1w93A03 3.30.1490.20 3_5_0/231-293
+
+Length=63
+
+
+ Score = 19.2 bits (38),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 10/26 (38%), Positives = 14/26 (54%), Gaps = 3/26 (12%)
+
+Query  26  IGYPCIVKPVMSSSGKGQTFIRSAEQ  51
+           IG+P ++K      GKG   IR  E+
+Sbjct  15  IGFPVMIKASEGGGGKG---IRQVER  37
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3886
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

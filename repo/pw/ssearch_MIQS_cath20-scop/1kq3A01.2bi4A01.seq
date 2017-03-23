@@ -1,0 +1,49 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1kq3A01.seq ./repo/cath20-scop/2bi4A01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1kq3A01.seq
+  1>>>1kq3A01 3.40.50.1970 3_5_0/0-157 - 158 aa
+Library: ./repo/cath20-scop/2bi4A01.seq
+      185 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1603;  K=0.03002
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+2bi4A01 3.40.50.1970 3_5_0/2-186                   ( 185)  127 34.4 1.3e-06
+
+>2bi4A01 3.40.50.1970
+3_5_0/2-186                                           
+Length=185
+
+ Score = 34.4 bits (127),  Expect = 1e-06
+ Identities = 37/142 (26%), Positives = 81/142 (57%), Gaps = 26/142 (18%)
+
+Query  15   GAGAINILEEELSRFG-ERAFVVIDDFVDKNVLGENFFSSFTKVRVNKQIFGGECSDEEI 73
+            G GA+  L +E+ R G ++A++V D  + +  +  +    +    +   I+ G + +  I
+Sbjct  14   GRGAVGALTDEVKRRGYQKALIVTDKTLVQCGVVAKVTDKMDAAGLAWAIYDGVVPNPTI 73
+
+Query  74   ERLS---GLVEEE-TDVVVGIGGGKTLDTAKAVAY-----------------KLKKPVVI 112
+              +    G+ ++  +D ++ IGGG   DT+KA+                     +KP V 
+Sbjct  74   TVVKEGLGVFQNSGADYLIAIGGGSPQDTCKAIGIISNNPEFADVRSLEGLSPTNKPSVP 133
+
+Query  113  VPTIASTDAPCSALSVIYTPNGEFKRYLFL---PRN-PDVVLVDTEIV 156
+            + +I +T   ++ +++ Y    E KR  F+   P++ P+V ++D++++
+Sbjct  134  ILAIPTTAGTAAEVTINYVITDEEKRRKFVCVDPHDIPQVAFIDADMM 181
+
+
+
+158 residues in 1 query   sequences
+185 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:24 2015 done: Wed Dec  2 17:50:24 2015
+ Total Scan time:  0.000 Total Display time:  0.010
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

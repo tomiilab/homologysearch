@@ -1,0 +1,45 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1s4dB01.seq ./repo/cath20-scop/1wngA01.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1s4dB01.seq
+  1>>>1s4dB01 3.40.1010.10 3_5_0/4-129 - 126 aa
+Library: ./repo/cath20-scop/1wngA01.seq
+      114 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1839;  K=0.04205
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+1wngA01 3.40.1010.10 3_5_0/1-114                   ( 114)   63 21.3  0.0056
+
+>1wngA01 3.40.1010.10
+3_5_0/1-114                                           
+Length=114
+
+ Score = 21.3 bits (63),  Expect = 0.006
+ Identities = 18/87 (20%), Positives = 43/87 (49%), Gaps = 3/87 (3%)
+
+Query  14   VWLVGAGPGDPGLLTLHAANALRQADVIVHDALVNEDCLKLARPGAVLEFAGKRGGKPSP 73
+            ++++G G  D   +T+   +  +++D +  +       +  +  G + ++ GK     S 
+Sbjct  3    LYFIGLGLYDERDITVKGLEIAKKCDYVFAE--FYTSLMAGTTLGRIQKLIGKEIRVLSR 60
+
+Query  74   KQRDISLRLVELARA-GNRVLRLKGGDPFV 102
+            ++ ++++  + L  A  N V  L  GDP+V
+Sbjct  61   EDVELNFENIVLPLAKENDVAFLTPGDPLV 90
+
+
+
+126 residues in 1 query   sequences
+114 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:23 2015 done: Wed Dec  2 17:50:23 2015
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

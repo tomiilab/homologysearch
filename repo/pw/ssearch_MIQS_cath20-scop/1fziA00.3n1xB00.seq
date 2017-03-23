@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1fziA00.seq ./repo/cath20-scop/3n1xB00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1fziA00.seq
+  1>>>1fziA00 1.10.620.20 3_5_0/15-526 - 512 aa
+Library: ./repo/cath20-scop/3n1xB00.seq
+      324 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1005;  K=0.005911
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.020
+
+The best scores are:                                      s-w bits E(1)
+3n1xB00 1.10.620.20 3_5_0/7-330                    ( 324)  133 26.7  0.0015
+
+>3n1xB00 1.10.620.20
+3_5_0/7-330                                            
+Length=324
+
+ Score = 26.7 bits (133),  Expect = 0.002
+ Identities = 42/212 (19%), Positives = 93/212 (43%), Gaps = 11/212 (5%)
+
+Query  17   WLQSFNWDFKNNRTKYATKYKMANETKEQFK----LIAKEYARMEAVKDERQFGSLQDAL 72
+            W    N  ++    KY+    + ++  + F+    L+ + Y  ++  ++    G L D L
+Sbjct  40   WELDSNLPMQTWYKKYCFDSPLKHDDWNAFRDPDQLVYRTYNLLQDGQESYVQG-LFDQL 98
+
+Query  73   TRLNAGVRVHPKWNETMKVVSNFLEVGEY--NAIAATGM-LWDSAQAAEQKNGYLAQVLD 129
+                    +  +W ET+   + F     Y  +A+    + + + A A+   N    +  D
+Sbjct  99   NDRGHDQMLTREWVETL---ARFYTPARYLFHALQMGSVYIHQIAPASTITNCATYETAD 155
+
+Query  130  EIRHTHQCAYVNYYFAKNGQDPAGHNDARRTRTIGPLWKGMKRVFSDGFISGDAVECSLN 189
+             +R   + AY    +A+   D    +  R      P W+G++ ++   +I+ D  E+   
+Sbjct  156  HLRWLTHTAYRTRELANCYPDVGFGKRERDVWENDPAWQGFRELIEKALIAWDWGEAFTA 215
+
+Query  190  LQLVGEACFTNPLIVAVTEWAAANGDEITPTVFLSIETDELRH 232
+            ++LV + +  + L+  +   A ++GD +   +  + + D  RH
+Sbjct  216  INLVTKPAVEEALLQQLGSLAQSEGDTLLGLLAQAQKRDAERH 258
+
+
+
+512 residues in 1 query   sequences
+324 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:21 2015 done: Wed Dec  2 17:50:21 2015
+ Total Scan time:  0.020 Total Display time:  0.000
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

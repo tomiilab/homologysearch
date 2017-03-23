@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 3o6fF01 3.10.320.10 3_5_0/1-120
+
+Length=120
+
+Subject= 3pdoA01 3.10.320.10 3_5_0/0-81
+
+Length=82
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7920
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

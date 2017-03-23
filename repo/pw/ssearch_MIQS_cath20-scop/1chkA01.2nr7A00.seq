@@ -1,0 +1,53 @@
+# ssearch36 -s ./repo/MIQS.txt ./repo/cath20-scop/1chkA01.seq ./repo/cath20-scop/2nr7A00.seq -m B
+SSEARCH performs a Smith-Waterman search
+ version 36.3.5e Sep, 2012(preload8)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: ./repo/cath20-scop/1chkA01.seq
+  1>>>1chkA01 1.20.141.10 3_5_0/1-26_122-238 - 143 aa
+Library: ./repo/cath20-scop/2nr7A00.seq
+      193 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1742;  K=0.03753
+ statistics sampled from 1 (1) to 500 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: ./repo/MIQS.txt matrix (15:-6), open/ext: -10/-2
+ Scan time:  0.000
+
+The best scores are:                                      s-w bits E(1)
+2nr7A00 1.20.141.10 3_5_0/-1-192                   ( 193)   43 15.5    0.44
+
+>2nr7A00 1.20.141.10
+3_5_0/-1-192                                           
+Length=193
+
+ Score = 15.5 bits (43),  Expect = 0.4
+ Identities = 11/42 (26%), Positives = 20/42 (47%), Gaps = 2/42 (4%)
+
+Query  59   NDPTSFGGIRKTAMKKARTPAQGGDETTYLNGFLDARKAAMLTE 102
+            +DP+  GG  +  +  A     G D+    +G +D     +LT+
+Sbjct  21   HDPADAGGATNKGVTIATWKRVGYDKDG--DGDIDVEDLKLLTD 62
+
+
+ Score = 15.3 bits (42),  Expect = 0.5
+ Identities = 12/63 (19%), Positives = 32/63 (50%), Gaps = 7/63 (11%)
+
+Query  61   PTSFGGIRKTAMKKART--PAQGGDETTYLNGFLDARKAAMLTEAA-----HDDTSRVDT 113
+            P  + G++   +   +T    +  D    ++ ++DAR+  +   +A     ++D+    +
+Sbjct  107  PQRILGVQADGIVGNKTLQAVNSADPDELFESIFDARREFLEDITARSIKKYEDSIGRKA 166
+
+Query  114  EQRVFLKAGN 123
+             +R +L+  N
+Sbjct  167  TERELLRHTN 176
+
+
+
+143 residues in 1 query   sequences
+193 residues in 1 library sequences
+ Tcomplib [36.3.5e Sep, 2012(preload8)] (16 proc in memory [0G])
+ start: Wed Dec  2 17:50:21 2015 done: Wed Dec  2 17:50:21 2015
+ Total Scan time:  0.000 Total Display time:  0.010
+
+Function used was SSEARCH [36.3.5e Sep, 2012(preload8)]

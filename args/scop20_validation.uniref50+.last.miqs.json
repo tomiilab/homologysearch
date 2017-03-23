@@ -1,0 +1,69 @@
+{
+    "benchmark":"scop20_validation",
+    "args":[   
+        ["ssearch","BL62", "uniref50+", null, null, null, 
+            {
+                "c":"black",
+                "lw":1,
+                "ls":"-",
+                "label":"SSEARCH BL62"
+            }
+        ],
+        ["ssearch","MIQS", "uniref50+", null, null,null,
+            {
+                "c":"grey",
+                "lw":1,
+                "ls":"-",
+                "label":"SSEARCH MIQS"
+            }
+        ],
+        ["cs-blast","NA", "uniref50+", null, null, null,
+            {
+                "c":"orange",
+                "lw":1,
+                "ls":"-",
+                "label":"CS-BLAST"
+            }
+        ],
+        ["last6","BL62", "uniref50+", null, null, null,
+            {   
+                "c":"b",
+                "lw":1,
+                "ls":"-",
+                "label":"LAST6 BL62"
+            }
+        ],
+        ["last6","MIQS", "uniref50+", null, null, null,
+            {   
+                "c":"r",
+                "lw":1,
+                "ls":"-",
+                "label":"LAST6 MIQS"
+            }
+        ],
+        ["last5","BL62", "uniref50+", null, null, null,
+            {   
+                "c":"b",
+                "lw":2,
+                "ls":"-",
+                "label":"LAST5 BL62"
+            }
+        ],
+        ["last5","MIQS", "uniref50+", null, null, null,
+            {   
+                "c":"r",
+                "lw":2,
+                "ls":"-",
+                "label":"LAST5 MIQS"
+            }
+        ],
+        ["blastp","BL62", "uniref50+", null, null, null,
+            {
+                "c":"g",
+                "lw":1,
+                "ls":"-",
+                "label":"BLASTP"
+            }
+        ]
+    ]
+}

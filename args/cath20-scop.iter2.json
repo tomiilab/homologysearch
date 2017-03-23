@@ -1,0 +1,21 @@
+{
+    "benchmark":"cath20-scop",
+    "args":[     
+        ["psiblast","BL62","cath20-scop", 5, 0.002, "uniref50", 
+            {
+                "c":"gray",
+                "lw":2,
+                "ls":"-",
+                "label":"PSIBLASTorg w=1"
+            }
+        ],
+        ["psiblastoda25","BL62","cath20-scop", 5, 0.002, "uniref50",
+             {
+                "c":"hotpink",
+                "lw":2,
+                "ls":"-",
+                "label":"PSIBLASTfix w=25"
+             }
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+BLASTP 2.2.27+
+
+
+Query= 1nypA00 2.10.110.10 3_5_0/1-66
+
+Length=66
+
+Subject= 1x6aA01 2.10.110.10 3_5_0/15-76
+
+Length=62
+
+
+ Score = 18.9 bits (37),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 9/32 (28%), Positives = 14/32 (44%), Gaps = 0/32 (0%)
+
+Query  7   ICGACRRPIEGRVVNAMGKQWHVEHFVCAKCE  38
+            C  C   + G  + A   ++H E F C  C+
+Sbjct  3   FCHGCSLLMTGPFMVAGEFKYHPECFACMSCK  34
+
+
+ Score = 11.9 bits (19),  Expect = 0.84, Method: Compositional matrix adjust.
+ Identities = 4/8 (50%), Positives = 4/8 (50%), Gaps = 0/8 (0%)
+
+Query  6   PICGACRR  13
+           P C AC  
+Sbjct  25  PECFACMS  32
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.143    0.505    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3477
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

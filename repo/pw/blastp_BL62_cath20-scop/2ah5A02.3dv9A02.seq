@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 2ah5A02 1.10.150.240 3_5_0/18-82
+
+Length=64
+
+Subject= 3dv9A02 1.10.150.240 3_5_0/36-105
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3717
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

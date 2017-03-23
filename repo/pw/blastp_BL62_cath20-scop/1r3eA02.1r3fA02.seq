@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1r3eA02 2.30.130.10 3_5_0/231-318
+
+Length=84
+
+Subject= 1r3fA02 2.30.130.10 3_5_0/250-314
+
+Length=65
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4466
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

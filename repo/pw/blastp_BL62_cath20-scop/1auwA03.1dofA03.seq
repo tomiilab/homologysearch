@@ -1,0 +1,32 @@
+BLASTP 2.2.27+
+
+
+Query= 1auwA03 1.10.40.30 3_5_0/365-436
+
+Length=72
+
+Subject= 1dofA03 1.10.40.30 3_5_0/348-403
+
+Length=56
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3417
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
