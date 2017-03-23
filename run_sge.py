@@ -1,5 +1,5 @@
+import argparse, os, job, time
 from path import Path
-import argparse, subprocess, os, job, re, time
 from run import *
 
 if __name__ == '__main__':
@@ -53,7 +53,7 @@ if __name__ == '__main__':
             self.return_args([exe_time])
             
     qs = []
-    
+        
     for hostname in job.qhost_names()[2:-1]:
         qs.append('all.q@'+hostname)
 

@@ -3,8 +3,6 @@ import argparse, subprocess, os, job, re, time
 
 from psiblast import PSIBLAST
 from psiblast_msa import PSIBLAST as PSIBLASTmsa
-from psiblast_msa_fil import PSIBLAST as PSIBLASTmsafil
-from psiblast_msa_filall import PSIBLAST as PSIBLASTmsafilall
 from psiblast_block import PSIBLAST as PSIBLASTblock
 
 from pypsi import *
@@ -51,12 +49,6 @@ class PSIBLASToda21msa(PSIBLASTmsa):
 
 class PSIBLASToda25msa(PSIBLASTmsa):
     psiblast_path = "/home/klim/local/build_all/ReleaseMT_25/bin/psiblast"
-
-class PSIBLASToda25msafil(PSIBLASTmsafil):
-    psiblast_path = "/home/klim/local/build_all/ReleaseMT_25/bin/psiblast"
-
-class PSIBLASTfullmsa(PSIBLASTmsa):
-    psiblast_path = "/home/klim/local/ncbi-blast-2.5.0+psiblast_fullhenikoff/bin/psiblast"
 
 
 famat2blmat = {
@@ -151,12 +143,6 @@ class PSIBLAST_run:
             self._run(PSIBLASTmsa)
         elif self.method == 'psiblast_block':
             self._run(PSIBLASTblock)
-        elif self.method == 'psiblast_msa_fil':
-            self._run(PSIBLASTmsafil)
-        elif self.method == 'psiblastfull_msa':
-            self._run(PSIBLASTfullmsa)
-        elif self.method == 'psiblast_msa_filall':
-            self._run(PSIBLASTmsafilall)
         elif self.method == 'psiblastoda5':
             self._run(PSIBLASToda5)
         elif self.method == 'psiblastoda9':
@@ -177,8 +163,6 @@ class PSIBLAST_run:
             self._run(PSIBLASToda21msa)
         elif self.method == 'psiblastoda25_msa':
             self._run(PSIBLASToda25msa)
-        elif self.method == 'psiblastoda25_msa_fil':
-            self._run(PSIBLASToda25msafil)
 
 
 def run_search(fs, method, matrix, query, subject, db, n_iter, evalue_pssm):

@@ -1,8 +1,6 @@
+import os
 from parse_aln import *
-import subprocess, os
-from seqlim import Seq
 from pypsi import PYPSI
-import filecmp
 
 class PSIBLAST(PYPSI):
     psiblast_path = "/home/klim/local/build_all/ReleaseMT_orig/bin/psiblast"
@@ -38,11 +36,5 @@ class PSIBLAST(PYPSI):
 
         open(outfile,'w').write(output[0])
         return output
-
-
-if __name__ == '__main__':
-    s = PSIBLAST()
-    s.go('./repo/scop20_validation/d1gcya1.seq','./repo/blastdb/scop20_validation','./temp/temp.seq', n_iter=5, evalue=1.0, evalue_pssm=100.0, pssm_db='./repo/blastdb/uniref50', mat='BL62')
-            
 
 

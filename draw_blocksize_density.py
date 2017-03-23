@@ -91,6 +91,6 @@ for i, p in enumerate(ps):
 
 
 print('./fig/blocksize.png')
-fig1.savefig('./fig/blocksize.png')
+fig1.savefig('./fig/blocksize.png', dpi=300)
 
  

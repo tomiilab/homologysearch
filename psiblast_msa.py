@@ -1,6 +1,5 @@
 from parse_aln import *
-import subprocess
-from seqlim import Seq
+from seqlim import MSeq
 from pypsi import PYPSI
 import filecmp
 
@@ -25,7 +24,7 @@ class PSIBLAST(PYPSI):
             else:
                 self.pssm_db = self.subject
             
-            ori_seqob = Seq.parse(open(self.query))
+            ori_seqob = MSeq.parse(open(self.query))
             self.query_seq = ori_seqob[0].seq
             self.query_tag = ori_seqob[0].tag
 
@@ -72,10 +71,5 @@ class PSIBLAST(PYPSI):
             open(outfile+'.'+str(i)+'.hits','w').write(output[0])
 
         return output
-
-if __name__ == '__main__':
-    s = PSIBLAST()
-    s.go('./repo/scop20_2738/d1brta_.seq','./repo/blastdb/scop20_validation','./temp/temp.seq', n_iter=3, evalue=1.0, evalue_pssm=0.002, pssm_db='./repo/blastdb/scop20_validation', mat='BL62', continuous=True)
-            
 
 
