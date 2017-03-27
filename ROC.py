@@ -28,7 +28,6 @@ class Proteins(dict):
     def __init__(self, file_path, standard, JG_path=None):
         self.file_path = file_path
         self.name = os.path.splitext(os.path.basename(self.file_path))[0]
-
         self.JG_path = JG_path
 
         self.initial_seqnum = 0
@@ -92,8 +91,8 @@ class Proteins(dict):
 
     def parse_hits(self, f, max_evalue=10.0):
         f = Path(f)
-        cs = f.basename().split('.')
-        query = self[cs[0]]
+        query_name = f.basename().split('.seq')[0]
+        query = self[query_name]
 
         if query.size == 1:
             return None
