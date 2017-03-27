@@ -111,6 +111,7 @@ class Benchmarks(list):
 
         bench1_iter = int(self[0].iter)
         print(bench1_iter) 
+
         names = []
         for bench in self[0].ROCN_benchmarks:
             name2seqlen[bench[0].id] = bench[0].seqlen
@@ -129,8 +130,11 @@ class Benchmarks(list):
         Y = []
         B1 = []
         B4 = []
-
-        for name, seqlen in name2seqlen.items():
+    
+        for name, size in self.proteins.id2size.items():
+            if size <= 1:
+                continue
+            seqlen = name2seqlen.get(name)
             rocn1 = name2rocn1.get(name)
             rocn2 = name2rocn2.get(name)
             if rocn1 is None:
@@ -148,6 +152,7 @@ class Benchmarks(list):
                 B4.append(b4)
                 print('#%s\t%s\t%s\t%s\t%s\t%s\t%s' % (name, seqlen, name2n_TP[name], rocn1, rocn2, b1, b4))
 
+        print('num of hits: %s' % (len(X)))
         print('sum of d: %s' % np.sum(Y))
         print('pearsonr len vs d: %s' % stats.pearsonr(X,Y)[0])
         print('pearsonr block1 vs d: %s' % stats.pearsonr(B1,Y)[0])
