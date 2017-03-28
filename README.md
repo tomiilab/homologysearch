@@ -13,7 +13,8 @@ python parse_blocksize.py ./repo/raw/scop20_validation/psiblast_block_BL62_scop2
 python parse_blocksize.py ./repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_8/0.002/uniref50/
 ```
 ## Decompress `./repo/raw.tar.bz2` to use previously established tsv files.
-```tar jxf repo/raw.tar.bz2
+```
+tar jxf repo/raw.tar.bz2
 ```
 
 # Generate figs and datasets
