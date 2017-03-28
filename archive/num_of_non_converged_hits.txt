@@ -1,0 +1,26 @@
+show until iteration 8
+parsing repo/raw/scop20_training/psiblast_block_BL62_scop20_training_8/0.002/uniref50.block_sizes.tsv 
+iteration 2: 3537 hits
+iteration 3: 3338 hits
+iteration 4: 3114 hits
+iteration 5: 2973 hits
+iteration 6: 2777 hits
+iteration 7: 2625 hits
+iteration 8: 2502 hits
+parsing repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_8/0.002/uniref50.block_sizes.tsv 
+iteration 2: 3537 hits
+iteration 3: 3346 hits
+iteration 4: 3137 hits
+iteration 5: 2980 hits
+iteration 6: 2779 hits
+iteration 7: 2638 hits
+iteration 8: 2473 hits
+parsing repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_8/0.002/uniref50.block_sizes.tsv 
+iteration 2: 1754 hits
+iteration 3: 1613 hits
+iteration 4: 1470 hits
+iteration 5: 1351 hits
+iteration 6: 1237 hits
+iteration 7: 1130 hits
+iteration 8: 1009 hits
+saved at ./fig/blocksize.8.png
