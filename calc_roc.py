@@ -234,6 +234,7 @@ if __name__ == '__main__':
     ARGS = json.load(open(args.args))
     if args.action == "draw_roc":
         name = ARGS['benchmark']
+        Path("./fig").mkdir_p()
         draw_SF(ARGS, './fig/ROC_'+name+'_'+'_'.join(args.standards), args.standards, xlim=args.xlim, ylim=args.ylim, dpi=600, max_evalue=args.max_evalue, rocn_max_evalue=args.rocn_max_evalue)
 
     elif args.action == "roc5_stats":
