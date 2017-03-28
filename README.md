@@ -2,7 +2,16 @@
 `python filter_aln.py ./repo/raw/YOURDIR`
 
 ## Oda et al. Fig 2
-`python draw_blocksize_density.py`
+parse block infomation
+`python parse_blocksize.py ./repo/raw/scop20_training/psiblast_block_BL62_scop20_training_8/0.002/uniref50/`
+`python parse_blocksize.py ./repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_8/0.002/uniref50/`
+`python parse_blocksize.py ./repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_8/0.002/uniref50/`
+
+draw block size density until the 5th itration
+`python draw_blocksize_density.py 5`
+
+draw block size density until the 8th itration
+`python draw_blocksize_density.py 8`
 
 ## Oda et al. Fig 3A
 `python calc_roc.py draw_roc ./args/scop20_training.iter5.blocksizes.json -standards JG -ylim 1100`

@@ -1,11 +1,9 @@
-from matplotlib import use
-use('Agg')
-from matplotlib import pyplot as plt
-from pyplot_ext import *
 import numpy as np
 from path import Path
+from collections import defaultdict
 import re
 import os
+
 
 def parse_block(ifh):
     B = []
@@ -28,35 +26,32 @@ def parse_block(ifh):
     B.append(B_sub)
     return B
 
-def main(p):
-    outfile = p.rstrip('/')
-    o = open(outfile+'.block_sizes.tsv','w')
-    o2 = open(outfile+'.block_sizes.stats.tsv','w')
+def main(p, max_iteration=5):
+    print("parsing %s " % p)
 
-    blocks = [[],[],[],[]]
-    for f in Path(p).files():
-        if f.endswith('seq'):
-            basename,ext = os.path.splitext(f.split('/')[-1])
-            B = parse_block(open(f))
-            if len(B) < 4:
-                continue
-            o.write(basename)
-            o2.write(basename)
+    blocks = []
+    for _ in range(max_iteration-1):
+        blocks.append([])
+ 
+    iter2num = defaultdict(int)
+    with open(p) as f:
+        for l in f:
+            cs = l.strip().split()
+            name = cs[0]
+            B = cs[1:]
+   
+            for i in range(len(B)):
+                iter2num[i+2] += 1
 
-            for i, B_sub in enumerate(B):
-                blocks[i].extend(B_sub)
-                o.write('\t')
-                o.write(','.join(map(str, B_sub)))
-                B_sub = np.array(B_sub)
-                o2.write('\t')
-                o2.write(str(np.count_nonzero(B_sub==1)/float(len(B_sub))))
-                o2.write(',')
-                o2.write(str(np.count_nonzero(B_sub<5)/float(len(B_sub))))
-            o.write('\n')
-            o2.write('\n')
+            if len(B) >= max_iteration-1:
+                for i in range(max_iteration-1):
+                    blocks[i].extend([int(e) for e in B[i].split(',')])
 
-    o.close()
-    o2.close()
+
+    iters = iter2num.keys()
+    iters.sort()
+    for i in iters:
+        print("iteration %s: %s hits" % (i, iter2num[i]))
 
     weighted_blocks = []
     labels = []
@@ -66,31 +61,45 @@ def main(p):
         labels.append('iteration %s' % (i+2))
     return blocks, weighted_blocks, labels
 
-coor = Coor((5, 3),(0.8, 0.2),(.7,.3),(.5,.5),(2,1))
-fig1 = plt.figure(**coor.figsize())
-print(coor.figsize())
-fig1.subplots_adjust(**coor.adjust())
 
-ps = [
-    'repo/raw/scop20_training/psiblast_block_BL62_scop20_training_5/0.002/uniref50/',
-    'repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_5/0.002/uniref50/',
-    'repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_5/0.002/uniref50/',
-]
-titles = ['A','B','C']
-for i, p in enumerate(ps):
-    ax = fig1.add_subplot(len(ps),1,i+1)
-    blocks, weighted_blocks, labels = main(p)
-    ax.hist(blocks, bins = 20, range=(0,100), weights=weighted_blocks, histtype='bar', normed=True, label=labels)
-    ax.set_xticks(np.arange(0,100,5))
-    if not i:
-        ax.legend()
-    ax.set_xlabel('block size')
-    ax.set_ylabel('density')
-    ax.set_title(titles[i])
-    ax.set_ylim([0,0.08])
+if __name__ == '__main__':
+    import argparse
+    from matplotlib import use
+    use('Agg')
+    from matplotlib import pyplot as plt
+    from pyplot_ext import *
 
 
-print('./fig/blocksize.png')
-fig1.savefig('./fig/blocksize.png', dpi=300)
+    par = argparse.ArgumentParser()
+    par.add_argument('max_iteration', type=int, default=5)
+    args = par.parse_args()
+    print("show until iteration %s" % (args.max_iteration))
+    coor = Coor((5, 3),(0.8, 0.2),(.7,.3),(.5,.5),(2,1))
+    fig1 = plt.figure(**coor.figsize())
+    fig1.subplots_adjust(**coor.adjust())
 
- 
+    ps = [
+        'repo/raw/scop20_training/psiblast_block_BL62_scop20_training_8/0.002/uniref50.block_sizes.tsv',
+        'repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_8/0.002/uniref50.block_sizes.tsv',
+        'repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_8/0.002/uniref50.block_sizes.tsv',
+    ]
+
+
+    titles = ['A','B','C']
+    for i, p in enumerate(ps):
+        ax = fig1.add_subplot(len(ps),1,i+1)
+        blocks, weighted_blocks, labels = main(p, max_iteration=args.max_iteration)
+        ax.hist(blocks, bins = 20, range=(0,100), weights=weighted_blocks, histtype='bar', normed=True, label=labels, edgecolor='none')
+        ax.set_xticks(np.arange(0,100,5))
+        if not i:
+            ax.legend(fontsize=9)
+        ax.set_xlabel('block size')
+        ax.set_ylabel('density')
+        ax.set_title(titles[i])
+        ax.set_ylim([0,0.09])
+
+    outfig = './fig/blocksize.%s.png' % (args.max_iteration)
+    print("saved at %s" % (outfig))
+    fig1.savefig(outfig, dpi=300)
+
+     

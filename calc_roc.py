@@ -90,9 +90,9 @@ class Benchmarks(list):
         name2iter2block4 = defaultdict(dict)
 
         fs = [
-            './repo/raw/scop20_training/psiblast_block_BL62_scop20_training_5/0.002/uniref50.block_sizes.stats.tsv',
-            './repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_5/0.002/uniref50.block_sizes.stats.tsv',
-            './repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_5/0.002/uniref50.block_sizes.stats.tsv'
+            './repo/raw/scop20_training/psiblast_block_BL62_scop20_training_8/0.002/uniref50.block_sizes.stats.tsv',
+            './repo/raw/scop20_validation/psiblast_block_BL62_scop20_validation_8/0.002/uniref50.block_sizes.stats.tsv',
+            './repo/raw/cath20-scop/psiblast_block_BL62_cath20-scop_8/0.002/uniref50.block_sizes.stats.tsv'
         ]
 
         for f in fs:
