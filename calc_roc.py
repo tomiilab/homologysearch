@@ -24,7 +24,7 @@ class Benchmarks(list):
         self.MEAN_ROCN = []
         self.labels = []
 
-        self.proteins = ROC.Proteins('./repo/fastadb/'+benchmark_name, standard, JG_path='./data/jg')
+        self.proteins = ROC.Proteins('./miqs_yamada_benchmark_dataset/'+benchmark_name+'.aa', standard, JG_path='./data/jg')
 
         for arg in self.args:
 
