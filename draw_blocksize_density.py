@@ -1,30 +1,8 @@
 import numpy as np
 from path import Path
 from collections import defaultdict
-import re
 import os
 
-
-def parse_block(ifh):
-    B = []
-    B_sub = []
-    prev_s = None
-    prev_e = None
-    for l in ifh:
-        if l.startswith("###"):
-            pos, s, e = filter(lambda a:a, re.split('\D+', l[3:].strip()))
-            pos = int(pos)
-            e = int(e)
-            s = int(s)
-            if pos == 0 and B_sub:
-                B.append(B_sub)
-                B_sub = []
-            if prev_s != s and prev_e != e:
-                prev_e = e
-                prev_s = s
-            B_sub.append(e-s+1)
-    B.append(B_sub)
-    return B
 
 def main(p, max_iteration=5):
     print("parsing %s " % p)
@@ -72,6 +50,9 @@ if __name__ == '__main__':
 
     par = argparse.ArgumentParser()
     par.add_argument('max_iteration', type=int, default=5)
+    par.add_argument('-max_block_size', type=int, default=100)
+    par.add_argument('-num_bins', type=int, default=20)
+    par.add_argument('-ylim', type=float, default=0.09)
     args = par.parse_args()
     print("show until iteration %s" % (args.max_iteration))
     coor = Coor((5, 3),(0.8, 0.2),(.7,.3),(.5,.5),(2,1))
@@ -89,16 +70,16 @@ if __name__ == '__main__':
     for i, p in enumerate(ps):
         ax = fig1.add_subplot(len(ps),1,i+1)
         blocks, weighted_blocks, labels = main(p, max_iteration=args.max_iteration)
-        ax.hist(blocks, bins = 20, range=(0,100), weights=weighted_blocks, histtype='bar', normed=True, label=labels, edgecolor='none')
-        ax.set_xticks(np.arange(0,100,5))
+        ax.hist(blocks, bins = args.num_bins, range=(0, args.max_block_size), weights=weighted_blocks, histtype='bar', normed=True, label=labels, edgecolor='none')
+        ax.set_xticks(np.arange(0,args.max_block_size, args.max_block_size/float(args.num_bins)))
         if not i:
             ax.legend(fontsize=9)
         ax.set_xlabel('block size')
         ax.set_ylabel('density')
         ax.set_title(titles[i])
-        ax.set_ylim([0,0.09])
+        ax.set_ylim([0,args.ylim])
 
-    outfig = './fig/blocksize.%s.png' % (args.max_iteration)
+    outfig = './fig/blocksize.%s.%s.%s.png' % (args.max_iteration, args.max_block_size, args.num_bins)
     print("saved at %s" % (outfig))
     fig1.savefig(outfig, dpi=300)
 
