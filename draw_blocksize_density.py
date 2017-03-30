@@ -52,7 +52,7 @@ if __name__ == '__main__':
     par.add_argument('max_iteration', type=int, default=5)
     par.add_argument('-max_block_size', type=int, default=100)
     par.add_argument('-num_bins', type=int, default=20)
-    par.add_argument('-ylim', type=float, default=0.09)
+    par.add_argument('-ylim', type=float, default=0.40)
     args = par.parse_args()
     print("show until iteration %s" % (args.max_iteration))
     coor = Coor((5, 3),(0.8, 0.2),(.7,.3),(.5,.5),(2,1))
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     for i, p in enumerate(ps):
         ax = fig1.add_subplot(len(ps),1,i+1)
         blocks, weighted_blocks, labels = main(p, max_iteration=args.max_iteration)
-        ax.hist(blocks, bins = args.num_bins, range=(0, args.max_block_size), weights=weighted_blocks, histtype='bar', normed=True, label=labels, edgecolor='none')
+        ax.hist(blocks, bins = args.num_bins, range=(0, args.max_block_size), weights=weighted_blocks, histtype='bar', label=labels, edgecolor='none')
         ax.set_xticks(np.arange(0,args.max_block_size, args.max_block_size/float(args.num_bins)))
         if not i:
             ax.legend(fontsize=9)
